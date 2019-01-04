@@ -2,13 +2,12 @@ function [Dr, Dc, gain, muub] = compute_D_skewed_mu(cl, blk, opt)
     ublk = blk(1 : end - 1, :);
     nz = sum(ublk(:, 2));
     nw = sum(ublk(:, 1));
-%     n_basis = max(ceil(order(cl) / (nz + nw)) + 1, 5);
     cl = minreal(cl, [], false);
-%     n_basis = ceil(order(cl) / (nz + nw)) + 1 + 2;
-% 		n_basis = ceil(order(cl) / (nz + nw));
-		n_basis = 10;
-%     n_basis = min(n_basis, 10);
-%     n_basis = 2;
+		if nargin > 2 && ~isempty(opt.NBasisFuns)
+			n_basis = opt.NBasisFuns;
+		else
+			n_basis = ceil(order(cl) / (nz + nw));
+		end
     freqs = pick_freq_grid(cl, blk, [], n_basis);
     pp = logspace(log10(min(freqs(freqs ~= 0))), log10(freqs(end)), n_basis - 1 + 4);
     p = pp(3:end - 2);
