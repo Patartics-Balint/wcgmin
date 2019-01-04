@@ -21,6 +21,11 @@ classdef wcgminOptions
     %                      []). When empty, the frequency range and number
     %                      of points are chosen automatically.
     % 
+		% UseParllel           Parallel processing flag. Set to true to enable
+		%                      parallel computing. This option will set the
+		%                      UseParallel option of hinfstructOptions and
+		%                      systuneOptions to match (default = false).
+		%
     % HinfnormTol          Tolerance to pass when computing H-infty norm
     %                      (default = 1e-4).
     %
@@ -49,42 +54,51 @@ classdef wcgminOptions
     %
     % See also: wcgmin, hinfstructOptions, systuneOptions, hinfnorm
 properties
-    MaxIter = 15;
-    MaxIterDyn = 30;
-    Display = 'final'
-    FrequencyVector = []
-    DScalingOrder = []
-    MaxDScalingOrder = 5
-    DScalingBackoff = 1e-2
-    IterTerminateTol = 1e-2
-    HinfnormTol = 1e-4;
-    StabilityMarginInterval = [1, 2]
-    systuneOptions = systuneOptions('RandomStart', 10, 'UseParallel', true, 'Display', 'off')
-    hinfstructOptions = hinfstructOptions('RandomStart', 10, 'UseParallel', true, 'Display', 'off')
-    rngSeed = 0
-    UseInitK = true
-    UncSet = []
+	MaxIter = 15;
+	MaxIterDyn = 30;
+	Display = 'final'
+	FrequencyVector = []
+	DScalingOrder = []
+	MaxDScalingOrder = 5
+	DScalingBackoff = 1e-2
+	IterTerminateTol = 1e-2
+	HinfnormTol = 1e-4;
+	StabilityMarginInterval = [1, 2]
+	UseParallel = false
+	systuneOptions = systuneOptions('RandomStart', 10, 'Display', 'off')
+	hinfstructOptions = hinfstructOptions('RandomStart', 10, 'Display', 'off')
+	rngSeed = 0
+	UseInitK = true
+	UncSet = []
 end
 methods
-    function obj = wcgminOptions(varargin)
-        cnt = 1;
-        isarg = @(str)(~isempty(find(strcmp(varargin, str))));
-        while cnt < nargin
-            opt_name = varargin{cnt};
-            try                            
-                obj.(opt_name) = varargin{cnt + 1};
-            catch er
-                if strcmp(er.identifier, 'MATLAB:noPublicFieldForClass')
-                    error('Unknown oprion "%s" for the command "wcgmin".', opt_name);
-                else
-                    throw(er);
-                end
-            end
-            cnt = cnt + 2;
-        end        
-        if isarg('DScalingOrder') && isarg('MaxDScalingOrder') && ~isempty(obj.DScalingOrder)
-            warning('The option MaxDScalingOrder will be ignored, because DScalingOrder was specified.');
-        end        
-    end
+	function obj = wcgminOptions(varargin)
+		cnt = 1;
+		isarg = @(str)(~isempty(find(strcmp(varargin, str))));
+		while cnt < nargin
+			opt_name = varargin{cnt};
+			try                            
+				obj.(opt_name) = varargin{cnt + 1};
+			catch er
+				if strcmp(er.identifier, 'MATLAB:noPublicFieldForClass')
+						error('Unknown oprion "%s" for the command "wcgmin".', opt_name);
+				else
+						throw(er);
+				end
+			end
+			cnt = cnt + 2;
+		end        
+		if isarg('DScalingOrder') && isarg('MaxDScalingOrder') && ~isempty(obj.DScalingOrder)
+			warning('The option MaxDScalingOrder will be ignored, because DScalingOrder was specified.');
+		end
+		obj.systuneOptions.UseParallel = obj.UseParallel;
+		obj.hinfstructOptions.UseParallel = obj.UseParallel;
+	end
+
+	function obj = set.UseParallel(obj, use_parallel)
+		obj.UseParallel = use_parallel;
+		obj.systuneOptions.UseParallel = use_parallel;
+		obj.hinfstructOptions.UseParallel = use_parallel;
+	end
 end
 end

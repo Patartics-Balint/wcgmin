@@ -71,7 +71,11 @@ function [Kt, g_anal_ub, g_anal_lb, wcunc] = analyse(sys, Kt, unc_set, unc_names
         K = getValue(Kt);
         cl_unc = lft(sys, K);
 % 				[wcg, wcunc] = wcgain(cl_unc);
-        [wcg, wcunc] = wcgainWithBNB(cl_unc);        
+				if opt.UseParallel
+					[wcg, wcunc] = wcgainWithBNBpar(cl_unc);
+				else
+					[wcg, wcunc] = wcgainWithBNB(cl_unc);        
+				end
         g_anal_lb = wcg.LowerBound;
         g_anal_ub = wcg.UpperBound;
         if g_anal_ub > g_inf

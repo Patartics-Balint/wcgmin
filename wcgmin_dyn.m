@@ -49,11 +49,19 @@ function [Dr_frd, Dc_frd, Dr_ss, Dc_ss, g_fit, g_grid, sens] = analyse(sys, Kt, 
     K = getValue(Kt);
     cl = lft(M, K);
     try
-        for k = 1:nmodels(cl)
+			if opt.UseParallel
+				parfor k = 1:nmodels(cl)
             [Dr_frd{k}, Dc_frd{k}, g_grid(k), sens{k}, smu] = wcgmin_dyn_anal(cl(:, :, k), blk_str, opt);                
 %             [Dr_ss(:, :, k), Dc_ss(:, :, k), g_fit(k)] = fit_D_skewed_mu(Dr_frd{k}, blk_str(1:end - 1, :), cl(:, :, k), g_grid(k), sens{k}, opt);
             [Dr_ss(:, :, k), Dc_ss(:, :, k), g_fit(k)] = compute_D_skewed_mu(cl(:, :, k), blk_str, opt);
         end        
+			else
+        for k = 1:nmodels(cl)
+            [Dr_frd{k}, Dc_frd{k}, g_grid(k), sens{k}, smu] = wcgmin_dyn_anal(cl(:, :, k), blk_str, opt);                
+%             [Dr_ss(:, :, k), Dc_ss(:, :, k), g_fit(k)] = fit_D_skewed_mu(Dr_frd{k}, blk_str(1:end - 1, :), cl(:, :, k), g_grid(k), sens{k}, opt);
+            [Dr_ss(:, :, k), Dc_ss(:, :, k), g_fit(k)] = compute_D_skewed_mu(cl(:, :, k), blk_str, opt);
+				end
+			end
     catch er_anal
         if strcmp(opt.Display, 'iter') || strcmp(opt.Display, 'fitting')
             fprintf(['analysis attempt failed: ', er_anal.message, '\n']);

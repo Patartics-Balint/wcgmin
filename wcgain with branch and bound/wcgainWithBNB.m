@@ -25,7 +25,7 @@ if Nr==0
     % Don't run branch and bound if all uncertainty is complex
     maxcount = 1;
 else
-    maxcount = 10; %maxcount = 25;
+    maxcount = 10;
     %maxcount = 1;
 end 
 

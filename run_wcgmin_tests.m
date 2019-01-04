@@ -16,7 +16,7 @@ date = strrep(char(datetime), ' ', '_');
 report_filename = ['test_report_', date, '.txt'];
 diary(report_filename);
 results = [];
-examples = 1:30;
+examples = 1:31;
 datafile = ['results_', date, '.mat'];
 if exist(datafile)
     load(datafile);
@@ -33,7 +33,8 @@ for example = examples
     new_results.ex_no = example;
     Kt = tunableSS('K', nxK, nu, ny, 'companion');
     opt = wcgminOptions;
-    opt.Display = 'iter';   
+    opt.Display = 'iter';
+		opt.UseParallel = true;
     try        
         [~, g, info] = wcgmin(sys, Kt, opt);
         new_results.g = g;
@@ -49,7 +50,7 @@ for example = examples
         results(example) = new_results;
     end
     save(datafile, 'results');
-		diray('off');
+		diary('off');
 end
 fprintf('\n\n');
 res_table = struct2table(results);

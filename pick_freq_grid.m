@@ -10,7 +10,8 @@ function freq = pick_freq_grid(cl_ss, blk_str, opt, nb)
     if nargin < 4
         n_points = 60;
     else        
-        n_points = 3 * size(blk_str(1:end - 1, :), 1) * ceil(nb * (nb + 1) / 2);
+        n_points = size(blk_str(1:end - 1, :), 1) * ceil(nb * (nb + 1) / 2);
+%         n_points = 3 * size(blk_str(1:end - 1, :), 1) * ceil(nb * (nb + 1) / 2);				
 % 				n_points = 100;
         if n_points == 1
             n_points = 2;
