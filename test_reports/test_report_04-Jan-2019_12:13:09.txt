@@ -1,0 +1,3330 @@
+    ex_no    nxK       g       t_syn 
+    _____    ___    _______    ______
+     1       2       1.0083    33.738
+     2       1       1.8439    35.116
+     3       4       1.8952    52.625
+     4       3       2.4356     30.78
+     5       5        1.582    68.711
+     6       1       1.1198    13.905
+     7       4       1.3645    266.35
+     8       2      0.99811    12.139
+     9       2       3.7736    455.68
+    10       2      0.78076    151.09
+    11       1       45.546    4.9196
+    12       3      0.50434    308.68
+    13       1      0.99516    32.843
+    14       2          Inf    1156.4
+    15       3       75.122    117.68
+    16       4          Inf      2776
+    17       4       9.7185    107.23
+    18       3       5.7654    284.15
+    19       1          Inf    744.92
+    20       2       6.4261    405.67
+    21       1       2.1263    42.766
+    22       3      0.10117    414.42
+    23       4       2.7179    742.84
+    24       4        10.53    38.917
+    25       3       24.966    884.44
+    26       1       4.1706    54.261
+    27       3       1.6385    193.11
+    28       4       1.0059    463.92
+    29       2        1.284    139.72
+    30       5       1.3519    517.33
+    31       1       1.5792    339.39
+
+## Test case with example no. 1 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 5.2116
+2. wcg. anal.: 4.1018 (3.5785)	wcg. syn.: 1.0173
+3. wcg. anal.: 1.1529 (1.0068)	wcg. syn.: 1.0132
+4. wcg. anal.: 1.0722 (1.0115)	
+final: 3. wcg. anal: 1.0068
+
+1. wcg. syn.: 1.0068	 wcg. anal.: [1.0062, 1.0083]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 2 ############################
+inital wcg. anal.: [19.5391, 19.5803]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 19.5525 (19.5517)	wcg. syn.: 17.3867
+2. wcg. anal.: 15.9149 (15.9144)	wcg. syn.: 10.4715
+3. wcg. anal.: 7.4088 (6.4285)	wcg. syn.: 5.5430
+4. wcg. anal.: 4.8806 (2.1904)	wcg. syn.: 4.8522
+5. wcg. anal.: 4.8961 (1.8504)	wcg. syn.: 4.8284
+6. wcg. anal.: 4.9224 (1.8413)	
+
+1. wcg. syn.: 1.8413	 wcg. anal.: [1.8401, 1.8439]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 3 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4019474.6258
+2. wcg. anal.: 21433.6867 (555.4114)	wcg. syn.: 4.0926
+3. wcg. anal.: 28.3375 (3.9124)	wcg. syn.: 1.9307
+4. wcg. anal.: 12.0378 (1.8923)	wcg. syn.: 1.9606
+5. wcg. anal.: 10.8134 (1.9608)	
+final: 4. wcg. anal: 1.8923
+
+1. wcg. syn.: 1.8923	 wcg. anal.: [1.8907, 1.8952]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 4 ############################
+inital wcg. anal.: [10.3793, 10.4017]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Index exceeds matrix dimensions.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 2.6246
+2. wcg. anal.: 4.5783 (2.4308)	wcg. syn.: 4.5562
+3. wcg. anal.: 4.5579 (2.4309)	
+final: 2. wcg. anal: 2.4308
+
+1. wcg. syn.: 2.4308	 wcg. anal.: [2.4306, 2.4356]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 5 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.5819
+2. wcg. anal.: 1.6876 (1.5788)	wcg. syn.: 1.5839
+3. wcg. anal.: 1.6239 (1.5800)	
+final: 2. wcg. anal: 1.5788
+
+1. wcg. syn.: 1.5788	 wcg. anal.: [1.5754, 1.5820]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 6 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 33.0919
+2. wcg. anal.: 26.6193 (26.5429)	wcg. syn.: 1.1878
+3. wcg. anal.: 1.1421 (1.1178)	wcg. syn.: 1.1351
+4. wcg. anal.: 1.1376 (1.1244)	
+final: 3. wcg. anal: 1.1178
+
+1. wcg. syn.: 1.1178	 wcg. anal.: [1.1175, 1.1198]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 7 ############################
+inital wcg. anal.: [550018467714304.5625,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 10.5096
+2. wcg. anal.: 9.7611 (9.6752)	wcg. syn.: 6.8006
+3. wcg. anal.: 6.4421 (6.4236)	wcg. syn.: 2.3836
+4. wcg. anal.: 2.1377 (2.1186)	wcg. syn.: 1.7432
+5. wcg. anal.: 1.7444 (1.7308)	wcg. syn.: 1.3688
+6. wcg. anal.: 1.3770 (1.3684)	wcg. syn.: 1.3638
+7. wcg. anal.: 1.3692 (1.3626)	
+
+1. wcg. syn.: 1.3626	 wcg. anal.: [1.3615, 1.3645]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 8 ############################
+inital wcg. anal.: [55.5863, 55.7647]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 0.6314	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 0.9009	 wcg. anal.: [1.0515, 1.0536]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 0.9564	 wcg. anal.: [1.0714, 1.0733]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4. wcg. syn.: 0.9961	 wcg. anal.: [0.9961, 0.9981]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5. wcg. syn.: 0.9961	 wcg. anal.: [0.9961, 0.9981]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 9 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 1.7067	 wcg. anal.: [2.3008, 6.8197]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 1.8491	 wcg. anal.: [2.4766, 3.7736]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 1.9553	 wcg. anal.: [2.1432, 6.0538]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4. wcg. syn.: 2.0088	 wcg. anal.: [2.0104, 5.9084]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5. wcg. syn.: 2.0091	 wcg. anal.: [2.0430, 5.8942]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+6. wcg. syn.: 2.0169	 wcg. anal.: [2.0169, 6.1289]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 2. wcg. anal: 3.7736
+
+
+## Test case with example no. 10 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 0.7643	 wcg. anal.: [0.9630, 0.9643]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 0.7760	 wcg. anal.: [0.7761, 0.7808]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 0.7761	 wcg. anal.: [0.7761, 0.7814]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 2. wcg. anal: 0.7808
+
+
+## Test case with example no. 11 ############################
+inital wcg. anal.: [45.4545, 45.5464]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 45.4532	 wcg. anal.: [45.4537, 45.5471]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 45.4537	 wcg. anal.: [45.4537, 45.5466]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 0. wcg. anal: 45.5464
+
+
+## Test case with example no. 12 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 5.5252
+2. wcg. anal.: 4.3538 (4.3429)	wcg. syn.: 0.1728
+3. wcg. anal.: 0.1836 (0.1728)	wcg. syn.: 0.1768
+4. wcg. anal.: 0.1769 (0.1769)	
+final: 3. wcg. anal: 0.1728
+
+1. wcg. syn.: 0.1728	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 16.8412
+2. wcg. anal.: 9.9240 (9.9254)	wcg. syn.: 0.3483
+3. wcg. anal.: 0.3681 (0.3485)	wcg. syn.: 0.3538
+4. wcg. anal.: 0.3539 (0.3538)	
+final: 3. wcg. anal: 0.3485
+
+2. wcg. syn.: 0.3485	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 24.1981
+2. wcg. anal.: 12.5859 (12.5805)	wcg. syn.: 0.4409
+3. wcg. anal.: 0.4411 (0.4409)	wcg. syn.: 0.4367
+4. wcg. anal.: 0.4369 (0.4367)	
+
+3. wcg. syn.: 0.4367	 wcg. anal.: [3.7744, 3.8127]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 3.7793 (3.7752)	wcg. syn.: 0.4760
+2. wcg. anal.: 0.4764 (0.4760)	wcg. syn.: 0.4641
+3. wcg. anal.: 0.4642 (0.4641)	wcg. syn.: 0.4640
+4. wcg. anal.: 0.4643 (0.4641)	
+
+4. wcg. syn.: 0.4641	 wcg. anal.: [0.5680, 0.5692]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.5754 (0.5681)	wcg. syn.: 0.5034
+2. wcg. anal.: 0.5643 (0.5034)	wcg. syn.: 0.5041
+3. wcg. anal.: 0.5046 (0.5041)	
+final: 2. wcg. anal: 0.5034
+
+5. wcg. syn.: 0.5034	 wcg. anal.: [0.5033, 0.5043]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.5643 (0.5034)	wcg. syn.: 0.5038
+2. wcg. anal.: 0.5042 (0.5038)	
+final: 1. wcg. anal: 0.5034
+
+6. wcg. syn.: 0.5034	 wcg. anal.: [0.5033, 0.5043]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 13 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.7529
+2. wcg. anal.: 0.7529 (0.7529)	wcg. syn.: 0.7529
+3. wcg. anal.: 0.7529 (0.7529)	
+
+1. wcg. syn.: 0.7529	 wcg. anal.: [0.9931, 0.9952]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.9931 (0.9931)	wcg. syn.: 0.9931
+2. wcg. anal.: 0.9931 (0.9931)	
+
+2. wcg. syn.: 0.9931	 wcg. anal.: [0.9931, 0.9952]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 14 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0006
+2. wcg. anal.: 1.0006 (1.0006)	wcg. syn.: 1.0006
+3. wcg. anal.: 1.0006 (1.0006)	
+
+1. wcg. syn.: 1.0006	 wcg. anal.: [11745401.8407,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0007
+2. wcg. anal.: 2.0096 (1.0006)	wcg. syn.: 1.0005
+3. wcg. anal.: 1.3747 (1.0005)	
+
+2. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+3. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+4. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+5. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+6. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+7. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+8. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+9. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+10. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+11. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+12. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+13. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+14. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 276011756.5480 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 2.6803 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+15. wcg. syn.: 1.0005	 wcg. anal.: [433016792427.5580,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 15 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 140.3445
+2. wcg. anal.: 164.4329 (140.1077)	wcg. syn.: 137.7733
+Warning: Input to SVD must not contain NaN or Inf.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Input to SVD must not contain NaN or Inf.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+3. wcg. anal.: 135.2111 (134.1664)	wcg. syn.: 112.9578
+4. wcg. anal.: 104.2252 (93.5119)	wcg. syn.: 99.3036
+5. wcg. anal.: 99.3904 (74.8024)	wcg. syn.: 99.2945
+6. wcg. anal.: 99.3792 (72.3072)	wcg. syn.: 99.2915
+7. wcg. anal.: 99.3492 (89.1632)	
+final: 6. wcg. anal: 72.3072
+
+1. wcg. syn.: 72.3072	 wcg. anal.: [2412655092.9695,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 140.3484
+2. wcg. anal.: 140.2365 (140.2322)	wcg. syn.: 133.5872
+3. wcg. anal.: 130.6957 (130.5664)	wcg. syn.: 103.2245
+4. wcg. anal.: 100.3349 (95.6641)	wcg. syn.: 99.2989
+5. wcg. anal.: 99.3322 (74.7612)	wcg. syn.: 99.2870
+6. wcg. anal.: 99.3522 (75.2505)	
+final: 5. wcg. anal: 74.7612
+
+2. wcg. syn.: 74.7612	 wcg. anal.: [74.9651, 75.1218]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 99.3498 (75.0391)	wcg. syn.: 99.2888
+2. wcg. anal.: 99.3669 (99.3790)	
+final: 1. wcg. anal: 75.0391
+
+3. wcg. syn.: 75.0391	 wcg. anal.: [74.9651, 75.1218]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 16 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 109.7120
+2. wcg. anal.: 587.5717 (70.5548)	wcg. syn.: 3.3069
+3. wcg. anal.: 4.1343 (3.2713)	wcg. syn.: 4.0126
+4. wcg. anal.: 8.0408 (3.9413)	
+final: 3. wcg. anal: 3.2713
+
+1. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0123
+2. wcg. anal.: 4.0156 (3.9618)	
+final: 1. wcg. anal: 3.2713
+
+2. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+3. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+4. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+5. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+6. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+7. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+8. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+9. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+10. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+11. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+12. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+13. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+14. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 67966066145.5196 (3.2713)	wcg. syn.: 4.0124
+2. wcg. anal.: 4.0890 (4.0042)	
+final: 1. wcg. anal: 3.2713
+
+15. wcg. syn.: 3.2713	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 17 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 186694.8764
+2. wcg. anal.: 1215.7462 (192.8944)	wcg. syn.: 209.5953
+3. wcg. anal.: 116.3624 (116.2064)	wcg. syn.: 9.1361
+4. wcg. anal.: 52.4733 (9.1428)	wcg. syn.: 25.2731
+5. wcg. anal.: 197.0685 (15.2754)	
+final: 4. wcg. anal: 9.1428
+
+1. wcg. syn.: 9.1428	 wcg. anal.: [9.6531, 9.7185]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 52.4733 (9.6561)	wcg. syn.: 25.2780
+2. wcg. anal.: 27.0101 (22.9392)	
+final: 1. wcg. anal: 9.6561
+
+2. wcg. syn.: 9.6561	 wcg. anal.: [9.6531, 9.7185]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 18 ############################
+inital wcg. anal.: [9179.1373, 9343.6357]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 8967.0452 (8970.6286)	wcg. syn.: 3457.9482
+2. wcg. anal.: 1262.7705 (1262.0333)	wcg. syn.: 81.6515
+3. wcg. anal.: 38.9360 (38.9135)	wcg. syn.: 6.7027
+4. wcg. anal.: 6.6248 (6.6182)	wcg. syn.: 3.7690
+5. wcg. anal.: 3.8681 (3.7690)	wcg. syn.: 3.7452
+6. wcg. anal.: 3.9232 (3.7434)	
+
+1. wcg. syn.: 3.7434	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 17.7719
+2. wcg. anal.: 5.2092 (5.0486)	wcg. syn.: 4.5265
+3. wcg. anal.: 4.5252 (4.5158)	wcg. syn.: 4.1771
+4. wcg. anal.: 4.2471 (4.1752)	wcg. syn.: 4.1965
+5. wcg. anal.: 4.2246 (4.1976)	
+final: 4. wcg. anal: 4.1752
+
+2. wcg. syn.: 4.1752	 wcg. anal.: [6.7564, 6.7701]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.7896 (6.7578)	wcg. syn.: 5.1033
+2. wcg. anal.: 5.1166 (5.1031)	wcg. syn.: 5.0897
+3. wcg. anal.: 5.0915 (5.0917)	
+
+3. wcg. syn.: 5.0917	 wcg. anal.: [9.0145, 9.0345]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 9.0334 (9.0193)	wcg. syn.: 5.2448
+2. wcg. anal.: 5.4025 (5.2429)	wcg. syn.: 5.2169
+3. wcg. anal.: 5.2721 (5.2170)	
+
+4. wcg. syn.: 5.2170	 wcg. anal.: [6.7406, 6.7548]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.7454 (6.7408)	wcg. syn.: 5.6534
+2. wcg. anal.: 5.6479 (5.6461)	wcg. syn.: 5.6437
+3. wcg. anal.: 5.6454 (5.6418)	
+
+5. wcg. syn.: 5.6418	 wcg. anal.: [5.9506, 5.9624]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 5.9540 (5.9497)	wcg. syn.: 5.7537
+2. wcg. anal.: 5.7701 (5.7534)	wcg. syn.: 5.7627
+3. wcg. anal.: 5.7669 (5.7594)	
+final: 2. wcg. anal: 5.7534
+
+6. wcg. syn.: 5.7534	 wcg. anal.: [5.7532, 5.7654]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 5.7701 (5.7534)	wcg. syn.: 5.7588
+2. wcg. anal.: 5.8681 (5.7560)	
+final: 1. wcg. anal: 5.7534
+
+7. wcg. syn.: 5.7534	 wcg. anal.: [5.7532, 5.7654]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 19 ############################
+inital wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4841)	wcg. syn.: 45.4558
+2. wcg. anal.: 45.4692 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+1. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+2. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+3. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+4. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+5. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+6. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+7. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+8. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+9. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+10. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+11. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+12. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+13. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+14. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5355 (45.4865)	wcg. syn.: 45.4598
+2. wcg. anal.: 45.4727 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+15. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 20 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 25.3849
+2. wcg. anal.: 25.4086 (25.3169)	wcg. syn.: 8.3760
+3. wcg. anal.: 8.3740 (8.3688)	wcg. syn.: 4.6422
+4. wcg. anal.: 4.7093 (4.6394)	wcg. syn.: 3.4934
+5. wcg. anal.: 3.4592 (3.4538)	wcg. syn.: 2.7380
+6. wcg. anal.: 3.2254 (2.7338)	wcg. syn.: 3.1346
+7. wcg. anal.: 3.4354 (3.1326)	
+final: 6. wcg. anal: 2.7338
+
+1. wcg. syn.: 2.7338	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 340.1169
+2. wcg. anal.: 376.7208 (298.6428)	wcg. syn.: 8.8561
+3. wcg. anal.: 6.3298 (6.3265)	wcg. syn.: 4.8658
+4. wcg. anal.: 10.5388 (4.5957)	wcg. syn.: 2.4026
+5. wcg. anal.: 2.9780 (2.3816)	wcg. syn.: 1.3252
+6. wcg. anal.: 1.1012 (1.0650)	wcg. syn.: 1.0440
+7. wcg. anal.: 1.7512 (1.0402)	wcg. syn.: 0.9594
+8. wcg. anal.: 6.9321 (0.9466)	wcg. syn.: 5.7630
+9. wcg. anal.: 6.6159 (5.7090)	
+final: 8. wcg. anal: 0.9466
+
+2. wcg. syn.: 0.9466	 wcg. anal.: [1.4029, 6.4261]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.9321 (1.4033)	wcg. syn.: 5.7938
+2. wcg. anal.: 5.4920 (4.7026)	
+final: 1. wcg. anal: 1.4033
+
+3. wcg. syn.: 1.4033	 wcg. anal.: [1.4029, 6.4261]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 21 ############################
+inital wcg. anal.: [2.1220, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.1235 (2.1230)	wcg. syn.: 2.1225
+2. wcg. anal.: 2.1232 (2.1225)	
+
+1. wcg. syn.: 2.1225	 wcg. anal.: [2.1220, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.1232 (2.1225)	wcg. syn.: 2.1224
+2. wcg. anal.: 2.1231 (2.1224)	
+
+2. wcg. syn.: 2.1224	 wcg. anal.: [2.1220, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 0. wcg. anal: 2.1263
+
+
+## Test case with example no. 22 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.3840
+2. wcg. anal.: 1.3748 (1.3739)	wcg. syn.: 0.0569
+3. wcg. anal.: 0.0976 (0.0569)	wcg. syn.: 0.0741
+4. wcg. anal.: 0.0816 (0.0737)	
+final: 3. wcg. anal: 0.0569
+
+1. wcg. syn.: 0.0569	 wcg. anal.: [0.1368, 0.1374]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.2198 (0.1369)	wcg. syn.: 0.0753
+2. wcg. anal.: 0.1818 (0.0749)	wcg. syn.: 0.1088
+3. wcg. anal.: 0.1085 (0.1082)	
+final: 2. wcg. anal: 0.0749
+
+2. wcg. syn.: 0.0749	 wcg. anal.: [0.1007, 0.1012]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.1818 (0.1009)	wcg. syn.: 0.1149
+2. wcg. anal.: 0.1152 (0.1146)	
+final: 1. wcg. anal: 0.1009
+
+3. wcg. syn.: 0.1009	 wcg. anal.: [0.1007, 0.1012]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 23 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4036034.3111
+2. wcg. anal.: 128962.7942 (211.2248)	wcg. syn.: 84.6195
+3. wcg. anal.: 117.0216 (79.1811)	wcg. syn.: 2.0419
+4. wcg. anal.: 9.9415 (2.0276)	wcg. syn.: 2.0025
+5. wcg. anal.: 9.8145 (2.0006)	wcg. syn.: 3.2645
+6. wcg. anal.: 6.0293 (3.2620)	
+final: 5. wcg. anal: 2.0006
+
+1. wcg. syn.: 2.0006	 wcg. anal.: [134139270.5520,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4003245.4375
+2. wcg. anal.: 11622.4925 (2025.7315)	wcg. syn.: 31.6162
+3. wcg. anal.: 22.6551 (12.2329)	wcg. syn.: 2.3755
+4. wcg. anal.: 11.6249 (1.8248)	wcg. syn.: 1.5535
+5. wcg. anal.: 2.5845 (1.4993)	wcg. syn.: 1.3806
+6. wcg. anal.: 1.8509 (1.3786)	wcg. syn.: 1.6413
+7. wcg. anal.: 241.4198 (1.6357)	
+final: 6. wcg. anal: 1.3786
+
+2. wcg. syn.: 1.3786	 wcg. anal.: [34441734.4149,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4005596.6058
+2. wcg. anal.: 360453.3753 (29.0742)	wcg. syn.: 35.9893
+3. wcg. anal.: 5.5656 (5.0429)	wcg. syn.: 3.4858
+4. wcg. anal.: 360.9009 (3.3386)	wcg. syn.: 115.9326
+5. wcg. anal.: 434.6415 (98.9431)	
+final: 4. wcg. anal: 3.3386
+
+3. wcg. syn.: 3.3386	 wcg. anal.: [992538.9399,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4000296.2358
+2. wcg. anal.: 998131.9542 (90554.0764)	wcg. syn.: 287857.5155
+3. wcg. anal.: 465966.7066 (144.9750)	wcg. syn.: 116.5377
+4. wcg. anal.: 36.9572 (34.7615)	wcg. syn.: 2.7545
+5. wcg. anal.: 8.3497 (2.6206)	wcg. syn.: 2.1303
+6. wcg. anal.: 6.3743 (1.9680)	wcg. syn.: 2.8482
+7. wcg. anal.: 306.7925 (2.5959)	
+final: 6. wcg. anal: 1.9680
+
+4. wcg. syn.: 1.9680	 wcg. anal.: [2.6555, 2.7179]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.3743 (2.6562)	wcg. syn.: 2.9588
+2. wcg. anal.: 372.3440 (2.7628)	
+final: 1. wcg. anal: 2.6562
+
+5. wcg. syn.: 2.6562	 wcg. anal.: [2.6555, 2.7179]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 24 ############################
+inital wcg. anal.: [28.6160, 28.6729]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 18.3471 (18.3363)	wcg. syn.: 11.5064
+2. wcg. anal.: 8.4029 (7.6821)	wcg. syn.: 5.9327
+3. wcg. anal.: 43.9633 (4.7870)	wcg. syn.: 16.3191
+4. wcg. anal.: 14.3227 (14.2994)	
+final: 3. wcg. anal: 4.7870
+
+1. wcg. syn.: 4.7870	 wcg. anal.: [10.5066, 10.5296]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 43.9633 (10.5091)	wcg. syn.: 16.3211
+2. wcg. anal.: 15.4172 (15.1188)	
+final: 1. wcg. anal: 10.5091
+
+2. wcg. syn.: 10.5091	 wcg. anal.: [10.5066, 10.5296]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 25 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 7.2947
+2. wcg. anal.: 33.9962 (6.4200)	wcg. syn.: 33.9962
+3. wcg. anal.: 33.9962 (6.4200)	
+
+1. wcg. syn.: 6.4200	 wcg. anal.: [11671175.4720,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 7.2950
+2. wcg. anal.: 5.9564 (5.9505)	wcg. syn.: 3.6255
+3. wcg. anal.: 3.6271 (3.6225)	wcg. syn.: 2.9372
+4. wcg. anal.: 2.9348 (2.9352)	wcg. syn.: 2.7577
+5. wcg. anal.: 16.9534 (2.7515)	wcg. syn.: 16.9534
+6. wcg. anal.: 16.9534 (2.7515)	
+
+2. wcg. syn.: 2.7515	 wcg. anal.: [14.6111, 24.9655]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 16.9534 (14.6176)	wcg. syn.: 16.9534
+2. wcg. anal.: 16.9534 (14.6176)	
+
+3. wcg. syn.: 14.6176	 wcg. anal.: [14.6111, 24.9655]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 26 ############################
+inital wcg. anal.: [4.1623, 4.1706]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 4.1821 (4.1749)	wcg. syn.: 4.1731
+2. wcg. anal.: 4.1694 (4.1761)	
+final: 1. wcg. anal: 4.1749
+
+1. wcg. syn.: 4.1749	 wcg. anal.: [4.1623, 4.1706]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 4.1821 (4.1749)	wcg. syn.: 4.1725
+2. wcg. anal.: 4.1793 (4.1752)	
+final: 1. wcg. anal: 4.1749
+
+2. wcg. syn.: 4.1749	 wcg. anal.: [4.1623, 4.1706]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 27 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 25.0067
+2. wcg. anal.: 4.8528 (4.8539)	wcg. syn.: 1.2505
+3. wcg. anal.: 1.2512 (1.2475)	wcg. syn.: 0.8445
+4. wcg. anal.: 0.8439 (0.8409)	wcg. syn.: 0.8088
+5. wcg. anal.: 1.0228 (0.8119)	wcg. syn.: 0.8928
+6. wcg. anal.: 1.0212 (0.8926)	
+final: 5. wcg. anal: 0.8119
+
+1. wcg. syn.: 0.8119	 wcg. anal.: [1.8631, 1.8671]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.8653 (1.8644)	wcg. syn.: 1.4041
+2. wcg. anal.: 1.5131 (1.4091)	wcg. syn.: 1.4316
+3. wcg. anal.: 1.5528 (1.4316)	
+final: 2. wcg. anal: 1.4091
+
+2. wcg. syn.: 1.4091	 wcg. anal.: [1.9826, 1.9873]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.9683 (1.9826)	wcg. syn.: 1.6997
+2. wcg. anal.: 1.7019 (1.6957)	wcg. syn.: 1.6067
+3. wcg. anal.: 1.6621 (1.6042)	wcg. syn.: 1.6110
+4. wcg. anal.: 1.6135 (1.6105)	
+final: 3. wcg. anal: 1.6042
+
+3. wcg. syn.: 1.6042	 wcg. anal.: [1.7315, 1.7345]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.7348 (1.7317)	wcg. syn.: 1.6355
+2. wcg. anal.: 2.0109 (1.6348)	wcg. syn.: 1.7488
+3. wcg. anal.: 1.8976 (1.7475)	
+final: 2. wcg. anal: 1.6348
+
+4. wcg. syn.: 1.6348	 wcg. anal.: [1.6349, 1.6385]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.0109 (1.6348)	wcg. syn.: 1.7489
+2. wcg. anal.: 1.8425 (1.7478)	
+final: 1. wcg. anal: 1.6348
+
+5. wcg. syn.: 1.6348	 wcg. anal.: [1.6349, 1.6385]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 28 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.4136
+2. wcg. anal.: 0.0598 (0.0595)	wcg. syn.: 0.0094
+3. wcg. anal.: 0.0095 (0.0085)	wcg. syn.: 0.0042
+4. wcg. anal.: 0.0042 (0.0039)	wcg. syn.: 0.0042
+5. wcg. anal.: 0.0042 (0.0040)	
+final: 4. wcg. anal: 0.0039
+
+1. wcg. syn.: 0.0039	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.4136
+2. wcg. anal.: 0.2425 (0.2424)	wcg. syn.: 0.0078
+3. wcg. anal.: 0.0083 (0.0078)	wcg. syn.: 0.0079
+4. wcg. anal.: 0.0080 (0.0079)	
+final: 3. wcg. anal: 0.0078
+
+2. wcg. syn.: 0.0078	 wcg. anal.: [1.1658, 1.1690]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.1665 (1.1665)	wcg. syn.: 0.4911
+2. wcg. anal.: 0.4919 (0.4915)	wcg. syn.: 0.4914
+3. wcg. anal.: 0.4915 (0.4914)	
+
+3. wcg. syn.: 0.4914	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.5879
+2. wcg. anal.: 0.5420 (0.5419)	wcg. syn.: 0.4912
+3. wcg. anal.: 0.4919 (0.4915)	wcg. syn.: 0.4912
+4. wcg. anal.: 0.4914 (0.4914)	
+
+4. wcg. syn.: 0.4914	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.6551
+2. wcg. anal.: 0.5683 (0.5685)	wcg. syn.: 0.4913
+3. wcg. anal.: 0.4920 (0.4915)	wcg. syn.: 0.4912
+4. wcg. anal.: 0.4914 (0.4915)	
+final: 3. wcg. anal: 0.4915
+
+5. wcg. syn.: 0.4915	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.1605
+2. wcg. anal.: 0.6389 (0.6383)	wcg. syn.: 0.4911
+3. wcg. anal.: 0.4920 (0.4915)	wcg. syn.: 0.4913
+4. wcg. anal.: 0.4921 (0.4917)	
+final: 3. wcg. anal: 0.4915
+
+6. wcg. syn.: 0.4915	 wcg. anal.: [1.4566, 1.4595]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.4593 (1.4573)	wcg. syn.: 0.9240
+2. wcg. anal.: 0.9253 (0.9235)	wcg. syn.: 0.9240
+3. wcg. anal.: 0.9246 (0.9234)	
+
+7. wcg. syn.: 0.9234	 wcg. anal.: [1.1838, 1.1865]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.1950 (1.1840)	wcg. syn.: 0.9783
+2. wcg. anal.: 0.9789 (0.9776)	wcg. syn.: 0.9783
+3. wcg. anal.: 0.9801 (0.9776)	
+
+8. wcg. syn.: 0.9776	 wcg. anal.: [1.1442, 1.1466]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.1458 (1.1445)	wcg. syn.: 1.0050
+2. wcg. anal.: 1.0057 (1.0036)	wcg. syn.: 1.0050
+3. wcg. anal.: 1.0060 (1.0037)	
+final: 2. wcg. anal: 1.0036
+
+9. wcg. syn.: 1.0036	 wcg. anal.: [1.0036, 1.0059]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.0057 (1.0036)	wcg. syn.: 1.0050
+2. wcg. anal.: 1.0067 (1.0037)	
+final: 1. wcg. anal: 1.0036
+
+10. wcg. syn.: 1.0036	 wcg. anal.: [1.0036, 1.0059]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 29 ############################
+inital wcg. anal.: [67.9032, 68.5280]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 47.9198 (46.1449)	wcg. syn.: 8.9197
+2. wcg. anal.: 9.3035 (8.7582)	wcg. syn.: 1.9327
+3. wcg. anal.: 1.8804 (1.7633)	wcg. syn.: 0.8023
+4. wcg. anal.: 0.8496 (0.8026)	wcg. syn.: 0.7339
+5. wcg. anal.: 0.7669 (0.7341)	wcg. syn.: 0.7258
+6. wcg. anal.: 0.8023 (0.7262)	wcg. syn.: 0.7390
+7. wcg. anal.: 0.8120 (0.7392)	
+final: 6. wcg. anal: 0.7262
+
+1. wcg. syn.: 0.7262	 wcg. anal.: [1334084141.9320,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.8802
+2. wcg. anal.: 1.9299 (1.8689)	wcg. syn.: 1.1481
+3. wcg. anal.: 1.1502 (1.1430)	wcg. syn.: 1.0723
+4. wcg. anal.: 1.0768 (1.0713)	wcg. syn.: 1.0622
+5. wcg. anal.: 1.0649 (1.0619)	
+
+2. wcg. syn.: 1.0619	 wcg. anal.: [1.4077, 1.4105]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.4173 (1.4080)	wcg. syn.: 1.1560
+2. wcg. anal.: 1.2211 (1.1561)	wcg. syn.: 1.1735
+3. wcg. anal.: 1.1789 (1.1730)	
+final: 2. wcg. anal: 1.1561
+
+3. wcg. syn.: 1.1561	 wcg. anal.: [1.5423, 1.5451]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.5429 (1.5431)	wcg. syn.: 1.2829
+2. wcg. anal.: 2.3167 (1.2817)	wcg. syn.: 1.7379
+3. wcg. anal.: 3.0217 (1.6862)	
+final: 2. wcg. anal: 1.2817
+
+4. wcg. syn.: 1.2817	 wcg. anal.: [1.2814, 1.2840]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.3167 (1.2817)	wcg. syn.: 1.7371
+2. wcg. anal.: 3.0256 (1.6859)	
+final: 1. wcg. anal: 1.2817
+
+5. wcg. syn.: 1.2817	 wcg. anal.: [1.2814, 1.2840]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 30 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 2.9636
+2. wcg. anal.: 2.9169 (2.9109)	wcg. syn.: 0.8708
+3. wcg. anal.: 1.2251 (0.8649)	wcg. syn.: 0.8812
+4. wcg. anal.: 0.9347 (0.8810)	
+final: 3. wcg. anal: 0.8649
+
+1. wcg. syn.: 0.8649	 wcg. anal.: [21119685.1939,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 3.6366
+2. wcg. anal.: 3.6105 (3.5865)	wcg. syn.: 1.1530
+3. wcg. anal.: 1.1960 (1.1409)	wcg. syn.: 1.1410
+4. wcg. anal.: 1.2209 (1.1403)	
+
+2. wcg. syn.: 1.1403	 wcg. anal.: [3248620597733.8789,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 3.9847
+2. wcg. anal.: 3.9674 (3.9383)	wcg. syn.: 1.2724
+3. wcg. anal.: 1.2976 (1.2704)	wcg. syn.: 1.2475
+4. wcg. anal.: 1.2951 (1.2454)	wcg. syn.: 1.2543
+5. wcg. anal.: 1.3444 (1.2537)	
+final: 4. wcg. anal: 1.2454
+
+3. wcg. syn.: 1.2454	 wcg. anal.: [2.5343, 2.5397]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.5367 (2.5354)	wcg. syn.: 1.3645
+2. wcg. anal.: 1.4898 (1.3633)	wcg. syn.: 1.3407
+3. wcg. anal.: 1.3607 (1.3378)	wcg. syn.: 1.3388
+4. wcg. anal.: 1.3429 (1.3400)	
+final: 3. wcg. anal: 1.3378
+
+4. wcg. syn.: 1.3378	 wcg. anal.: [1.6834, 1.6874]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.6862 (1.6836)	wcg. syn.: 1.3583
+2. wcg. anal.: 1.3774 (1.3576)	wcg. syn.: 1.3507
+3. wcg. anal.: 1.4255 (1.3502)	
+
+5. wcg. syn.: 1.3502	 wcg. anal.: [1.3462, 1.3519]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.4255 (1.3502)	wcg. syn.: 1.3870
+2. wcg. anal.: 1.7460 (1.3856)	
+final: 1. wcg. anal: 1.3502
+
+6. wcg. syn.: 1.3502	 wcg. anal.: [1.3462, 1.3519]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 31 ############################
+inital wcg. anal.: [2.3150, 2.3615]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.0613 (1.0613)	wcg. syn.: 0.1295
+2. wcg. anal.: 0.1297 (0.1296)	wcg. syn.: 0.1161
+3. wcg. anal.: 0.1161 (0.1161)	wcg. syn.: 0.1130
+4. wcg. anal.: 0.1150 (0.1132)	wcg. syn.: 0.1132
+5. wcg. anal.: 0.1132 (0.1132)	
+
+1. wcg. syn.: 0.1132	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.2690
+2. wcg. anal.: 0.3274 (0.2690)	wcg. syn.: 0.3223
+3. wcg. anal.: 0.3302 (0.3180)	
+final: 2. wcg. anal: 0.2690
+
+2. wcg. syn.: 0.2690	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.2960
+2. wcg. anal.: 1.2842 (1.2831)	wcg. syn.: 0.3355
+3. wcg. anal.: 0.8924 (0.3357)	wcg. syn.: 0.3828
+4. wcg. anal.: 0.3792 (0.3777)	
+final: 3. wcg. anal: 0.3357
+
+3. wcg. syn.: 0.3357	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 5.8265
+2. wcg. anal.: 5.5522 (5.5080)	wcg. syn.: 0.4478
+3. wcg. anal.: 1.6123 (0.4477)	wcg. syn.: 0.4695
+4. wcg. anal.: 0.4706 (0.4661)	
+final: 3. wcg. anal: 0.4477
+
+4. wcg. syn.: 0.4477	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 23.7053
+2. wcg. anal.: 14.0161 (13.2970)	wcg. syn.: 0.8556
+3. wcg. anal.: 0.9900 (0.8550)	wcg. syn.: 0.8575
+4. wcg. anal.: 0.8569 (0.8555)	
+final: 3. wcg. anal: 0.8550
+
+5. wcg. syn.: 0.8550	 wcg. anal.: [3.6285, 3.6474]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 3.6296 (3.6281)	wcg. syn.: 1.5772
+2. wcg. anal.: 1.5758 (1.5763)	wcg. syn.: 1.5756
+3. wcg. anal.: 1.5757 (1.5755)	
+
+6. wcg. syn.: 1.5755	 wcg. anal.: [1.5755, 1.5792]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.5758 (1.5755)	wcg. syn.: 1.5758
+2. wcg. anal.: 1.5757 (1.5755)	
+
+7. wcg. syn.: 1.5755	 wcg. anal.: [1.5755, 1.5795]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 6. wcg. anal: 1.5792

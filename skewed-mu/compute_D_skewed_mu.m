@@ -8,7 +8,7 @@ function [Dr, Dc, gain, muub] = compute_D_skewed_mu(cl, blk, opt)
 		else
 			n_basis = ceil(order(cl) / (nz + nw));
 		end
-    freqs = pick_freq_grid(cl, blk, [], n_basis);
+    freqs = pick_freq_grid(cl, blk, opt, n_basis);
     pp = logspace(log10(min(freqs(freqs ~= 0))), log10(freqs(end)), n_basis - 1 + 4);
     p = pp(3:end - 2);
     b = ss(1);

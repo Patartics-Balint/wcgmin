@@ -7,12 +7,12 @@ function freq = pick_freq_grid(cl_ss, blk_str, opt, nb)
     if ~isempty(freq)
         return;
 		end
-		if ~isempty(opt.NFrequencyPoints)
+		if nargin >= 3 && ~isempty(opt.NFrequencyPoints)
 			n_points = opt.NFrequencyPoints;
 		elseif nargin < 4
         n_points = 60;
     else        
-        n_points = size(blk_str(1:end - 1, :), 1) * ceil(nb * (nb + 1) / 2);
+        n_points = ceil(1.5 * size(blk_str(1:end - 1, :), 1) * ceil(nb * (nb + 1) / 2));
 %         n_points = 3 * size(blk_str(1:end - 1, :), 1) * ceil(nb * (nb + 1) / 2);				
 % 				n_points = 100;
         if n_points == 1

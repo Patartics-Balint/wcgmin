@@ -1,0 +1,3522 @@
+    ex_no    nxK       g        t_syn
+    _____    ___    ________    _____
+
+     1       2        1.0217      31 
+     2       1        1.8883      51 
+     3       4       0.71263      80 
+     4       3        2.4356      33 
+     5       5         1.339     214 
+     6       1        1.0931      14 
+     7       4        1.3557     560 
+     8       2       0.99811      12 
+     9       2        3.7736     447 
+    10       2       0.78076     157 
+    11       1        45.546       6 
+    12       3       0.50386     319 
+    13       1       0.99516      34 
+    14       2        1.0026     148 
+    15       3           Inf     800 
+    16       4        4.7814    1591 
+    17       4        11.496     118 
+    18       3        5.7655     326 
+    19       1           Inf     773 
+    20       2        20.336    1426 
+    21       1        2.1263      53 
+    22       3      0.096617    1502 
+    23       4        85.246     182 
+    24       4        7.2675      64 
+    25       3        29.697    1289 
+    26       1        4.1706      62 
+    27       3        1.5045     225 
+    28       4        1.0171     628 
+    29       2        1.2598     157 
+    30       5        1.3537     531 
+    31       1        1.5792     341 
+
+## Test case with example no. 1 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 5.2116
+2. wcg. anal.: 3.5800 (3.5785)	wcg. syn.: 1.0321
+3. wcg. anal.: 1.1011 (1.0299)	wcg. syn.: 1.0230
+4. wcg. anal.: 1.1018 (1.0201)	
+
+1. wcg. syn.: 1.0201	 wcg. anal.: [1.0195, 1.0217]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 2 ############################
+inital wcg. anal.: [19.5391, 19.5803]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 19.5526 (19.5517)	wcg. syn.: 16.9235
+2. wcg. anal.: 15.2196 (15.2211)	wcg. syn.: 9.5741
+3. wcg. anal.: 6.7503 (5.4566)	wcg. syn.: 5.4619
+4. wcg. anal.: 5.1644 (2.1476)	wcg. syn.: 5.1584
+5. wcg. anal.: 4.9906 (1.9922)	wcg. syn.: 4.9879
+6. wcg. anal.: 4.9345 (1.9101)	wcg. syn.: 4.9324
+7. wcg. anal.: 4.9183 (1.8853)	wcg. syn.: 4.9183
+8. wcg. anal.: 4.9183 (1.8853)	
+
+1. wcg. syn.: 1.8853	 wcg. anal.: [1.8842, 1.8883]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 3 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4019474.6258
+2. wcg. anal.: 952.9846 (555.4114)	wcg. syn.: 4.0837
+3. wcg. anal.: 8.0771 (3.2977)	wcg. syn.: 3.5512
+4. wcg. anal.: 3.9019 (2.8210)	wcg. syn.: 2.5099
+5. wcg. anal.: 5.9397 (2.0328)	wcg. syn.: 0.7125
+6. wcg. anal.: 3.0091 (0.7111)	wcg. syn.: 1.1135
+7. wcg. anal.: 1.7697 (1.1135)	
+final: 6. wcg. anal: 0.7111
+
+1. wcg. syn.: 0.7111	 wcg. anal.: [0.7111, 0.7126]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 4 ############################
+inital wcg. anal.: [10.3793, 10.4017]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Index exceeds matrix dimensions.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 2.6246
+2. wcg. anal.: 4.5783 (2.4308)	wcg. syn.: 4.5562
+3. wcg. anal.: 4.5579 (2.4309)	
+final: 2. wcg. anal: 2.4308
+
+1. wcg. syn.: 2.4308	 wcg. anal.: [2.4306, 2.4356]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 5 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.5819
+2. wcg. anal.: 1.7659 (1.5788)	wcg. syn.: 1.5357
+3. wcg. anal.: 1.6080 (1.5299)	wcg. syn.: 1.4623
+4. wcg. anal.: 1.5633 (1.4598)	wcg. syn.: 1.4014
+5. wcg. anal.: 1.5041 (1.3978)	wcg. syn.: 1.3434
+6. wcg. anal.: 1.4398 (1.3413)	wcg. syn.: 1.3375
+7. wcg. anal.: 1.4111 (1.3363)	
+
+1. wcg. syn.: 1.3363	 wcg. anal.: [1.3361, 1.3390]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 6 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 33.0919
+2. wcg. anal.: 26.5799 (26.5429)	wcg. syn.: 1.1617
+3. wcg. anal.: 1.1634 (1.0915)	wcg. syn.: 1.1504
+4. wcg. anal.: 1.2281 (1.1483)	
+final: 3. wcg. anal: 1.0915
+
+1. wcg. syn.: 1.0915	 wcg. anal.: [1.0909, 1.0931]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 7 ############################
+inital wcg. anal.: [550018467714304.5625,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 10.5096
+2. wcg. anal.: 9.7735 (9.6752)	wcg. syn.: 6.6524
+3. wcg. anal.: 6.0259 (5.6906)	wcg. syn.: 3.1459
+4. wcg. anal.: 3.1339 (3.1315)	wcg. syn.: 2.3889
+5. wcg. anal.: 2.2917 (2.2925)	wcg. syn.: 1.9365
+6. wcg. anal.: 1.9255 (1.9247)	wcg. syn.: 1.7111
+7. wcg. anal.: 1.7872 (1.7031)	wcg. syn.: 1.4112
+8. wcg. anal.: 1.4179 (1.4117)	wcg. syn.: 1.3607
+9. wcg. anal.: 1.3718 (1.3614)	wcg. syn.: 1.3540
+10. wcg. anal.: 1.3603 (1.3540)	
+
+1. wcg. syn.: 1.3540	 wcg. anal.: [1.3529, 1.3557]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 8 ############################
+inital wcg. anal.: [55.5863, 55.7647]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 0.6314	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 0.9009	 wcg. anal.: [1.0515, 1.0536]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 0.9564	 wcg. anal.: [1.0714, 1.0733]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4. wcg. syn.: 0.9961	 wcg. anal.: [0.9961, 0.9981]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5. wcg. syn.: 0.9961	 wcg. anal.: [0.9961, 0.9981]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 9 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 1.7067	 wcg. anal.: [2.3008, 6.8197]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 1.8491	 wcg. anal.: [2.4766, 3.7736]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 1.9553	 wcg. anal.: [2.1432, 6.0538]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4. wcg. syn.: 2.0088	 wcg. anal.: [2.0104, 5.9084]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5. wcg. syn.: 2.0091	 wcg. anal.: [2.0430, 5.8942]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+6. wcg. syn.: 2.0169	 wcg. anal.: [2.0169, 6.1289]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 2. wcg. anal: 3.7736
+
+
+## Test case with example no. 10 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 0.7643	 wcg. anal.: [0.9630, 0.9643]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 0.7760	 wcg. anal.: [0.7761, 0.7808]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 0.7761	 wcg. anal.: [0.7761, 0.7814]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 2. wcg. anal: 0.7808
+
+
+## Test case with example no. 11 ############################
+inital wcg. anal.: [45.4545, 45.5464]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 45.4532	 wcg. anal.: [45.4537, 45.5471]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 45.4537	 wcg. anal.: [45.4537, 45.5466]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 0. wcg. anal: 45.5464
+
+
+## Test case with example no. 12 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 5.5252
+2. wcg. anal.: 4.3531 (4.3429)	wcg. syn.: 0.1726
+3. wcg. anal.: 0.1850 (0.1727)	wcg. syn.: 0.1774
+4. wcg. anal.: 0.1775 (0.1774)	
+final: 3. wcg. anal: 0.1727
+
+1. wcg. syn.: 0.1727	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 16.8969
+2. wcg. anal.: 9.9454 (9.9457)	wcg. syn.: 0.3519
+3. wcg. anal.: 0.3531 (0.3519)	wcg. syn.: 0.3466
+4. wcg. anal.: 0.3470 (0.3466)	wcg. syn.: 0.3468
+5. wcg. anal.: 0.3469 (0.3468)	
+final: 4. wcg. anal: 0.3466
+
+2. wcg. syn.: 0.3466	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 24.1982
+2. wcg. anal.: 12.5792 (12.5802)	wcg. syn.: 0.4419
+3. wcg. anal.: 0.4651 (0.4419)	wcg. syn.: 0.4495
+4. wcg. anal.: 0.4495 (0.4495)	
+final: 3. wcg. anal: 0.4419
+
+3. wcg. syn.: 0.4419	 wcg. anal.: [4.0534, 4.0963]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 4.0568 (4.0539)	wcg. syn.: 0.4803
+2. wcg. anal.: 0.4803 (0.4802)	wcg. syn.: 0.4689
+3. wcg. anal.: 0.4700 (0.4689)	wcg. syn.: 0.4693
+4. wcg. anal.: 0.4698 (0.4693)	
+final: 3. wcg. anal: 0.4689
+
+4. wcg. syn.: 0.4689	 wcg. anal.: [0.5706, 0.5717]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.5816 (0.5705)	wcg. syn.: 0.5026
+2. wcg. anal.: 0.5734 (0.5026)	wcg. syn.: 0.5051
+3. wcg. anal.: 0.5064 (0.5051)	
+final: 2. wcg. anal: 0.5026
+
+5. wcg. syn.: 0.5026	 wcg. anal.: [0.5026, 0.5039]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.5734 (0.5026)	wcg. syn.: 0.5053
+2. wcg. anal.: 0.5073 (0.5053)	
+final: 1. wcg. anal: 0.5026
+
+6. wcg. syn.: 0.5026	 wcg. anal.: [0.5026, 0.5039]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 13 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.7529
+2. wcg. anal.: 0.7529 (0.7529)	wcg. syn.: 0.7529
+3. wcg. anal.: 0.7529 (0.7529)	
+
+1. wcg. syn.: 0.7529	 wcg. anal.: [0.9931, 0.9952]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.9931 (0.9931)	wcg. syn.: 0.9931
+2. wcg. anal.: 0.9931 (0.9931)	
+
+2. wcg. syn.: 0.9931	 wcg. anal.: [0.9931, 0.9952]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 14 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0006
+2. wcg. anal.: 1.9713 (1.0006)	wcg. syn.: 1.0008
+3. wcg. anal.: 1.1747 (1.0005)	
+
+1. wcg. syn.: 1.0005	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0008
+2. wcg. anal.: 2.3327 (1.0006)	wcg. syn.: 1.0009
+3. wcg. anal.: 1.0007 (1.0007)	
+final: 2. wcg. anal: 1.0006
+
+2. wcg. syn.: 1.0006	 wcg. anal.: [424493805210.6113,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0007
+2. wcg. anal.: 1.0006 (1.0006)	wcg. syn.: 1.0006
+3. wcg. anal.: 1.0006 (1.0006)	
+
+3. wcg. syn.: 1.0006	 wcg. anal.: [1.0006, 1.0026]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.0006 (1.0006)	wcg. syn.: 1.0006
+2. wcg. anal.: 1.0007 (1.0006)	
+
+4. wcg. syn.: 1.0006	 wcg. anal.: [1.0006, 1.0026]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 15 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 140.3445
+2. wcg. anal.: 268.9120 (140.1077)	wcg. syn.: 137.7727
+3. wcg. anal.: 135.1787 (135.1615)	wcg. syn.: 107.8692
+4. wcg. anal.: 101.3613 (86.7500)	wcg. syn.: 99.2974
+5. wcg. anal.: 99.3420 (77.0800)	wcg. syn.: 99.2887
+6. wcg. anal.: 99.3911 (85.1486)	
+final: 5. wcg. anal: 77.0800
+
+1. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.3382 (77.7075)	
+final: 1. wcg. anal: 77.0800
+
+2. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+3. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+4. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+5. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+6. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+7. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+8. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+9. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+10. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+11. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+12. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+13. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+14. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 57534645255814.0859 (77.0800)	wcg. syn.: 99.2876
+2. wcg. anal.: 99.4529 (77.7051)	
+final: 1. wcg. anal: 77.0800
+
+15. wcg. syn.: 77.0800	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 16 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 109.7120
+2. wcg. anal.: 410.8381 (70.5548)	wcg. syn.: 2.9082
+3. wcg. anal.: 3.0080 (2.8973)	wcg. syn.: 1.2971
+4. wcg. anal.: 2.2312 (1.2827)	wcg. syn.: 1.2608
+5. wcg. anal.: 1.3224 (1.2162)	wcg. syn.: 1.2731
+6. wcg. anal.: 1.2956 (1.2098)	
+
+1. wcg. syn.: 1.2098	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 154.7109
+2. wcg. anal.: 138.5402 (138.4880)	wcg. syn.: 1.6593
+3. wcg. anal.: 1.7188 (1.5656)	wcg. syn.: 1.6572
+4. wcg. anal.: 1.6859 (1.5588)	
+
+2. wcg. syn.: 1.5588	 wcg. anal.: [19428362.8394,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 154.7119
+Warning: Some open- or closed-loop configurations have fixed integrators that are unaffected by tuning. No attempt was made to stabilize these integrators. Make sure they are design artifacts rather than physical instabilities.
+> In DynamicSystem/systune (line 350)
+  In check_smu (line 15)
+  In compute_D_skewed_mu (line 22)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Some open- or closed-loop configurations have fixed integrators that are unaffected by tuning. No attempt was made to stabilize these integrators. Make sure they are design artifacts rather than physical instabilities.
+> In DynamicSystem/systune (line 350)
+  In check_smu (line 15)
+  In compute_D_skewed_mu (line 22)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+2. wcg. anal.: 2582.2789 (138.3824)	[Warning: Some open- or closed-loop configurations have fixed integrators that are unaffected by
+tuning. No attempt was made to stabilize these integrators. Make sure they are design artifacts
+rather than physical instabilities.] 
+wcg. syn.: 2577.0917
+3. wcg. anal.: 2576.7554 (2581.8657)	
+final: 2. wcg. anal: 138.3824
+
+3. wcg. syn.: 138.3824	 wcg. anal.: [142470654.4666,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 154.7744
+2. wcg. anal.: 19.6596 (19.4986)	wcg. syn.: 1.6749
+3. wcg. anal.: 2.4021 (1.6536)	wcg. syn.: 1.6719
+4. wcg. anal.: 2.6952 (1.6513)	
+
+4. wcg. syn.: 1.6513	 wcg. anal.: [5.3697, 5.4492]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 7.0594 (5.3955)	wcg. syn.: 1.9338
+2. wcg. anal.: 2.7334 (1.9186)	wcg. syn.: 1.8362
+3. wcg. anal.: 1.8649 (1.8360)	wcg. syn.: 1.7714
+4. wcg. anal.: 1.7730 (1.7645)	wcg. syn.: 1.6938
+5. wcg. anal.: 2.2028 (1.6926)	wcg. syn.: 1.7297
+6. wcg. anal.: 2.3273 (1.7294)	
+final: 5. wcg. anal: 1.6926
+
+5. wcg. syn.: 1.6926	 wcg. anal.: [7.9294, 7.9452]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 10.9026 (7.9326)	wcg. syn.: 3.3867
+Warning: Some open- or closed-loop configurations have fixed integrators that are unaffected by tuning. No attempt was made to stabilize these integrators. Make sure they are design artifacts rather than physical instabilities.
+> In DynamicSystem/systune (line 350)
+  In check_smu (line 15)
+  In compute_D_skewed_mu (line 22)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Some open- or closed-loop configurations have fixed integrators that are unaffected by tuning. No attempt was made to stabilize these integrators. Make sure they are design artifacts rather than physical instabilities.
+> In DynamicSystem/systune (line 350)
+  In check_smu (line 15)
+  In compute_D_skewed_mu (line 22)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+2. wcg. anal.: 91.3265 (3.3095)	[Warning: Some open- or closed-loop configurations have fixed integrators that are unaffected by
+tuning. No attempt was made to stabilize these integrators. Make sure they are design artifacts
+rather than physical instabilities.] 
+wcg. syn.: 89.2771
+3. wcg. anal.: 53.7747 (25.8925)	
+final: 2. wcg. anal: 3.3095
+
+6. wcg. syn.: 3.3095	 wcg. anal.: [4.7696, 4.7814]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: Some open- or closed-loop configurations have fixed integrators that are unaffected by tuning. No attempt was made to stabilize these integrators. Make sure they are design artifacts rather than physical instabilities.
+> In DynamicSystem/systune (line 350)
+  In check_smu (line 15)
+  In compute_D_skewed_mu (line 22)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Some open- or closed-loop configurations have fixed integrators that are unaffected by tuning. No attempt was made to stabilize these integrators. Make sure they are design artifacts rather than physical instabilities.
+> In DynamicSystem/systune (line 350)
+  In check_smu (line 15)
+  In compute_D_skewed_mu (line 22)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 91.3265 (4.7702)	[Warning: Some open- or closed-loop configurations have fixed integrators that are unaffected by
+tuning. No attempt was made to stabilize these integrators. Make sure they are design artifacts
+rather than physical instabilities.] 
+wcg. syn.: 89.2761
+2. wcg. anal.: 81.8306 (33.6534)	
+final: 1. wcg. anal: 4.7702
+
+7. wcg. syn.: 4.7702	 wcg. anal.: [4.7696, 4.7814]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 17 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 186694.8764
+2. wcg. anal.: 969.9140 (192.8944)	wcg. syn.: 167.1356
+3. wcg. anal.: 155.9685 (155.8085)	wcg. syn.: 10.9216
+4. wcg. anal.: 14.1242 (10.9223)	wcg. syn.: 11.8661
+5. wcg. anal.: 12.8640 (11.8078)	
+final: 4. wcg. anal: 10.9223
+
+1. wcg. syn.: 10.9223	 wcg. anal.: [11.4450, 11.4961]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 14.1242 (11.4510)	wcg. syn.: 11.9578
+2. wcg. anal.: 17.8295 (11.8269)	
+final: 1. wcg. anal: 11.4510
+
+2. wcg. syn.: 11.4510	 wcg. anal.: [11.4450, 11.4961]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 18 ############################
+inital wcg. anal.: [9179.1373, 9343.6357]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 8968.3791 (8970.6286)	wcg. syn.: 3207.9741
+2. wcg. anal.: 1092.0793 (1087.4356)	wcg. syn.: 49.4809
+3. wcg. anal.: 31.8439 (31.8167)	wcg. syn.: 6.5207
+4. wcg. anal.: 6.3895 (6.3824)	wcg. syn.: 3.9835
+5. wcg. anal.: 4.0450 (3.9545)	wcg. syn.: 3.7327
+6. wcg. anal.: 3.9182 (3.7314)	wcg. syn.: 3.8132
+7. wcg. anal.: 3.8864 (3.8123)	
+final: 6. wcg. anal: 3.7314
+
+1. wcg. syn.: 3.7314	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 17.7815
+2. wcg. anal.: 5.0857 (5.0818)	wcg. syn.: 4.2047
+3. wcg. anal.: 4.2719 (4.2004)	wcg. syn.: 4.1903
+4. wcg. anal.: 4.2397 (4.1898)	
+
+2. wcg. syn.: 4.1898	 wcg. anal.: [7.1389, 7.1544]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 7.4431 (7.1408)	wcg. syn.: 4.5196
+2. wcg. anal.: 4.6868 (4.5210)	wcg. syn.: 4.3779
+3. wcg. anal.: 4.4245 (4.3774)	wcg. syn.: 4.3630
+4. wcg. anal.: 4.4122 (4.3639)	
+
+3. wcg. syn.: 4.3639	 wcg. anal.: [6.5557, 6.5688]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.5939 (6.5562)	wcg. syn.: 5.2489
+2. wcg. anal.: 5.2517 (5.2443)	wcg. syn.: 5.2097
+3. wcg. anal.: 5.2375 (5.2081)	
+
+4. wcg. syn.: 5.2081	 wcg. anal.: [6.7296, 6.7438]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.7334 (6.7298)	wcg. syn.: 5.6945
+2. wcg. anal.: 5.6914 (5.6846)	wcg. syn.: 5.6914
+3. wcg. anal.: 5.6914 (5.6846)	
+
+5. wcg. syn.: 5.6846	 wcg. anal.: [5.8633, 5.8763]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 5.8648 (5.8660)	wcg. syn.: 5.7566
+2. wcg. anal.: 5.7596 (5.7551)	wcg. syn.: 5.7596
+3. wcg. anal.: 5.7596 (5.7551)	
+
+6. wcg. syn.: 5.7551	 wcg. anal.: [5.7539, 5.7655]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 5.7596 (5.7551)	wcg. syn.: 5.7596
+2. wcg. anal.: 5.7596 (5.7551)	
+
+7. wcg. syn.: 5.7551	 wcg. anal.: [5.7539, 5.7655]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 19 ############################
+inital wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4841)	wcg. syn.: 45.4558
+2. wcg. anal.: 45.4692 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+1. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+2. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+3. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+4. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+5. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+6. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+7. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+8. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+9. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+10. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+11. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+12. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+13. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+14. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.4597 (45.4865)	wcg. syn.: 45.4548
+2. wcg. anal.: 45.4604 (45.4866)	
+final: 1. wcg. anal: 45.4865
+
+15. wcg. syn.: 45.4865	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 20 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 25.3849
+2. wcg. anal.: 25.3151 (25.3169)	wcg. syn.: 12.8297
+3. wcg. anal.: 12.9025 (12.7729)	wcg. syn.: 9.9145
+4. wcg. anal.: 10.0130 (9.9123)	wcg. syn.: 7.5252
+5. wcg. anal.: 7.5270 (7.5233)	wcg. syn.: 5.5166
+6. wcg. anal.: 5.5169 (5.5162)	wcg. syn.: 4.3058
+7. wcg. anal.: 4.3134 (4.2934)	wcg. syn.: 4.0593
+8. wcg. anal.: 4.0634 (4.0518)	wcg. syn.: 4.0495
+9. wcg. anal.: 4.0530 (4.0421)	
+
+1. wcg. syn.: 4.0421	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 334.4519
+2. wcg. anal.: 177.9721 (177.8808)	wcg. syn.: 25.9357
+3. wcg. anal.: 25.8990 (25.9050)	wcg. syn.: 21.3719
+4. wcg. anal.: 21.3657 (21.3695)	wcg. syn.: 19.4333
+5. wcg. anal.: 19.4353 (19.4319)	wcg. syn.: 18.6146
+6. wcg. anal.: 18.6177 (18.6194)	wcg. syn.: 18.1911
+7. wcg. anal.: 19.0925 (18.1747)	wcg. syn.: 18.7043
+8. wcg. anal.: 18.6226 (18.6246)	
+final: 7. wcg. anal: 18.1747
+
+2. wcg. syn.: 18.1747	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 334.4162
+2. wcg. anal.: 271.0660 (271.0163)	wcg. syn.: 26.5306
+3. wcg. anal.: 26.5618 (26.5297)	wcg. syn.: 21.5827
+4. wcg. anal.: 21.6090 (21.5695)	wcg. syn.: 19.7528
+5. wcg. anal.: 19.7443 (19.7493)	wcg. syn.: 18.7144
+6. wcg. anal.: 18.8953 (18.7169)	wcg. syn.: 18.6507
+7. wcg. anal.: 18.6423 (18.6544)	
+
+3. wcg. syn.: 18.6544	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 334.6178
+2. wcg. anal.: 278.0991 (277.5832)	wcg. syn.: 26.2869
+3. wcg. anal.: 26.2978 (26.2875)	wcg. syn.: 21.2219
+4. wcg. anal.: 21.2277 (21.2318)	wcg. syn.: 19.4441
+5. wcg. anal.: 19.4406 (19.4282)	wcg. syn.: 18.5619
+6. wcg. anal.: 18.5672 (18.5706)	wcg. syn.: 18.2246
+7. wcg. anal.: 18.2218 (18.2205)	wcg. syn.: 18.0660
+8. wcg. anal.: 18.0513 (18.0430)	
+
+4. wcg. syn.: 18.0430	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 334.7094
+2. wcg. anal.: 293.9663 (294.0641)	wcg. syn.: 24.0290
+3. wcg. anal.: 21.9094 (21.8699)	wcg. syn.: 18.9496
+4. wcg. anal.: 18.9219 (18.9236)	wcg. syn.: 16.2862
+5. wcg. anal.: 16.1485 (15.4400)	wcg. syn.: 15.5143
+6. wcg. anal.: 14.9497 (14.4263)	wcg. syn.: 14.7326
+7. wcg. anal.: 14.7239 (14.7229)	
+final: 6. wcg. anal: 14.4263
+
+5. wcg. syn.: 14.4263	 wcg. anal.: [18.4828,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 18.5381 (18.4740)	wcg. syn.: 14.7240
+2. wcg. anal.: 14.6747 (14.6275)	wcg. syn.: 14.2185
+3. wcg. anal.: 19.0616 (14.1312)	wcg. syn.: 13.5515
+4. wcg. anal.: 14.1584 (13.5103)	wcg. syn.: 12.8058
+5. wcg. anal.: 12.7520 (12.5952)	wcg. syn.: 12.3449
+6. wcg. anal.: 13.3971 (11.8654)	wcg. syn.: 12.6469
+7. wcg. anal.: 13.7984 (12.6360)	
+final: 6. wcg. anal: 11.8654
+
+6. wcg. syn.: 11.8654	 wcg. anal.: [13.7344, 22.8567]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 13.7392 (13.7395)	wcg. syn.: 12.6500
+2. wcg. anal.: 13.6798 (12.6254)	wcg. syn.: 13.3262
+3. wcg. anal.: 14.2878 (13.3289)	
+final: 2. wcg. anal: 12.6254
+
+7. wcg. syn.: 12.6254	 wcg. anal.: [12.5961, 20.3362]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 13.6798 (12.6254)	wcg. syn.: 13.3263
+2. wcg. anal.: 14.3607 (13.3251)	
+final: 1. wcg. anal: 12.6254
+
+8. wcg. syn.: 12.6254	 wcg. anal.: [12.5961, 20.3362]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 21 ############################
+inital wcg. anal.: [2.1220, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.1231 (2.1230)	wcg. syn.: 2.1223
+2. wcg. anal.: 2.1228 (2.1231)	
+final: 1. wcg. anal: 2.1230
+
+1. wcg. syn.: 2.1230	 wcg. anal.: [2.1220, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.1232 (2.1230)	wcg. syn.: 2.1221
+2. wcg. anal.: 2.1231 (2.1224)	
+
+2. wcg. syn.: 2.1224	 wcg. anal.: [2.1220, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 1. wcg. anal: 2.1263
+
+
+## Test case with example no. 22 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.3840
+2. wcg. anal.: 1.3745 (1.3739)	wcg. syn.: 0.0582
+3. wcg. anal.: 0.2096 (0.0581)	wcg. syn.: 0.0942
+4. wcg. anal.: 0.0944 (0.0939)	
+final: 3. wcg. anal: 0.0581
+
+1. wcg. syn.: 0.0581	 wcg. anal.: [0.1147, 0.1151]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Index exceeds matrix dimensions.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.3905
+2. wcg. anal.: 1.3904 (1.3799)	wcg. syn.: 0.8526
+3. wcg. anal.: 0.8549 (0.8480)	wcg. syn.: 0.5102
+4. wcg. anal.: 0.5098 (0.5099)	wcg. syn.: 0.0709
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 229)
+  In compute_D_skewed_mu (line 21)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+5. wcg. anal.: 0.0723 (0.0709)	wcg. syn.: 0.0654
+6. wcg. anal.: 0.1514 (0.0650)	wcg. syn.: 0.0898
+7. wcg. anal.: 0.0899 (0.0893)	
+final: 6. wcg. anal: 0.0650
+
+2. wcg. syn.: 0.0650	 wcg. anal.: [0.1033, 0.1040]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.1938 (0.1034)	wcg. syn.: 0.0977
+2. wcg. anal.: 0.2735 (0.0968)	wcg. syn.: 0.1281
+3. wcg. anal.: 0.1667 (0.1265)	
+final: 2. wcg. anal: 0.0968
+
+3. wcg. syn.: 0.0968	 wcg. anal.: [0.0966, 0.0966]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.2735 (0.0968)	wcg. syn.: 0.1281
+2. wcg. anal.: 0.1672 (0.1265)	
+final: 1. wcg. anal: 0.0968
+
+4. wcg. syn.: 0.0968	 wcg. anal.: [0.0966, 0.0966]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 23 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4036034.3111
+2. wcg. anal.: 656.9901 (211.2248)	wcg. syn.: 83.8904
+3. wcg. anal.: 194.4017 (79.4627)	wcg. syn.: 77.1573
+4. wcg. anal.: 193.7932 (70.5642)	wcg. syn.: 147.8371
+5. wcg. anal.: 371.9545 (128.4493)	
+final: 4. wcg. anal: 70.5642
+
+1. wcg. syn.: 70.5642	 wcg. anal.: [70.5368, 85.2455]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 193.7932 (70.5642)	wcg. syn.: 148.1024
+2. wcg. anal.: 157.7433 (96.0147)	
+final: 1. wcg. anal: 70.5642
+
+2. wcg. syn.: 70.5642	 wcg. anal.: [70.5368, 85.2455]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 24 ############################
+inital wcg. anal.: [28.6160, 28.6729]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 18.3419 (18.3363)	wcg. syn.: 11.2550
+2. wcg. anal.: 8.7864 (7.3299)	wcg. syn.: 7.5326
+3. wcg. anal.: 5.6798 (3.5605)	wcg. syn.: 5.3338
+4. wcg. anal.: 46.2950 (3.9639)	
+final: 3. wcg. anal: 3.5605
+
+1. wcg. syn.: 3.5605	 wcg. anal.: [11.8682, 11.8987]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 13.5436 (11.8793)	wcg. syn.: 11.5231
+2. wcg. anal.: 69.1082 (7.2547)	wcg. syn.: 25.3101
+3. wcg. anal.: 23.2710 (23.1273)	
+final: 2. wcg. anal: 7.2547
+
+2. wcg. syn.: 7.2547	 wcg. anal.: [7.2519, 7.2675]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 69.1082 (7.2547)	wcg. syn.: 25.3092
+2. wcg. anal.: 23.1311 (23.1264)	
+final: 1. wcg. anal: 7.2547
+
+3. wcg. syn.: 7.2547	 wcg. anal.: [7.2519, 7.2675]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 25 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 7.2947
+2. wcg. anal.: 43.1696 (6.4200)	wcg. syn.: 43.1696
+3. wcg. anal.: 43.1696 (6.4200)	
+
+1. wcg. syn.: 6.4200	 wcg. anal.: [11671175.4720,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 7.2950
+2. wcg. anal.: 5.9556 (5.9505)	wcg. syn.: 3.4737
+3. wcg. anal.: 3.4768 (3.4723)	wcg. syn.: 2.7718
+4. wcg. anal.: 23.0784 (2.7680)	wcg. syn.: 23.0784
+5. wcg. anal.: 23.0784 (2.7680)	
+
+2. wcg. syn.: 2.7680	 wcg. anal.: [4.7551, 29.6972]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 23.0784 (4.7565)	wcg. syn.: 23.0784
+2. wcg. anal.: 23.0784 (4.7565)	
+
+3. wcg. syn.: 4.7565	 wcg. anal.: [4.7551, 29.6972]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 26 ############################
+inital wcg. anal.: [4.1623, 4.1706]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 4.1870 (4.1749)	wcg. syn.: 4.1753
+2. wcg. anal.: 4.1866 (4.1747)	
+
+1. wcg. syn.: 4.1747	 wcg. anal.: [4.1623, 4.1712]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 4.1866 (4.1747)	wcg. syn.: 4.1863
+2. wcg. anal.: 4.1897 (4.1651)	
+
+2. wcg. syn.: 4.1651	 wcg. anal.: [4.1627, 4.1716]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 0. wcg. anal: 4.1706
+
+
+## Test case with example no. 27 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 25.0067
+2. wcg. anal.: 4.8515 (4.8539)	wcg. syn.: 1.1966
+3. wcg. anal.: 1.1997 (1.1941)	wcg. syn.: 0.8262
+4. wcg. anal.: 0.9013 (0.8227)	wcg. syn.: 0.8536
+5. wcg. anal.: 0.9498 (0.8539)	
+final: 4. wcg. anal: 0.8227
+
+1. wcg. syn.: 0.8227	 wcg. anal.: [1.9149, 1.9192]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.9159 (1.9153)	wcg. syn.: 1.3050
+2. wcg. anal.: 1.4576 (1.2943)	wcg. syn.: 1.3142
+3. wcg. anal.: 1.4964 (1.3161)	
+final: 2. wcg. anal: 1.2943
+
+2. wcg. syn.: 1.2943	 wcg. anal.: [1.8768, 1.9134]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.7664 (1.9079)	wcg. syn.: 1.5661
+2. wcg. anal.: 1.5779 (1.5649)	wcg. syn.: 1.4207
+3. wcg. anal.: 1.6501 (1.4195)	wcg. syn.: 1.4770
+4. wcg. anal.: 1.4961 (1.4770)	
+final: 3. wcg. anal: 1.4195
+
+3. wcg. syn.: 1.4195	 wcg. anal.: [1.5424, 1.5456]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.6501 (1.5431)	wcg. syn.: 1.5018
+2. wcg. anal.: 1.6591 (1.5010)	wcg. syn.: 1.5570
+3. wcg. anal.: 1.6864 (1.5545)	
+final: 2. wcg. anal: 1.5010
+
+4. wcg. syn.: 1.5010	 wcg. anal.: [1.5015, 1.5045]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.6591 (1.5010)	wcg. syn.: 1.5570
+2. wcg. anal.: 1.6864 (1.5545)	
+final: 1. wcg. anal: 1.5010
+
+5. wcg. syn.: 1.5010	 wcg. anal.: [1.5015, 1.5045]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 28 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.4136
+2. wcg. anal.: 0.0599 (0.0595)	wcg. syn.: 0.0092
+3. wcg. anal.: 0.0093 (0.0092)	wcg. syn.: 0.0042
+4. wcg. anal.: 0.0042 (0.0036)	wcg. syn.: 0.0042
+5. wcg. anal.: 0.0042 (0.0036)	
+final: 4. wcg. anal: 0.0036
+
+1. wcg. syn.: 0.0036	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.4137
+2. wcg. anal.: 0.3525 (0.3520)	wcg. syn.: 0.0087
+3. wcg. anal.: 0.0089 (0.0086)	wcg. syn.: 0.0081
+4. wcg. anal.: 0.0083 (0.0081)	wcg. syn.: 0.0081
+5. wcg. anal.: 0.0081 (0.0081)	
+
+2. wcg. syn.: 0.0081	 wcg. anal.: [1.1613, 1.1643]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.1630 (1.1623)	wcg. syn.: 0.4891
+2. wcg. anal.: 0.4897 (0.4895)	wcg. syn.: 0.4892
+3. wcg. anal.: 0.4898 (0.4895)	
+final: 2. wcg. anal: 0.4895
+
+3. wcg. syn.: 0.4895	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.5727
+2. wcg. anal.: 0.5703 (0.5697)	wcg. syn.: 0.4892
+3. wcg. anal.: 0.4896 (0.4895)	wcg. syn.: 0.4891
+4. wcg. anal.: 0.4900 (0.4895)	
+
+4. wcg. syn.: 0.4895	 wcg. anal.: [155.3370, 156.0944]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 554.6184 (155.5352)	wcg. syn.: 1.7698
+2. wcg. anal.: 1.6074 (1.6072)	wcg. syn.: 0.4905
+3. wcg. anal.: 0.4904 (0.4899)	wcg. syn.: 0.4891
+4. wcg. anal.: 0.4895 (0.4895)	
+
+5. wcg. syn.: 0.4895	 wcg. anal.: [1.4537, 1.4568]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.4564 (1.4544)	wcg. syn.: 0.9346
+2. wcg. anal.: 0.9353 (0.9340)	wcg. syn.: 0.9345
+3. wcg. anal.: 0.9352 (0.9340)	
+
+6. wcg. syn.: 0.9340	 wcg. anal.: [1.1418, 1.1450]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.1527 (1.1419)	wcg. syn.: 0.9784
+2. wcg. anal.: 0.9792 (0.9780)	wcg. syn.: 0.9783
+3. wcg. anal.: 0.9790 (0.9780)	
+final: 2. wcg. anal: 0.9780
+
+7. wcg. syn.: 0.9780	 wcg. anal.: [1.1432, 1.1460]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.1460 (1.1434)	wcg. syn.: 1.0050
+2. wcg. anal.: 1.0058 (1.0036)	wcg. syn.: 1.0051
+3. wcg. anal.: 1.0066 (1.0036)	
+
+8. wcg. syn.: 1.0036	 wcg. anal.: [1.0035, 1.0171]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.0066 (1.0036)	wcg. syn.: 1.0049
+2. wcg. anal.: 1.0063 (1.0036)	
+final: 1. wcg. anal: 1.0036
+
+9. wcg. syn.: 1.0036	 wcg. anal.: [1.0035, 1.0171]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 29 ############################
+inital wcg. anal.: [67.9032, 68.5280]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 48.8321 (46.1449)	wcg. syn.: 7.5607
+2. wcg. anal.: 7.6076 (7.0695)	wcg. syn.: 1.2504
+3. wcg. anal.: 1.7635 (1.2302)	wcg. syn.: 0.7768
+4. wcg. anal.: 0.8155 (0.7719)	wcg. syn.: 0.7310
+5. wcg. anal.: 0.7370 (0.7308)	wcg. syn.: 0.7320
+6. wcg. anal.: 0.7418 (0.7319)	
+final: 5. wcg. anal: 0.7308
+
+1. wcg. syn.: 0.7308	 wcg. anal.: [1717671746.9247,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.8454
+2. wcg. anal.: 1.9013 (1.8300)	wcg. syn.: 1.1282
+3. wcg. anal.: 1.1567 (1.1219)	wcg. syn.: 1.0440
+4. wcg. anal.: 1.0542 (1.0385)	wcg. syn.: 1.0349
+5. wcg. anal.: 1.0369 (1.0345)	
+
+2. wcg. syn.: 1.0345	 wcg. anal.: [1.4585, 1.4617]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.4623 (1.4605)	wcg. syn.: 1.1459
+2. wcg. anal.: 1.1495 (1.1452)	wcg. syn.: 1.1358
+3. wcg. anal.: 1.1964 (1.1319)	wcg. syn.: 1.1434
+4. wcg. anal.: 1.1567 (1.1432)	
+final: 3. wcg. anal: 1.1319
+
+3. wcg. syn.: 1.1319	 wcg. anal.: [1.5073, 1.5105]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.5109 (1.5077)	wcg. syn.: 1.2615
+2. wcg. anal.: 1.3054 (1.2576)	wcg. syn.: 1.2647
+3. wcg. anal.: 1.2798 (1.2632)	
+final: 2. wcg. anal: 1.2576
+
+4. wcg. syn.: 1.2576	 wcg. anal.: [1.2574, 1.2598]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.3054 (1.2576)	wcg. syn.: 1.2649
+2. wcg. anal.: 1.2823 (1.2631)	
+final: 1. wcg. anal: 1.2576
+
+5. wcg. syn.: 1.2576	 wcg. anal.: [1.2574, 1.2598]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 30 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 2.9636
+2. wcg. anal.: 2.9189 (2.9109)	wcg. syn.: 0.8690
+3. wcg. anal.: 0.9479 (0.8633)	wcg. syn.: 0.8613
+4. wcg. anal.: 0.8860 (0.8611)	
+
+1. wcg. syn.: 0.8611	 wcg. anal.: [17136153.3062,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 3.6252
+2. wcg. anal.: 3.6098 (3.5765)	wcg. syn.: 1.1483
+3. wcg. anal.: 1.2069 (1.1498)	wcg. syn.: 1.1394
+4. wcg. anal.: 1.1725 (1.1391)	
+
+2. wcg. syn.: 1.1391	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 3.9512
+2. wcg. anal.: 3.9388 (3.9027)	wcg. syn.: 1.2644
+3. wcg. anal.: 1.3472 (1.2583)	wcg. syn.: 1.2437
+4. wcg. anal.: 1.2507 (1.2423)	wcg. syn.: 1.2447
+5. wcg. anal.: 1.3328 (1.2441)	
+final: 4. wcg. anal: 1.2423
+
+3. wcg. syn.: 1.2423	 wcg. anal.: [2.5111, 2.5165]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.5141 (2.5142)	wcg. syn.: 1.3408
+2. wcg. anal.: 1.3811 (1.3404)	wcg. syn.: 1.3430
+3. wcg. anal.: 1.3455 (1.3420)	
+final: 2. wcg. anal: 1.3404
+
+4. wcg. syn.: 1.3404	 wcg. anal.: [1.6856, 1.6896]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.6936 (1.6861)	wcg. syn.: 1.3663
+2. wcg. anal.: 1.3707 (1.3640)	wcg. syn.: 1.3588
+3. wcg. anal.: 1.3704 (1.3589)	
+
+5. wcg. syn.: 1.3589	 wcg. anal.: [1.3568, 1.3615]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.3704 (1.3589)	wcg. syn.: 1.3512
+2. wcg. anal.: 1.3801 (1.3510)	
+
+6. wcg. syn.: 1.3510	 wcg. anal.: [1.3499, 1.3537]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 31 ############################
+inital wcg. anal.: [2.3150, 2.3615]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.0616 (1.0613)	wcg. syn.: 0.1217
+2. wcg. anal.: 0.1217 (0.1217)	wcg. syn.: 0.1132
+3. wcg. anal.: 0.1132 (0.1134)	wcg. syn.: 0.1130
+4. wcg. anal.: 0.1131 (0.1132)	
+
+1. wcg. syn.: 0.1132	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.2663
+2. wcg. anal.: 0.2653 (0.2663)	wcg. syn.: 0.2366
+3. wcg. anal.: 0.2357 (0.2352)	wcg. syn.: 0.1455
+4. wcg. anal.: 0.1481 (0.1455)	wcg. syn.: 0.1459
+5. wcg. anal.: 0.1461 (0.1460)	
+final: 4. wcg. anal: 0.1455
+
+2. wcg. syn.: 0.1455	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.1254
+2. wcg. anal.: 0.6842 (0.6805)	wcg. syn.: 0.2265
+3. wcg. anal.: 0.2474 (0.2265)	wcg. syn.: 0.2463
+4. wcg. anal.: 0.2503 (0.2464)	
+final: 3. wcg. anal: 0.2265
+
+3. wcg. syn.: 0.2265	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 3.8816
+2. wcg. anal.: 0.8841 (0.8826)	wcg. syn.: 0.3690
+3. wcg. anal.: 0.4312 (0.3692)	wcg. syn.: 0.4278
+4. wcg. anal.: 0.3744 (0.3745)	
+final: 3. wcg. anal: 0.3692
+
+4. wcg. syn.: 0.3692	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 15.5654
+2. wcg. anal.: 1.8852 (1.8755)	wcg. syn.: 0.6798
+3. wcg. anal.: 0.6994 (0.6798)	wcg. syn.: 0.6802
+4. wcg. anal.: 0.6801 (0.6799)	
+final: 3. wcg. anal: 0.6798
+
+5. wcg. syn.: 0.6798	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 101.4913
+2. wcg. anal.: 2.0000 (1.9998)	wcg. syn.: 1.4914
+3. wcg. anal.: 1.4936 (1.4912)	wcg. syn.: 1.4910
+4. wcg. anal.: 1.4915 (1.4909)	
+
+6. wcg. syn.: 1.4909	 wcg. anal.: [1.5861, 1.5893]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.5880 (1.5876)	wcg. syn.: 1.5757
+2. wcg. anal.: 1.5762 (1.5756)	
+
+7. wcg. syn.: 1.5756	 wcg. anal.: [1.5755, 1.5792]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

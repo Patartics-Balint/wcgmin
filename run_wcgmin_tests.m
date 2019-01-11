@@ -22,35 +22,38 @@ if exist(datafile)
     load(datafile);
 end
 for example = examples
-    if strcmp(get(0, 'Diary'), 'off')
-        diary(report_filename);
-    end
-    if example > examples(1)
-        fprintf('\n\n');
-    end
-    fprintf('## Test case with example no. %d ############################\n', example);    
-    [sys, ny, nu, nxK] = provide_example('collected', example);
-    new_results.ex_no = example;
-    Kt = tunableSS('K', nxK, nu, ny, 'companion');
-    opt = wcgminOptions;
-    opt.Display = 'iter';
-		opt.UseParallel = true;
-    try        
-        [~, g, info] = wcgmin(sys, Kt, opt);
-        new_results.g = g;
-				new_results.info = info;
-    catch er
-        fprintf(1, 'ERROR: %s\n%s\n', er.identifier, er.message);
-        new_results.g = nan;               
-    end
-    new_results.nxK = nxK;    
-    if isempty(results)
-        results = new_results;
-    else
-        results(example) = new_results;
-    end
-    save(datafile, 'results');
-		diary('off');
+	if strcmp(get(0, 'Diary'), 'off')
+		diary(report_filename);
+	end
+	if example > examples(1)
+		fprintf('\n\n');
+	end
+	fprintf('## Test case with example no. %d ############################\n', example);    
+	[sys, ny, nu, nxK] = provide_example('collected', example);
+	new_results.ex_no = example;
+	Kt = tunableSS('K', nxK, nu, ny, 'companion');
+	opt = wcgminOptions;
+	opt.Display = 'iter';
+	opt.UseParallel = true;
+	try
+		tic;
+			[~, g, info] = wcgmin(sys, Kt, opt);
+		t_syn =	ceil(toc);
+		new_results.g = g;
+		new_results.info = info;
+		new_results.t_syn = t_syn;
+	catch er
+		fprintf(1, 'ERROR: %s\n%s\n', er.identifier, er.message);
+		new_results.g = nan;               
+	end
+	new_results.nxK = nxK;    
+	if isempty(results)
+		results = new_results;
+	else
+		results(example) = new_results;
+	end
+	save(datafile, 'results');
+	diary('off');
 end
 fprintf('\n\n');
 res_table = struct2table(results);
