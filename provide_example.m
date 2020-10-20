@@ -1,4 +1,21 @@
 function [sys, ny, nu, nxK] = provide_example(type, ex_no)
+	% Provide example system for sutructured control desing against mixed
+	% uncertainy.
+	%
+	% Usage
+	%   [usys, ny, nu, nxK] = PROVIDE_EXAMPLE(type, ex_no)
+	% Inputs:
+	%   type: 'collected' or 'random'
+	%   ex_no: if type == 'collected' ex_no is the ordinal number of the
+	%   example, if type == 'random' ex_no is the seed for the random number
+	%   generation
+	% Outputs:
+	%   usys: uncertain system
+	%   ny: number of measured outputs
+	%   nu: number of control inputs
+	%   nxK: order of the structured controller
+	% See also wcgmin
+	
     if nargin < 2
         if strcmp(type, 'collected')
             ex_no = 12;
