@@ -27,7 +27,11 @@ function [K_final, g_final, info] = wcgmin(sys, Kt, opt)
     % See also wcgminOptions, wcgain, robstab, systune, hinfstruct, dksyn
     if nargin < 3
         opt = wcgminOptions;
-    end
+		end
+		if strcmp(opt.CommonDScale, 'on')
+			[K_final, g_final, info] = wcgmin_common_D(sys, Kt, opt);
+			return;
+		end
     rng(opt.rngSeed);
     [unc_names, dyn_unc_names, unc_nom] = get_unc(sys);
     cnt = 0;

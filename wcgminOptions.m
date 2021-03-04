@@ -10,6 +10,10 @@ classdef wcgminOptions
 	%                                                                 
 	% Supported options include:
 	% 
+	% CommonDScale         Use a single D-scale for all the samples. This D-
+	%                      scale is computed in a nonlinear optimisation
+	%                      with the controller (default = 'off').
+	%
 	% Display              Display level (default = 'final'). Set Display to
 	%                      'final' to print a one-line summary after each
 	%                      outer iteration. Set Display to 'iter' to print
@@ -28,7 +32,7 @@ classdef wcgminOptions
 	%
 	% hinfstructOptions    Options to be passed to systune (default =
 	%                      hinfstructOptions('RandomStart', 10,
-	%                      'UseParallel', true, 'Display', 'off')).
+	%                      'UseParallel', false, 'Display', 'off')).
 	%
 	% IterTerminateTol     Tolerance used to determinate when to terminate
 	%                      the iteration (default = 0.01).
@@ -55,7 +59,7 @@ classdef wcgminOptions
 	%
 	% systuneOptions       Options to be passed to systune (default =
 	%                      systuneOptions('RandomStart', 10, 'UseParallel',
-	%                      true, 'Display', 'off')).
+	%                      false, 'Display', 'off')).
 	%
 	% UseParllel           Parallel processing flag. Set to true to enable
 	%                      parallel computing. This option will set the
@@ -67,6 +71,7 @@ properties
 	MaxIter = 15;
 	MaxIterDyn = 30;
 	Display = 'final'
+	CommonDScale = 'off';
 	FrequencyVector = []
 	NFrequencyPoints = []
 	NBasisFuns = []	
@@ -80,6 +85,7 @@ properties
 	UseInitK = true
 	UncSet = []
 end
+
 methods
 	function obj = wcgminOptions(varargin)
 		cnt = 1;
@@ -113,6 +119,7 @@ methods
 	function obj = set.FrequencyVector(obj, freq_vec)
 		obj.FrequencyVector = freq_vec;
 		obj.NFrequencyPoints = numel(obj.FrequencyVector);
+		obj.warn_when_commonD();
 	end
 	
 	function obj = set.NFrequencyPoints(obj, n_freq)
@@ -122,6 +129,25 @@ methods
 			obj.NFrequencyPoints = numel(obj.FrequencyVector);
 			warning('FrequencyVector specified. Setting NFrequencyPoints to %d.', obj.NFrequencyPoints);
 		end
-	end		
+		obj.warn_when_commonD();
+	end
+	
+	function obj = set.NBasisFuns(obj, n_bf)
+		if isnumeric(n_bf) && n_bf > 0 && floor(n_bf) == n_bf
+			obj.NBasisFuns = n_bf;
+		else
+			error('The number of basis functions must be a positive integer.');
+		end
+		obj.warn_when_commonD();
+	end
 end
+
+methods (Access = private)
+	function warn_when_commonD(obj)
+		if strcmp(obj.CommonDScale, 'on')
+			warning('The CommonDScale option is ''on'', this option won''t take effect.');
+		end
+	end
+end
+
 end

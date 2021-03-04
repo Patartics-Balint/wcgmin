@@ -57,7 +57,7 @@ end
 function [M, Delta, ny, nu, nxK] = provide_collected_examle(ex_no)
 	nxKs = [2, 1, 4, 3, 5, 1, 4, 2, 2, 2, 1, 3, 1, 2, 3, 4, 4, 3, 1, 2, 1, 3, 4, 4, 3, 1, 3, 4, 2, 5, 1];
 	nxK = nxKs(ex_no);
-	load(['example', num2str(ex_no)]);
+	load(['wcgmin_/examples/example', num2str(ex_no)]);
 	Nblk = size(blk,1);
 	Delta = [];
 	Nr = 0;

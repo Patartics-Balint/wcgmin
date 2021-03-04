@@ -1,33 +1,4 @@
-function [K_final, g_final, info] = wcgmin_Apkarian(sys, Kt, opt)
-    % WCGMIN Structured robust controller design for worst-case gain optimisation.
-    %
-    % [K, wcg] = WCGMIN(sys, Kt) synthesises a controller K for the
-    % open-loop uncertain plant sys which minimises the worst-case gain of
-    % the closed loop. Kt is the tunable controller, sys is the uncertain
-    % state-space model, the closed loop is lft(sys, Kt). K is the
-    % controller obtained from the optimisation and wcg is the upper bound
-    % on the closed-loop performance. These variables are related by:
-    %       clu = lft(sys, K);
-    %       g = wcgain(clu);
-    %       wcg = g.UpperBound;
-    %
-    % [K, wcg] = WCGMIN(sys, Kt, opt) specifies options for the
-    % optimisation. Use wcgminOptions to create opt.
-    %
-    % [K, wcg, info] = WCGMIN(sys, Kt, ...) returns an info structure
-    % containing information about the algorithm execution. For the i-th
-    % iteration, the info structure contains the following fields:
-    %               K: Controller at the i-th iteration, ss object.
-    %            gain: Worst-case gain upper bound for the closed-loop system.
-    %         unc_set: Uncertainty set which is used to get samples at the i-th
-    %                  iteration.
-    %     info_sample: Info structure regarding the iterations on the
-    %                  samples.
-    %
-    % See also wcgminOptions, wcgain, robstab, systune, hinfstruct, dksyn
-    if nargin < 3
-        opt = wcgminOptions;
-    end
+function [K_final, g_final, info] = wcgmin_common_D(sys, Kt, opt)
     rng(opt.rngSeed);
     [unc_names, dyn_unc_names, unc_nom] = get_unc(sys);
     cnt = 0;
@@ -39,13 +10,16 @@ function [K_final, g_final, info] = wcgmin_Apkarian(sys, Kt, opt)
     Drt = [];
     Dct = [];
     [~, blk_str] = components(sys, Kt);
-%     cblk = blk_str(1:numel(dyn_unc_names), :);
     cblk = [];
     for name = dyn_unc_names
         name = name{1};
         cblk(end + 1, :) = size(sys.Uncertainty.(name));
-    end
-    nxd = ceil(order(sys) / sum(cblk(:))) + 2;
+		end
+		if isempty(opt.NBasisFuns)
+			nxd = ceil(order(sys) / sum(cblk(:))) + 2;
+		else
+			nxd = opt.NBasisFuns;
+		end
     for i = 1:size(cblk, 1)
         blk_ind = sum(cblk(1:i-1, 2)) + 1;
         d_t = tunableSS(sprintf('d_%d', i), nxd, 1, 1, 'companion');
@@ -76,17 +50,13 @@ function [K_final, g_final, info] = wcgmin_Apkarian(sys, Kt, opt)
 
         unc_set = [unc_set; wcunc];
         plant_arr = usubs(sys, unc_set);
-    %     nugaps = calc_nugaps(plant_arr)
-    %     sum_nugaps = sum(nugaps)
-%         [K, g_syn, info_samples] = wcgmin_dyn(plant_arr, Kt, opt);
 
-    if isa(plant_arr, 'ss')        
-        [Kt, g_syn] = hinfstruct(plant_arr, Kt, opt.hinfstructOptions);        
-        info_samples = struct;
-    else
-        [Kt, Drt, Dct, g_syn, info_samples] = synthesise(plant_arr, Kt, Drt, Dct, g_anal_ub, opt);
-    end
-%         Kt = setValue(Kt, K);    
+				if isa(plant_arr, 'ss')        
+					[Kt, g_syn] = hinfstruct(plant_arr, Kt, opt.hinfstructOptions);        
+					info_samples = struct;
+				else
+					[Kt, Drt, Dct, g_syn, info_samples] = synthesise(plant_arr, Kt, Drt, Dct, g_anal_ub, opt);
+			end 
         cnt = cnt + 1;    
     end
 end
@@ -120,8 +90,11 @@ function [Kt, g_anal_ub, g_anal_lb, wcunc] = analyse(sys, Kt, unc_set, unc_names
     if cnt > 0 || opt.UseInitK
         K = getValue(Kt);
         cl_unc = lft(sys, K);
-% 				[wcg, wcunc] = wcgain(cl_unc);
-        [wcg, wcunc] = wcgain(cl_unc);        
+				if opt.UseParallel
+					[wcg, wcunc] = wcgainWithBNBpar(cl_unc);
+				else
+					[wcg, wcunc] = wcgainWithBNB(cl_unc);        
+				end
         g_anal_lb = wcg.LowerBound;
         g_anal_ub = wcg.UpperBound;
         if g_anal_ub > g_inf

@@ -1,0 +1,1994 @@
+## Test case with example no. 1 ############################
+Starting parallel pool (parpool) using the 'local' profile ... connected to 8 workers.
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.058)
+Final: Soft = 1.01, Hard = 0.99975, Iterations = 179
+Final: Soft = 1.01, Hard = 0.99989, Iterations = 189
+Final: Soft = 0.998, Hard = 0.99923, Iterations = 194
+Final: Soft = 0.999, Hard = 0.99958, Iterations = 224
+Final: Soft = 0.998, Hard = 0.99968, Iterations = 282
+Final: Soft = 1, Hard = 0.9998, Iterations = 265
+Final: Soft = 0.999, Hard = 0.99993, Iterations = 302
+Final: Soft = 1.01, Hard = 0.99921, Iterations = 174
+Final: Soft = 1.01, Hard = 0.99946, Iterations = 263
+Final: Soft = 1.13, Hard = 0.95368, Iterations = 141
+
+1. wcg. syn.: 0.9952	 wcg. anal.: [0.9937, 0.9957]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 2 ############################
+inital wcg. anal.: [19.5391, 19.5803]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 0.24, Hard = 0.99829, Iterations = 201
+Final: Soft = 0.24, Hard = 0.99979, Iterations = 247
+Final: Soft = 0.24, Hard = 0.99855, Iterations = 271
+Final: Soft = 0.24, Hard = 0.9984, Iterations = 261
+Final: Soft = 0.24, Hard = 0.99953, Iterations = 238
+Final: Soft = 0.24, Hard = 0.99987, Iterations = 294
+Final: Soft = 0.24, Hard = 0.99981, Iterations = 316
+Final: Soft = 0.24, Hard = 0.99862, Iterations = 314
+Final: Soft = 0.453, Hard = 0.9999, Iterations = 239
+Final: Soft = 0.24, Hard = 0.99999, Iterations = 242
+Final: Soft = 0.24, Hard = 0.99883, Iterations = 404
+
+1. wcg. syn.: 1.1286	 wcg. anal.: [1.1284, 1.1307]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 3 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.3)
+Final: Soft = 27.7, Hard = 1.3842e+05, Iterations = 96
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 39.8, Hard = 2.5456, Iterations = 234
+Final: Soft = 10.9, Hard = 1.1034, Iterations = 255
+Final: Soft = 396, Hard = 40.056, Iterations = 160
+Final: Soft = 11.9, Hard = 1.0137, Iterations = 291
+Final: Soft = 48.5, Hard = 2.4402, Iterations = 359
+Final: Soft = 1.04, Hard = 0.9992, Iterations = 550
+Final: Soft = 2.1, Hard = 0.995, Iterations = 382
+Final: Soft = 4.21, Hard = 0.98688, Iterations = 635
+Final: Soft = 1.2, Hard = 0.99947, Iterations = 609
+
+1. wcg. syn.: 1.0810	 wcg. anal.: [1.0188, 1.0209]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 4 ############################
+inital wcg. anal.: [10.3795, 10.4017]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 0.484, Hard = 0.99965, Iterations = 108
+Final: Soft = 0.483, Hard = 0.99974, Iterations = 134
+Final: Soft = 0.483, Hard = 0.99998, Iterations = 142
+Final: Soft = 0.483, Hard = 0.9999, Iterations = 137
+Final: Soft = 0.483, Hard = 0.99998, Iterations = 153
+Final: Soft = 0.484, Hard = 0.99963, Iterations = 157
+Final: Soft = 0.484, Hard = 0.99961, Iterations = 168
+Final: Soft = 0.484, Hard = 0.99966, Iterations = 216
+Final: Soft = 0.483, Hard = 0.99979, Iterations = 130
+Final: Soft = 0.483, Hard = 0.9998, Iterations = 170
+Final: Soft = 0.484, Hard = 0.99937, Iterations = 179
+
+1. wcg. syn.: 2.4306	 wcg. anal.: [2.4306, 2.4356]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 5 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 5.9)
+Final: Failed to enforce closed-loop stability (max Re(s) = 5.2)
+Final: Soft = 5.85, Hard = 30.817, Iterations = 31
+Final: Soft = 4.57, Hard = 688.63, Iterations = 19
+Final: Soft = 1.38, Hard = 5.6882e+05, Iterations = 29
+Final: Soft = 6.84, Hard = 4.274, Iterations = 50
+Final: Soft = 9.32, Hard = 43.549, Iterations = 46
+Final: Soft = 3.99, Hard = 29.699, Iterations = 74
+Final: Soft = 1.92, Hard = 0.97369, Iterations = 146
+Final: Soft = 1.17, Hard = 0.99584, Iterations = 305
+Final: Soft = 1.33, Hard = 0.91869, Iterations = 305
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+
+1. wcg. syn.: 1.3611	 wcg. anal.: [1.3497, 1.3520]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 6 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 5.7)
+Final: Failed to enforce closed-loop stability (max Re(s) = 7.2e-17)
+Final: Soft = 0.701, Hard = 0.99898, Iterations = 186
+Final: Soft = 0.701, Hard = 0.99991, Iterations = 189
+Final: Soft = 0.701, Hard = 0.99938, Iterations = 163
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1.49, Hard = 0.89379, Iterations = 89
+Final: Soft = 3.8, Hard = 0.99991, Iterations = 209
+Final: Soft = 0.701, Hard = 0.99991, Iterations = 290
+Final: Soft = 0.698, Hard = 0.99857, Iterations = 205
+Final: Soft = 0.702, Hard = 0.99873, Iterations = 180
+Final: Soft = 0.706, Hard = 0.99486, Iterations = 209
+
+1. wcg. syn.: 0.4876	 wcg. anal.: [0.4918, 0.4929]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 7 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.31)
+Final: Soft = 4.14, Hard = 0.99989, Iterations = 168
+Final: Soft = 2.67, Hard = 0.98858, Iterations = 363
+Final: Soft = 1.25, Hard = 0.9995, Iterations = 399
+Final: Soft = 1.27, Hard = 0.99962, Iterations = 478
+Final: Soft = 1.25, Hard = 0.9996, Iterations = 496
+Final: Soft = 1.2, Hard = 0.99985, Iterations = 542
+Final: Soft = 1.25, Hard = 0.99855, Iterations = 583
+Final: Soft = 1.26, Hard = 0.99953, Iterations = 651
+Final: Soft = 1.27, Hard = 0.99942, Iterations = 588
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1.19, Hard = 0.99954, Iterations = 713
+
+1. wcg. syn.: 1.4230	 wcg. anal.: [1.4221, 1.4251]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 8 ############################
+inital wcg. anal.: [55.5863, 55.7647]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 0.631, Iterations = 49
+Final: Peak gain = 0.631, Iterations = 63
+Final: Peak gain = 0.631, Iterations = 52
+Final: Peak gain = 0.631, Iterations = 46
+Final: Peak gain = 0.631, Iterations = 60
+Final: Peak gain = 0.631, Iterations = 44
+Final: Peak gain = 0.631, Iterations = 87
+Final: Peak gain = 0.631, Iterations = 87
+Final: Peak gain = 0.631, Iterations = 54
+Final: Peak gain = 0.631, Iterations = 73
+Final: Peak gain = 0.631, Iterations = 112
+
+1. wcg. syn.: 0.6314	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 0.901, Iterations = 43
+Final: Peak gain = 0.901, Iterations = 53
+Final: Peak gain = 0.901, Iterations = 59
+Final: Peak gain = 1.96, Iterations = 55
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.901, Iterations = 71
+Final: Peak gain = 0.901, Iterations = 94
+Final: Peak gain = 1.96, Iterations = 43
+Final: Peak gain = 0.901, Iterations = 34
+Final: Peak gain = 0.901, Iterations = 49
+Final: Peak gain = 0.911, Iterations = 132
+Final: Peak gain = 0.907, Iterations = 151
+
+2. wcg. syn.: 0.9009	 wcg. anal.: [1.0515, 1.0536]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 2.04, Iterations = 34
+Final: Peak gain = 0.956, Iterations = 43
+Final: Peak gain = 2.04, Iterations = 36
+Final: Peak gain = 0.956, Iterations = 40
+Final: Peak gain = 2.04, Iterations = 37
+Final: Peak gain = 2.04, Iterations = 38
+Final: Peak gain = 0.956, Iterations = 25
+Final: Peak gain = 0.956, Iterations = 46
+Final: Peak gain = 0.956, Iterations = 89
+Final: Peak gain = 0.956, Iterations = 68
+Final: Peak gain = 0.956, Iterations = 150
+
+3. wcg. syn.: 0.9564	 wcg. anal.: [1.0714, 1.0733]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 0.996, Iterations = 38
+Final: Peak gain = 2.22, Iterations = 37
+Final: Peak gain = 2.22, Iterations = 31
+Final: Peak gain = 0.996, Iterations = 57
+Final: Peak gain = 0.996, Iterations = 63
+Final: Peak gain = 0.996, Iterations = 64
+Final: Peak gain = 0.996, Iterations = 58
+Final: Peak gain = 2.22, Iterations = 33
+Final: Peak gain = 2.22, Iterations = 55
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.996, Iterations = 24
+Final: Peak gain = 0.996, Iterations = 87
+
+4. wcg. syn.: 0.9961	 wcg. anal.: [0.9961, 0.9981]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 2.22, Iterations = 34
+Final: Peak gain = 2.22, Iterations = 31
+Final: Peak gain = 2.22, Iterations = 38
+Final: Peak gain = 0.996, Iterations = 43
+Final: Peak gain = 2.22, Iterations = 35
+Final: Peak gain = 0.996, Iterations = 59
+Final: Peak gain = 2.22, Iterations = 46
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.996, Iterations = 20
+Final: Peak gain = 2.22, Iterations = 56
+Final: Peak gain = 0.996, Iterations = 48
+Final: Peak gain = 2.22, Iterations = 38
+
+5. wcg. syn.: 0.9961	 wcg. anal.: [0.9961, 0.9981]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 9 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 2.71, Iterations = 70
+Final: Peak gain = 2.01, Iterations = 105
+Final: Peak gain = 2.02, Iterations = 186
+Final: Peak gain = 2.52, Iterations = 152
+Final: Peak gain = 1.71, Iterations = 211
+Final: Peak gain = 1.71, Iterations = 209
+Final: Peak gain = 1.74, Iterations = 215
+Final: Peak gain = 1.72, Iterations = 304
+Final: Peak gain = 1.71, Iterations = 176
+Final: Peak gain = 1.71, Iterations = 214
+Final: Peak gain = 1.73, Iterations = 157
+
+1. wcg. syn.: 1.7067	 wcg. anal.: [2.3008, 6.8197]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 2.89, Iterations = 89
+Final: Peak gain = 1.87, Iterations = 164
+Final: Peak gain = 1.87, Iterations = 192
+Final: Peak gain = 1.87, Iterations = 185
+Final: Peak gain = 1.86, Iterations = 246
+Final: Peak gain = 1.87, Iterations = 229
+Final: Peak gain = 1.85, Iterations = 55
+Final: Peak gain = 1.86, Iterations = 301
+Final: Peak gain = 1.85, Iterations = 301
+Final: Peak gain = 1.86, Iterations = 276
+Final: Peak gain = 1.91, Iterations = 300
+
+2. wcg. syn.: 1.8524	 wcg. anal.: [2.4609, 5.2875]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 2.88, Iterations = 57
+Final: Peak gain = 2.88, Iterations = 86
+Final: Peak gain = 2.86, Iterations = 110
+Final: Peak gain = 2.87, Iterations = 65
+Final: Peak gain = 1.95, Iterations = 108
+Final: Peak gain = 1.95, Iterations = 202
+Final: Peak gain = 1.95, Iterations = 260
+Final: Peak gain = 2.55, Iterations = 300
+Final: Peak gain = 1.95, Iterations = 266
+Final: Peak gain = 1.96, Iterations = 233
+Final: Peak gain = 1.99, Iterations = 303
+
+3. wcg. syn.: 1.9499	 wcg. anal.: [2.1799, 5.8448]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 2.87, Iterations = 107
+Final: Peak gain = 2.03, Iterations = 172
+Final: Peak gain = 2.03, Iterations = 173
+Final: Peak gain = 2.03, Iterations = 207
+Final: Peak gain = 2.02, Iterations = 202
+Final: Peak gain = 2.02, Iterations = 249
+Final: Peak gain = 2.02, Iterations = 56
+Final: Peak gain = 2.04, Iterations = 263
+Final: Peak gain = 2.05, Iterations = 220
+Final: Peak gain = 2.1, Iterations = 300
+Final: Peak gain = 2.04, Iterations = 300
+
+4. wcg. syn.: 2.0168	 wcg. anal.: [2.0189, 6.4667]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 2. wcg. anal: 5.2875
+
+
+## Test case with example no. 10 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 0.953, Iterations = 48
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.974, Iterations = 51
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.961, Iterations = 41
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.972, Iterations = 69
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.787, Iterations = 62
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.933, Iterations = 79
+Final: Peak gain = 3.02, Iterations = 64
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.964, Iterations = 74
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.764, Iterations = 104
+Final: Peak gain = 0.967, Iterations = 47
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.968, Iterations = 52
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+
+1. wcg. syn.: 0.7643	 wcg. anal.: [0.9630, 0.9643]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 1.04, Iterations = 40
+Final: Peak gain = 1.03, Iterations = 54
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 1.03, Iterations = 40
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 1.06, Iterations = 43
+Final: Peak gain = 0.776, Iterations = 82
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.776, Iterations = 104
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.78, Iterations = 33
+Final: Peak gain = 0.791, Iterations = 80
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 1.04, Iterations = 57
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.776, Iterations = 76
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.776, Iterations = 106
+
+2. wcg. syn.: 0.7760	 wcg. anal.: [0.7761, 0.7878]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 0.776, Iterations = 64
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 1.04, Iterations = 55
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.784, Iterations = 74
+Final: Peak gain = 1.04, Iterations = 57
+Final: Peak gain = 0.969, Iterations = 77
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.776, Iterations = 20
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.776, Iterations = 88
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Peak gain = 0.776, Iterations = 89
+Final: Peak gain = 0.98, Iterations = 142
+Final: Peak gain = 1.03, Iterations = 75
+Final: Peak gain = 0.776, Iterations = 126
+
+3. wcg. syn.: 0.7761	 wcg. anal.: [0.7761, 0.7824]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 11 ############################
+inital wcg. anal.: [45.4545, 45.5464]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 21
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 25
+
+1. wcg. syn.: 45.4532	 wcg. anal.: [45.4537, 45.5471]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Peak gain = 45.5, Iterations = 22
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 21
+Final: Peak gain = 45.5, Iterations = 20
+Final: Peak gain = 45.5, Iterations = 20
+
+2. wcg. syn.: 45.4537	 wcg. anal.: [45.4537, 45.5466]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 0. wcg. anal: 45.5464
+
+
+## Test case with example no. 12 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 0.634, Hard = 0.99515, Iterations = 254
+Final: Soft = 0.415, Hard = 0.99997, Iterations = 268
+Final: Soft = 0.415, Hard = 0.99999, Iterations = 289
+Final: Soft = 0.653, Hard = 0.99817, Iterations = 304
+Final: Soft = 0.417, Hard = 0.99992, Iterations = 366
+Final: Soft = 0.416, Hard = 0.99985, Iterations = 324
+Final: Soft = 0.665, Hard = 0.99778, Iterations = 309
+Final: Soft = 0.416, Hard = 0.99981, Iterations = 328
+Final: Soft = 0.416, Hard = 0.99976, Iterations = 258
+Final: Soft = 0.416, Hard = 0.99997, Iterations = 290
+Final: Soft = 0.763, Hard = 0.97423, Iterations = 338
+
+1. wcg. syn.: 0.1725	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.33)
+Final: Failed to enforce closed-loop stability (max Re(s) = 2.2e-12)
+Final: Failed to enforce closed-loop stability (max Re(s) = -2.6e-15)
+Final: Soft = 0.588, Hard = 0.99994, Iterations = 140
+Final: Soft = 0.587, Hard = 0.99995, Iterations = 240
+Final: Soft = 0.587, Hard = 0.99996, Iterations = 253
+Final: Soft = 0.589, Hard = 0.99987, Iterations = 301
+Final: Soft = 0.589, Hard = 0.99993, Iterations = 283
+Final: Soft = 0.589, Hard = 0.99994, Iterations = 346
+Final: Soft = 0.589, Hard = 0.99983, Iterations = 349
+Final: Soft = 1.68, Hard = 0.97341, Iterations = 298
+
+2. wcg. syn.: 0.3445	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.13)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.29)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.53)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.027)
+Final: Soft = 0.662, Hard = 0.99984, Iterations = 143
+Final: Soft = 0.663, Hard = 0.99972, Iterations = 307
+Final: Soft = 0.903, Hard = 0.996, Iterations = 266
+Final: Soft = 0.663, Hard = 0.99995, Iterations = 373
+Final: Soft = 1.88, Hard = 0.95354, Iterations = 170
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 3.32, Hard = 0.99686, Iterations = 346
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.662, Hard = 0.99997, Iterations = 595
+
+3. wcg. syn.: 0.4380	 wcg. anal.: [3.6317, 3.6397]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.52)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.46)
+Final: Failed to enforce closed-loop stability (max Re(s) = -8.8e-15)
+Final: Soft = 0.358, Hard = 0.99993, Iterations = 183
+Final: Soft = 0.624, Hard = 0.99864, Iterations = 320
+Final: Soft = 0.358, Hard = 0.99995, Iterations = 332
+Final: Soft = 0.359, Hard = 0.99912, Iterations = 391
+Final: Soft = 0.362, Hard = 0.99976, Iterations = 280
+Final: Soft = 0.663, Hard = 0.9962, Iterations = 271
+Final: Soft = 0.36, Hard = 0.99971, Iterations = 382
+Final: Soft = 1, Hard = 0.99915, Iterations = 670
+
+4. wcg. syn.: 0.4665	 wcg. anal.: [0.5952, 0.5966]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 0.988, Hard = 0.99845, Iterations = 222
+Final: Soft = 0.918, Hard = 0.99988, Iterations = 326
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.92)
+Final: Soft = 0.921, Hard = 0.99986, Iterations = 377
+Final: Soft = 0.918, Hard = 0.99999, Iterations = 347
+Final: Soft = 0.93, Hard = 0.99986, Iterations = 488
+Final: Soft = 0.918, Hard = 0.99994, Iterations = 170
+Final: Soft = 0.924, Hard = 0.99964, Iterations = 490
+Final: Soft = 0.918, Hard = 0.99984, Iterations = 510
+Final: Soft = 0.924, Hard = 0.99998, Iterations = 344
+Final: Soft = 1.54, Hard = 0.99934, Iterations = 346
+
+5. wcg. syn.: 0.5024	 wcg. anal.: [0.5022, 0.5033]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 16.6, Hard = 2.8988e+09, Iterations = 35
+Final: Soft = 0.998, Hard = 0.99987, Iterations = 200
+Final: Soft = 0.999, Hard = 0.99994, Iterations = 228
+Final: Soft = 0.998, Hard = 0.99997, Iterations = 221
+Final: Soft = 1, Hard = 0.99978, Iterations = 237
+Final: Soft = 1, Hard = 0.99986, Iterations = 361
+Final: Soft = 1.01, Hard = 0.99988, Iterations = 423
+Final: Soft = 1.73, Hard = 0.99817, Iterations = 361
+Final: Soft = 1, Hard = 0.99974, Iterations = 295
+Final: Soft = 1.74, Hard = 0.99974, Iterations = 533
+Final: Soft = 2.07, Hard = 0.99557, Iterations = 335
+
+6. wcg. syn.: 0.5016	 wcg. anal.: [0.5015, 0.5025]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 13 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 0.868, Hard = 0.99888, Iterations = 144
+Final: Soft = 0.868, Hard = 0.99867, Iterations = 161
+Final: Soft = 0.868, Hard = 0.99988, Iterations = 150
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.868, Hard = 0.99983, Iterations = 193
+Final: Soft = 0.868, Hard = 0.99926, Iterations = 156
+Final: Soft = 0.868, Hard = 0.99997, Iterations = 194
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.868, Hard = 0.99857, Iterations = 195
+Final: Soft = 0.868, Hard = 0.99966, Iterations = 255
+Final: Soft = 0.868, Hard = 0.99992, Iterations = 168
+Final: Soft = 0.868, Hard = 0.99966, Iterations = 166
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.868, Hard = 0.99994, Iterations = 210
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+
+1. wcg. syn.: 0.7530	 wcg. anal.: [0.9931, 0.9946]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 0.999, Hard = 0.99962, Iterations = 162
+Final: Soft = 1, Hard = 0.9989, Iterations = 172
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1, Hard = 0.99916, Iterations = 184
+Final: Soft = 1, Hard = 0.99866, Iterations = 190
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.999, Hard = 0.99995, Iterations = 210
+Final: Soft = 1, Hard = 0.99893, Iterations = 179
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.999, Hard = 0.99977, Iterations = 209
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1, Hard = 0.99846, Iterations = 181
+Final: Soft = 1, Hard = 0.99786, Iterations = 283
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 116, Hard = 0.99877, Iterations = 361
+Final: Soft = 1.01, Hard = 0.98589, Iterations = 351
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+
+2. wcg. syn.: 0.9931	 wcg. anal.: [0.9931, 0.9951]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 1. wcg. anal: 0.9946
+
+
+## Test case with example no. 14 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.94)
+Final: Failed to enforce closed-loop stability (max Re(s) = -2.8e-16)
+Final: Soft = 1, Hard = 0.99994, Iterations = 135
+Final: Soft = 1, Hard = 0.99998, Iterations = 131
+Final: Soft = 1, Hard = 0.9996, Iterations = 90
+Final: Soft = 1, Hard = 0.99918, Iterations = 162
+Final: Soft = 1, Hard = 0.99855, Iterations = 163
+Final: Soft = 1, Hard = 0.99936, Iterations = 170
+Final: Soft = 1, Hard = 0.99984, Iterations = 166
+Final: Soft = 1, Hard = 0.99965, Iterations = 212
+Final: Soft = 1, Hard = 0.99997, Iterations = 145
+
+1. wcg. syn.: 1.0009	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 3.4)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.79)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.088)
+Final: Soft = 1, Hard = 0.99883, Iterations = 125
+Final: Soft = 1, Hard = 0.99963, Iterations = 140
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1, Hard = 0.99999, Iterations = 138
+Final: Soft = 1, Hard = 0.99964, Iterations = 154
+Final: Soft = 1, Hard = 0.99986, Iterations = 182
+Final: Soft = 1, Hard = 0.99993, Iterations = 196
+Final: Soft = 1, Hard = 0.99917, Iterations = 159
+Final: Soft = 1, Hard = 0.99992, Iterations = 155
+
+2. wcg. syn.: 1.0007	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.14)
+Final: Failed to enforce closed-loop stability (max Re(s) = 5.7)
+Final: Soft = 1, Hard = 0.99998, Iterations = 130
+Final: Soft = 1, Hard = 0.99889, Iterations = 128
+Final: Soft = 1, Hard = 0.99959, Iterations = 171
+Final: Soft = 1, Hard = 0.99994, Iterations = 155
+Final: Soft = 1, Hard = 0.99992, Iterations = 126
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1, Hard = 0.9997, Iterations = 157
+Final: Failed to enforce closed-loop stability (max Re(s) = -1e-07)
+Final: Soft = 1, Hard = 0.99979, Iterations = 81
+Final: Soft = 1, Hard = 0.99969, Iterations = 208
+
+3. wcg. syn.: 1.0005	 wcg. anal.: [1.0005, 1.0025]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 1.4e-14)
+Final: Soft = 1, Hard = 0.99965, Iterations = 120
+Final: Soft = 0.999, Hard = 0.99984, Iterations = 133
+Final: Soft = 1, Hard = 0.99992, Iterations = 171
+Final: Soft = 0.999, Hard = 0.99954, Iterations = 141
+Final: Soft = 0.999, Hard = 0.99997, Iterations = 168
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1, Hard = 0.9999, Iterations = 148
+Final: Soft = 1, Hard = 0.99921, Iterations = 135
+Final: Soft = 1, Hard = 0.99992, Iterations = 158
+Final: Soft = 1, Hard = 0.99969, Iterations = 179
+Final: Soft = 1, Hard = 0.99845, Iterations = 198
+
+4. wcg. syn.: 1.0005	 wcg. anal.: [1.0005, 1.0025]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 15 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 6.86, Hard = 3.1685, Iterations = 100
+Final: Soft = 0.886, Hard = 0.99935, Iterations = 238
+Final: Soft = 0.883, Hard = 0.99971, Iterations = 267
+Final: Soft = 5.73, Hard = 160.39, Iterations = 12
+Final: Soft = 0.884, Hard = 0.99919, Iterations = 299
+Final: Soft = 0.883, Hard = 0.99995, Iterations = 289
+Final: Soft = 0.885, Hard = 0.9999, Iterations = 335
+Final: Soft = 0.881, Hard = 0.99966, Iterations = 291
+Final: Soft = 0.878, Hard = 0.99963, Iterations = 369
+Final: Soft = 0.883, Hard = 0.99988, Iterations = 393
+Final: Soft = 0.907, Hard = 0.99972, Iterations = 490
+
+1. wcg. syn.: 0.7702	 wcg. anal.: [4.3648, 4.3732]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 7.33, Hard = 3.9417, Iterations = 81
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 2.53, Hard = 0.89061, Iterations = 143
+Final: Soft = 0.485, Hard = 0.99901, Iterations = 251
+Final: Soft = 0.477, Hard = 0.99937, Iterations = 283
+Final: Soft = 0.479, Hard = 0.99905, Iterations = 299
+Final: Soft = 0.477, Hard = 0.99964, Iterations = 349
+Final: Soft = 7.64, Hard = 0.76532, Iterations = 171
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.48, Hard = 0.99992, Iterations = 404
+Final: Soft = 0.48, Hard = 0.99985, Iterations = 244
+Final: Soft = 2.15, Hard = 0.98346, Iterations = 211
+Final: Soft = 0.477, Hard = 0.99995, Iterations = 393
+
+2. wcg. syn.: 0.9943	 wcg. anal.: [1.2862, 1.2888]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 2.1)
+Final: Soft = 0.882, Hard = 0.99973, Iterations = 295
+Final: Soft = 0.881, Hard = 0.99992, Iterations = 317
+Final: Soft = 0.925, Hard = 0.99985, Iterations = 343
+Final: Soft = 7.08, Hard = 64.042, Iterations = 75
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.882, Hard = 0.99975, Iterations = 435
+Final: Soft = 2.67, Hard = 0.92306, Iterations = 255
+Final: Soft = 0.887, Hard = 0.99916, Iterations = 202
+Final: Soft = 0.883, Hard = 0.99976, Iterations = 507
+Final: Soft = 9.24, Hard = 37610, Iterations = 46
+Final: Soft = 0.909, Hard = 0.96098, Iterations = 522
+
+3. wcg. syn.: 1.0012	 wcg. anal.: [1.0011, 1.0035]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.00049)
+Final: Soft = 11.2, Hard = 1.1119, Iterations = 88
+Final: Soft = 5.63, Hard = 0.79186, Iterations = 127
+Final: Soft = 1.78, Hard = 0.94372, Iterations = 153
+Final: Soft = 16.5, Hard = 8.0796, Iterations = 94
+Final: Soft = 1, Hard = 0.99977, Iterations = 396
+Final: Soft = 4.69, Hard = 0.94526, Iterations = 264
+Final: Soft = 0.999, Hard = 0.99977, Iterations = 237
+Final: Soft = 1, Hard = 0.99994, Iterations = 443
+Final: Soft = 3.85, Hard = 0.92106, Iterations = 287
+Final: Soft = 6.99, Hard = 0.94769, Iterations = 221
+
+4. wcg. syn.: 1.0011	 wcg. anal.: [1.0008, 1.0032]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 16 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 7.8)
+Final: Failed to enforce closed-loop stability (max Re(s) = 3.3)
+Final: Soft = 1.91, Hard = 68625, Iterations = 28
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 16.1, Hard = 624.92, Iterations = 102
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 26.2, Hard = 2.6363, Iterations = 255
+Final: Soft = 16.2, Hard = 973.11, Iterations = 108
+Final: Soft = 0.915, Hard = 0.99984, Iterations = 362
+Final: Soft = 1.04, Hard = 0.99678, Iterations = 481
+Final: Soft = 0.917, Hard = 0.99956, Iterations = 719
+Final: Soft = 1.06, Hard = 0.9997, Iterations = 889
+Final: Soft = 1.01, Hard = 0.99572, Iterations = 1503
+
+1. wcg. syn.: 0.8365	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 2.1)
+Final: Soft = 7.15, Hard = 2343.2, Iterations = 49
+Final: Soft = 1.54, Hard = 7.7436e+06, Iterations = 20
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 38.4, Hard = 207.94, Iterations = 113
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.94, Hard = 0.99986, Iterations = 299
+Final: Soft = 0.995, Hard = 0.99978, Iterations = 669
+Final: Soft = 0.943, Hard = 0.99998, Iterations = 646
+Final: Soft = 0.957, Hard = 0.99951, Iterations = 596
+Final: Soft = 0.95, Hard = 0.99821, Iterations = 607
+Final: Soft = 1.08, Hard = 0.99898, Iterations = 682
+Final: Soft = 0.995, Hard = 0.99939, Iterations = 708
+
+2. wcg. syn.: 0.8834	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 2.03, Hard = 1.5512e+05, Iterations = 41
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 3.3, Hard = 10914, Iterations = 30
+Final: Soft = 1.93, Hard = 51507, Iterations = 33
+Final: Failed to enforce closed-loop stability (max Re(s) = 2.7)
+Final: Soft = 96.3, Hard = 9.6668, Iterations = 134
+Final: Soft = 10.9, Hard = 17.033, Iterations = 107
+Final: Soft = 67.1, Hard = 6.7952, Iterations = 175
+Final: Soft = 0.973, Hard = 0.99965, Iterations = 171
+Final: Soft = 1.81, Hard = 0.93837, Iterations = 219
+Final: Soft = 27.2, Hard = 1.3698, Iterations = 386
+Final: Soft = 1.09, Hard = 0.99898, Iterations = 471
+
+3. wcg. syn.: 0.9475	 wcg. anal.: [4.8996, 4.9093]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.38)
+Final: Soft = 35.2, Hard = 3.5575, Iterations = 151
+Final: Soft = 10.8, Hard = 1.088, Iterations = 260
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 7.23, Hard = 642.55, Iterations = 63
+Final: Soft = 0.465, Hard = 0.99969, Iterations = 475
+Final: Soft = 0.46, Hard = 0.99929, Iterations = 267
+Final: Soft = 0.458, Hard = 0.99995, Iterations = 558
+Final: Soft = 17.5, Hard = 0.87769, Iterations = 724
+Final: Soft = 8.91, Hard = 0.91457, Iterations = 747
+Final: Soft = 0.671, Hard = 0.99833, Iterations = 298
+Final: Soft = 0.491, Hard = 1, Iterations = 612
+
+4. wcg. syn.: 1.0286	 wcg. anal.: [2.8935, 2.9114]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 2.23, Hard = 17684, Iterations = 47
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.37)
+Final: Soft = 0.953, Hard = 58136, Iterations = 60
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 72.2, Hard = 7.2446, Iterations = 138
+Final: Soft = 52.8, Hard = 5.3959, Iterations = 176
+Final: Soft = 86.7, Hard = 8.69, Iterations = 270
+Final: Soft = 0.645, Hard = 0.99987, Iterations = 251
+Final: Soft = 0.648, Hard = 0.9998, Iterations = 605
+Final: Soft = 0.645, Hard = 0.99945, Iterations = 679
+Final: Soft = 0.685, Hard = 0.9999, Iterations = 664
+Final: Soft = 0.692, Hard = 0.98314, Iterations = 1027
+
+5. wcg. syn.: 1.2116	 wcg. anal.: [2.5207, 2.5375]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 2.55, Hard = 19474, Iterations = 92
+Final: Soft = 1.49, Hard = 31706, Iterations = 43
+Final: Failed to enforce closed-loop stability (max Re(s) = 1.3)
+Final: Soft = 72.3, Hard = 7.2382, Iterations = 210
+Final: Soft = 23, Hard = 2.3803, Iterations = 279
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 64, Hard = 3.2058, Iterations = 501
+Final: Soft = 0.708, Hard = 0.9998, Iterations = 243
+Final: Soft = 0.685, Hard = 0.99985, Iterations = 535
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.717, Hard = 0.99951, Iterations = 632
+Final: Soft = 0.719, Hard = 0.99972, Iterations = 684
+Final: Soft = 0.756, Hard = 0.99903, Iterations = 374
+
+6. wcg. syn.: 1.1905	 wcg. anal.: [1.9897, 1.9942]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 2.2e-05)
+Final: Soft = 1.17, Hard = 1.0186e+05, Iterations = 14
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.24)
+Final: Soft = 2.13, Hard = 27318, Iterations = 47
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 75, Hard = 7.6283, Iterations = 209
+Final: Soft = 0.776, Hard = 0.99933, Iterations = 199
+Final: Soft = 0.835, Hard = 0.99968, Iterations = 288
+Final: Soft = 0.913, Hard = 0.99983, Iterations = 436
+Final: Soft = 0.828, Hard = 0.99914, Iterations = 501
+Final: Soft = 0.835, Hard = 0.99945, Iterations = 600
+Final: Soft = 0.822, Hard = 0.99916, Iterations = 693
+
+7. wcg. syn.: 1.2005	 wcg. anal.: [1.6284, 1.6315]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.16)
+Final: Soft = 8.61, Hard = 37218, Iterations = 76
+Final: Soft = 5.74, Hard = 3096.7, Iterations = 69
+Final: Soft = 24.2, Hard = 285.74, Iterations = 104
+Final: Soft = 21.5, Hard = 508.49, Iterations = 125
+Final: Soft = 0.888, Hard = 0.99945, Iterations = 470
+Final: Soft = 0.886, Hard = 0.99944, Iterations = 261
+Final: Soft = 0.926, Hard = 0.99981, Iterations = 438
+Final: Soft = 76.6, Hard = 7.8322, Iterations = 181
+Final: Soft = 105, Hard = 10.525, Iterations = 204
+Final: Soft = 0.881, Hard = 0.99931, Iterations = 564
+
+8. wcg. syn.: 1.2671	 wcg. anal.: [1.6420, 1.6455]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 4)
+Final: Failed to enforce closed-loop stability (max Re(s) = 3.4)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.2)
+Final: Failed to enforce closed-loop stability (max Re(s) = 4.4)
+Final: Soft = 2.75, Hard = 4799, Iterations = 75
+Final: Soft = 100, Hard = 10.058, Iterations = 168
+Final: Soft = 0.883, Hard = 0.99882, Iterations = 189
+Final: Soft = 100, Hard = 9.416, Iterations = 211
+Final: Soft = 121, Hard = 3.0373, Iterations = 455
+Final: Soft = 75.7, Hard = 7.5464, Iterations = 270
+Final: Soft = 0.929, Hard = 0.99921, Iterations = 467
+
+9. wcg. syn.: 1.2836	 wcg. anal.: [1.4146, 1.4262]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 2.9)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.017)
+Final: Failed to enforce closed-loop stability (max Re(s) = 13)
+Final: Soft = 9.55, Hard = 2258.3, Iterations = 28
+Final: Soft = 2.83, Hard = 27081, Iterations = 35
+Final: Soft = 2.79, Hard = 11737, Iterations = 89
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 98.3, Hard = 9.8574, Iterations = 184
+Final: Soft = 0.951, Hard = 0.99809, Iterations = 239
+Final: Soft = 0.951, Hard = 0.99938, Iterations = 500
+Final: Soft = 29.3, Hard = 0.99565, Iterations = 777
+Final: Soft = 3.84, Hard = 0.99998, Iterations = 391
+
+10. wcg. syn.: 1.2897	 wcg. anal.: [1.5167, 1.5207]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.21)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.046)
+Final: Failed to enforce closed-loop stability (max Re(s) = 6.6)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.35)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.47)
+Final: Soft = 18.7, Hard = 394.85, Iterations = 87
+Final: Soft = 1.29, Hard = 1.6535e+05, Iterations = 63
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.92, Hard = 0.99979, Iterations = 327
+Final: Soft = 0.923, Hard = 0.99944, Iterations = 551
+Final: Soft = 1.02, Hard = 0.99945, Iterations = 680
+Final: Soft = 0.99, Hard = 0.99997, Iterations = 690
+
+11. wcg. syn.: 1.2863	 wcg. anal.: [1.4000, 1.4257]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 2.4)
+Final: Soft = 2.69, Hard = 19934, Iterations = 38
+Final: Soft = 5.27, Hard = 7.8213, Iterations = 91
+Final: Soft = 3.82, Hard = 9170.2, Iterations = 103
+Final: Soft = 134, Hard = 6.6824, Iterations = 237
+Final: Soft = 0.951, Hard = 0.9994, Iterations = 502
+Final: Soft = 0.951, Hard = 0.99977, Iterations = 264
+Final: Soft = 13.6, Hard = 1.3584, Iterations = 305
+Final: Soft = 1.03, Hard = 0.99951, Iterations = 680
+Final: Soft = 1.14, Hard = 0.99953, Iterations = 910
+Final: Soft = 1.04, Hard = 0.99625, Iterations = 630
+
+12. wcg. syn.: 1.2905	 wcg. anal.: [1.3360, 1.3616]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.11)
+Final: Soft = 7.95, Hard = 236.99, Iterations = 92
+Final: Soft = 119, Hard = 12.113, Iterations = 143
+Final: Soft = 0.975, Hard = 0.99975, Iterations = 263
+Final: Soft = 1.05, Hard = 0.99977, Iterations = 528
+Final: Soft = 1.09, Hard = 0.99983, Iterations = 451
+Final: Soft = 1.05, Hard = 0.99693, Iterations = 713
+Final: Soft = 1.04, Hard = 0.99851, Iterations = 724
+Final: Soft = 0.979, Hard = 0.99985, Iterations = 650
+Final: Soft = 24.9, Hard = 1.2507, Iterations = 442
+Final: Soft = 1.09, Hard = 0.99912, Iterations = 861
+
+13. wcg. syn.: 1.2931	 wcg. anal.: [1.3266, 1.3367]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 5.7)
+Final: Soft = 4.25, Hard = 11836, Iterations = 25
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 7.39, Hard = 2863, Iterations = 34
+Final: Soft = 5.59, Hard = 5952.4, Iterations = 48
+Final: Soft = 9.01, Hard = 2174, Iterations = 101
+Final: Soft = 0.986, Hard = 0.99936, Iterations = 234
+Final: Soft = 139, Hard = 8.6892, Iterations = 247
+Final: Soft = 3.24, Hard = 0.99673, Iterations = 335
+Final: Soft = 91.7, Hard = 9.1643, Iterations = 340
+Final: Soft = 1.07, Hard = 0.99898, Iterations = 481
+Final: Soft = 1.26, Hard = 0.959, Iterations = 497
+
+14. wcg. syn.: 1.2982	 wcg. anal.: [1.3172, 1.3436]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 2.98, Hard = 19495, Iterations = 42
+Final: Soft = 2.21, Hard = 8.1042e+05, Iterations = 44
+Final: Soft = 61, Hard = 6.1266, Iterations = 275
+Final: Soft = 1.06, Hard = 0.99982, Iterations = 495
+Final: Soft = 1.11, Hard = 0.99942, Iterations = 460
+Final: Soft = 0.983, Hard = 0.9988, Iterations = 268
+Final: Soft = 1.06, Hard = 0.99968, Iterations = 599
+Final: Soft = 10.2, Hard = 1.021, Iterations = 233
+Final: Soft = 1.11, Hard = 0.99991, Iterations = 523
+Final: Soft = 0.989, Hard = 0.99961, Iterations = 687
+Final: Soft = 1.1, Hard = 0.99794, Iterations = 765
+
+15. wcg. syn.: 1.2994	 wcg. anal.: [1.3181, 1.3439]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 13. wcg. anal: 1.3367
+
+
+## Test case with example no. 17 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.35)
+Final: Soft = 7.84, Hard = 1.609, Iterations = 46
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 2.68, Hard = 31.11, Iterations = 23
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 5.63, Hard = 19.382, Iterations = 49
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 12.2, Hard = 0.66784, Iterations = 63
+Final: Soft = 5.27, Hard = 8.5036, Iterations = 116
+Final: Soft = 2.88, Hard = 1, Iterations = 442
+Final: Soft = 2.84, Hard = 0.99964, Iterations = 275
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 3, Hard = 0.99944, Iterations = 312
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 2.86, Hard = 0.99952, Iterations = 354
+Final: Soft = 3.08, Hard = 0.99963, Iterations = 388
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+
+1. wcg. syn.: 8.0832	 wcg. anal.: [156.6798, 157.0500]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.3)
+Final: Failed to enforce closed-loop stability (max Re(s) = 7.6e-11)
+Final: Failed to enforce closed-loop stability (max Re(s) = 1.2)
+Final: Soft = 0.33, Hard = 0.98693, Iterations = 72
+Final: Soft = 0.297, Hard = 0.95395, Iterations = 168
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.231, Hard = 0.99948, Iterations = 300
+Final: Soft = 1.25, Hard = 0.78667, Iterations = 181
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.23, Hard = 0.99579, Iterations = 197
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.251, Hard = 0.99593, Iterations = 246
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.24, Hard = 0.99998, Iterations = 265
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Failed to enforce closed-loop stability (max Re(s) = -1e-07)
+
+2. wcg. syn.: 8.3210	 wcg. anal.: [859.0088, 860.8977]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.052)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.28)
+Final: Soft = 0.579, Hard = 1.3504, Iterations = 51
+Final: Soft = 0.508, Hard = 31.709, Iterations = 70
+Final: Soft = 0.924, Hard = 2.2592, Iterations = 99
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.118, Hard = 0.99775, Iterations = 108
+Final: Soft = 0.123, Hard = 16.407, Iterations = 82
+Final: Soft = 0.125, Hard = 0.93601, Iterations = 230
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.124, Hard = 0.99477, Iterations = 318
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.0994, Hard = 0.99882, Iterations = 274
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.107, Hard = 0.99383, Iterations = 278
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+
+3. wcg. syn.: 8.5088	 wcg. anal.: [8.4958, 8.5142]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 1.7)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.0004)
+Final: Soft = 1.86, Hard = 1.1285, Iterations = 43
+Final: Soft = 1.54, Hard = 0.96318, Iterations = 116
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1.32, Hard = 19.888, Iterations = 60
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1, Hard = 0.99986, Iterations = 254
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1.04, Hard = 0.99999, Iterations = 258
+Final: Soft = 0.999, Hard = 0.99986, Iterations = 195
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1.01, Hard = 0.99938, Iterations = 304
+Final: Soft = 1.09, Hard = 0.99969, Iterations = 273
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1, Hard = 0.99961, Iterations = 279
+
+4. wcg. syn.: 8.4918	 wcg. anal.: [8.4902, 8.5120]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 18 ############################
+inital wcg. anal.: [9179.1373, 9343.6357]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 6.5e-08)
+Final: Soft = 0.0199, Hard = 0.99997, Iterations = 196
+Final: Soft = 0.0208, Hard = 0.99955, Iterations = 187
+Final: Soft = 0.0195, Hard = 0.99993, Iterations = 329
+Final: Soft = 0.0243, Hard = 7.6813, Iterations = 61
+Final: Soft = 0.02, Hard = 0.99887, Iterations = 249
+Final: Soft = 0.0203, Hard = 0.99924, Iterations = 236
+Final: Soft = 0.0201, Hard = 0.99953, Iterations = 322
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.0196, Hard = 0.9984, Iterations = 380
+Final: Soft = 0.0198, Hard = 0.99786, Iterations = 247
+Final: Soft = 0.0242, Hard = 0.99191, Iterations = 292
+
+1. wcg. syn.: 3.5469	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 4.17, Hard = 1.3284, Iterations = 35
+Final: Soft = 2.98, Hard = 0.76928, Iterations = 152
+Final: Soft = 2.05, Hard = 0.98513, Iterations = 185
+Final: Soft = 4.33, Hard = 1.2328, Iterations = 24
+Final: Soft = 2.06, Hard = 0.99862, Iterations = 330
+Final: Soft = 2.2, Hard = 0.99328, Iterations = 222
+Final: Soft = 2.01, Hard = 0.99979, Iterations = 352
+Final: Soft = 2.26, Hard = 0.9983, Iterations = 182
+Final: Soft = 2.18, Hard = 0.99124, Iterations = 233
+Final: Soft = 2.09, Hard = 0.9898, Iterations = 250
+Final: Soft = 2.1, Hard = 0.99171, Iterations = 366
+
+2. wcg. syn.: 4.0351	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 1.9e-07)
+Final: Soft = 2.07, Hard = 0.99993, Iterations = 262
+Final: Soft = 2.15, Hard = 0.99988, Iterations = 236
+Final: Soft = 6.75, Hard = 0.7982, Iterations = 115
+Final: Soft = 2.19, Hard = 0.98447, Iterations = 236
+Final: Soft = 2.12, Hard = 0.99953, Iterations = 304
+Final: Soft = 2.08, Hard = 0.99421, Iterations = 246
+Final: Soft = 2.24, Hard = 0.99949, Iterations = 204
+Final: Soft = 2.09, Hard = 0.99422, Iterations = 281
+Final: Soft = 2.06, Hard = 0.99975, Iterations = 339
+Final: Soft = 2.35, Hard = 0.9739, Iterations = 160
+
+3. wcg. syn.: 4.2421	 wcg. anal.: [6.8697, 6.8839]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 3.23, Hard = 0.39408, Iterations = 57
+Final: Soft = 0.911, Hard = 0.99965, Iterations = 176
+Final: Soft = 0.912, Hard = 0.99972, Iterations = 174
+Final: Soft = 0.909, Hard = 0.99964, Iterations = 200
+Final: Soft = 0.909, Hard = 0.9997, Iterations = 186
+Final: Soft = 0.871, Hard = 0.99987, Iterations = 252
+Final: Soft = 0.91, Hard = 0.99998, Iterations = 199
+Final: Soft = 0.9, Hard = 0.99953, Iterations = 262
+Final: Soft = 0.868, Hard = 0.99989, Iterations = 234
+Final: Soft = 0.911, Hard = 0.99958, Iterations = 234
+Final: Soft = 3.39, Hard = 0.99846, Iterations = 176
+
+4. wcg. syn.: 5.1876	 wcg. anal.: [6.7000, 6.7157]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 0.971, Hard = 0.99985, Iterations = 133
+Final: Soft = 1.03, Hard = 0.99526, Iterations = 155
+Final: Soft = 0.928, Hard = 0.99998, Iterations = 255
+Final: Soft = 0.974, Hard = 0.9996, Iterations = 229
+Final: Soft = 0.956, Hard = 0.99566, Iterations = 193
+Final: Soft = 0.924, Hard = 0.99582, Iterations = 295
+Final: Soft = 0.972, Hard = 0.99752, Iterations = 512
+Final: Soft = 0.914, Hard = 0.99957, Iterations = 320
+Final: Soft = 0.938, Hard = 0.99968, Iterations = 329
+Final: Soft = 0.976, Hard = 0.99618, Iterations = 200
+Final: Soft = 0.924, Hard = 0.99967, Iterations = 201
+
+5. wcg. syn.: 5.6101	 wcg. anal.: [6.1139, 6.1270]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 1.6)
+Final: Soft = 1.01, Hard = 0.99982, Iterations = 268
+Final: Soft = 1.01, Hard = 0.98245, Iterations = 181
+Final: Soft = 1.02, Hard = 0.99907, Iterations = 211
+Final: Soft = 1.39, Hard = 0.87412, Iterations = 248
+Final: Soft = 1.02, Hard = 0.99956, Iterations = 223
+Final: Soft = 1.05, Hard = 0.99684, Iterations = 153
+Final: Soft = 1.04, Hard = 0.99615, Iterations = 278
+Final: Soft = 1.02, Hard = 0.99535, Iterations = 193
+Final: Soft = 1.13, Hard = 0.98589, Iterations = 180
+Final: Soft = 0.959, Hard = 0.99902, Iterations = 201
+
+6. wcg. syn.: 5.6317	 wcg. anal.: [5.7602, 5.7725]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 2.2e-07)
+Final: Soft = 1.04, Hard = 0.99985, Iterations = 161
+Final: Soft = 1.05, Hard = 0.99998, Iterations = 202
+Final: Soft = 1.05, Hard = 0.99981, Iterations = 236
+Final: Soft = 1.07, Hard = 0.99928, Iterations = 154
+Final: Soft = 1.05, Hard = 0.99983, Iterations = 210
+Final: Soft = 1.05, Hard = 0.99985, Iterations = 220
+Final: Soft = 1.03, Hard = 0.97745, Iterations = 239
+Final: Soft = 1.04, Hard = 0.9998, Iterations = 232
+Final: Soft = 1.05, Hard = 0.99989, Iterations = 319
+Final: Soft = 0.987, Hard = 0.99903, Iterations = 267
+
+7. wcg. syn.: 5.6231	 wcg. anal.: [5.7784, 5.7923]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 1.76, Hard = 0.72892, Iterations = 107
+Final: Soft = 1.04, Hard = 0.99989, Iterations = 231
+Final: Soft = 1.07, Hard = 0.99981, Iterations = 212
+Final: Soft = 1.05, Hard = 0.99924, Iterations = 195
+Final: Soft = 1, Hard = 0.99911, Iterations = 283
+Final: Soft = 1, Hard = 0.99615, Iterations = 126
+Final: Soft = 1.05, Hard = 0.99954, Iterations = 192
+Final: Soft = 1.03, Hard = 0.99968, Iterations = 225
+Final: Soft = 1.01, Hard = 0.99974, Iterations = 304
+Final: Soft = 1.06, Hard = 0.99384, Iterations = 171
+Final: Soft = 1.05, Hard = 0.99993, Iterations = 253
+
+8. wcg. syn.: 5.7880	 wcg. anal.: [5.7808, 5.7929]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 6. wcg. anal: 5.7725
+
+
+## Test case with example no. 19 ############################
+inital wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 162
+Final: Soft = 6.74, Hard = 0.99999, Iterations = 158
+Final: Soft = 6.75, Hard = 0.99879, Iterations = 143
+Final: Soft = 6.74, Hard = 0.99997, Iterations = 158
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 161
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.2)
+Final: Soft = 6.75, Hard = 0.99856, Iterations = 158
+Final: Soft = 6.75, Hard = 0.99877, Iterations = 172
+Final: Soft = 6.74, Hard = 0.99943, Iterations = 154
+Final: Soft = 6.74, Hard = 0.99919, Iterations = 172
+Final: Soft = 6.74, Hard = 0.99997, Iterations = 229
+
+1. wcg. syn.: 45.4552	 wcg. anal.: [45.4547,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 5.19, Hard = 1.7484, Iterations = 45
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 6.74, Hard = 0.99934, Iterations = 156
+Final: Soft = 6.75, Hard = 0.99902, Iterations = 160
+Final: Soft = 6.74, Hard = 0.99915, Iterations = 164
+Final: Soft = 6.75, Hard = 0.99907, Iterations = 172
+Final: Soft = 6.74, Hard = 0.99997, Iterations = 175
+Final: Soft = 6.74, Hard = 0.99981, Iterations = 145
+Final: Soft = 6.74, Hard = 0.99985, Iterations = 216
+Final: Soft = 6.04, Hard = 1.4526, Iterations = 63
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 158
+Final: Soft = 6.55, Hard = 9293.3, Iterations = 73
+
+2. wcg. syn.: 45.4559	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = -1e-08)
+Final: Soft = 6.68, Hard = 14.79, Iterations = 18
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 158
+Final: Soft = 6.75, Hard = 0.99901, Iterations = 155
+Final: Soft = 6.74, Hard = 0.99919, Iterations = 158
+Final: Soft = 6.75, Hard = 0.99878, Iterations = 171
+Final: Soft = 6.74, Hard = 0.99928, Iterations = 183
+Final: Soft = 6.74, Hard = 0.99994, Iterations = 203
+Final: Soft = 6.74, Hard = 0.99919, Iterations = 158
+Final: Soft = 6.75, Hard = 0.99869, Iterations = 227
+Final: Soft = 6.74, Hard = 0.99975, Iterations = 245
+
+3. wcg. syn.: 45.4574	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 6.74, Hard = 1, Iterations = 157
+Final: Soft = 6.74, Hard = 0.99914, Iterations = 152
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 160
+Final: Soft = 6.75, Hard = 0.99902, Iterations = 183
+Final: Soft = 6.75, Hard = 0.99899, Iterations = 155
+Final: Soft = 6.74, Hard = 0.99999, Iterations = 156
+Final: Soft = 6.75, Hard = 0.99914, Iterations = 190
+Final: Soft = 6.74, Hard = 0.99995, Iterations = 176
+Final: Soft = 6.75, Hard = 0.99886, Iterations = 143
+Final: Soft = 6.74, Hard = 0.99917, Iterations = 161
+Final: Soft = 6.74, Hard = 0.99918, Iterations = 170
+
+4. wcg. syn.: 45.4547	 wcg. anal.: [45.4546,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 6.75, Hard = 0.99854, Iterations = 144
+Final: Soft = 6.74, Hard = 0.99988, Iterations = 138
+Final: Soft = 6.75, Hard = 0.99891, Iterations = 155
+Final: Soft = 6.74, Hard = 0.9995, Iterations = 123
+Final: Soft = 6.75, Hard = 0.99869, Iterations = 146
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 157
+Final: Soft = 6.75, Hard = 0.99874, Iterations = 143
+Final: Soft = 6.74, Hard = 0.99983, Iterations = 156
+Final: Soft = 6.75, Hard = 0.99894, Iterations = 157
+Final: Soft = 6.75, Hard = 0.99899, Iterations = 157
+Final: Soft = 6.74, Hard = 0.99978, Iterations = 272
+
+5. wcg. syn.: 45.4599	 wcg. anal.: [45.4546,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 3.87, Hard = 3.9543, Iterations = 27
+Final: Soft = 6.75, Hard = 0.99902, Iterations = 145
+Final: Soft = 6.74, Hard = 0.99916, Iterations = 145
+Final: Soft = 6.75, Hard = 0.99898, Iterations = 155
+Final: Soft = 6.75, Hard = 0.99906, Iterations = 154
+Final: Soft = 6.74, Hard = 0.99997, Iterations = 169
+Final: Soft = 6.75, Hard = 0.99902, Iterations = 156
+Final: Soft = 6.74, Hard = 0.99941, Iterations = 156
+Final: Soft = 6.74, Hard = 0.99963, Iterations = 136
+Final: Soft = 6.75, Hard = 0.99878, Iterations = 156
+Final: Soft = 6.74, Hard = 0.99972, Iterations = 190
+
+6. wcg. syn.: 45.4563	 wcg. anal.: [45.4546,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 9.6)
+Final: Soft = 6.75, Hard = 0.99894, Iterations = 144
+Final: Soft = 6.75, Hard = 0.99901, Iterations = 165
+Final: Soft = 6.75, Hard = 0.99902, Iterations = 159
+Final: Soft = 6.75, Hard = 0.9991, Iterations = 160
+Final: Failed to enforce closed-loop stability (max Re(s) = 6.9e-11)
+Final: Soft = 6.74, Hard = 0.9998, Iterations = 163
+Final: Soft = 6.74, Hard = 0.99986, Iterations = 170
+Final: Soft = 6.74, Hard = 0.99974, Iterations = 162
+Final: Soft = 6.75, Hard = 0.99912, Iterations = 220
+Final: Soft = 6.75, Hard = 0.99908, Iterations = 185
+
+7. wcg. syn.: 45.4611	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 3.32, Hard = 5.0873e+05, Iterations = 40
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 7.64, Hard = 4.1495, Iterations = 37
+Final: Soft = 4.67, Hard = 2.4575, Iterations = 17
+Final: Soft = 6.74, Hard = 0.99954, Iterations = 180
+Final: Soft = 6.75, Hard = 0.99903, Iterations = 164
+Final: Soft = 6.75, Hard = 0.99903, Iterations = 158
+Final: Soft = 6.75, Hard = 0.99874, Iterations = 164
+Final: Soft = 6.74, Hard = 0.99988, Iterations = 136
+Final: Soft = 6.74, Hard = 0.9999, Iterations = 216
+Final: Soft = 6.75, Hard = 0.99879, Iterations = 139
+Final: Soft = 6.74, Hard = 0.99998, Iterations = 137
+
+8. wcg. syn.: 45.4554	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 6.99, Hard = 2.1272, Iterations = 22
+Final: Soft = 7.54, Hard = 1.1193, Iterations = 34
+Final: Soft = 6.75, Hard = 0.99863, Iterations = 170
+Final: Soft = 6.75, Hard = 0.99872, Iterations = 156
+Final: Soft = 6.75, Hard = 0.9991, Iterations = 160
+Final: Soft = 6.75, Hard = 0.99906, Iterations = 163
+Final: Soft = 6.75, Hard = 0.99883, Iterations = 145
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 6.74, Hard = 0.99994, Iterations = 163
+Final: Soft = 6.74, Hard = 0.99973, Iterations = 181
+Final: Soft = 6.75, Hard = 0.99904, Iterations = 173
+Final: Soft = 6.75, Hard = 0.99909, Iterations = 166
+
+9. wcg. syn.: 45.4578	 wcg. anal.: [45.4547,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 9.6e-09)
+Final: Soft = 6.75, Hard = 0.99877, Iterations = 144
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 155
+Final: Soft = 6.75, Hard = 0.99874, Iterations = 153
+Final: Soft = 6.74, Hard = 0.99916, Iterations = 163
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 157
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 158
+Final: Soft = 6.74, Hard = 0.99995, Iterations = 164
+Final: Soft = 6.74, Hard = 0.99917, Iterations = 164
+Final: Soft = 6.75, Hard = 0.99901, Iterations = 158
+Final: Soft = 6.74, Hard = 0.99913, Iterations = 159
+
+10. wcg. syn.: 45.4570	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 3.8)
+Final: Failed to enforce closed-loop stability (max Re(s) = 3.3e-05)
+Final: Soft = 5.52, Hard = 1.713, Iterations = 30
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 156
+Final: Soft = 6.75, Hard = 0.99877, Iterations = 166
+Final: Soft = 6.74, Hard = 0.9997, Iterations = 158
+Final: Soft = 6.74, Hard = 0.99917, Iterations = 170
+Final: Soft = 6.75, Hard = 0.99886, Iterations = 173
+Final: Soft = 6.74, Hard = 0.99937, Iterations = 185
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 6.75, Hard = 0.99905, Iterations = 153
+Final: Soft = 6.74, Hard = 0.99943, Iterations = 150
+
+11. wcg. syn.: 45.4693	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 6.74, Hard = 0.99925, Iterations = 117
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 157
+Final: Soft = 6.74, Hard = 0.99927, Iterations = 148
+Final: Soft = 6.74, Hard = 0.9995, Iterations = 166
+Final: Soft = 6.74, Hard = 0.99981, Iterations = 141
+Final: Soft = 6.75, Hard = 0.99906, Iterations = 166
+Final: Soft = 6.74, Hard = 0.9999, Iterations = 173
+Final: Soft = 6.74, Hard = 0.99976, Iterations = 188
+Final: Soft = 6.74, Hard = 0.99916, Iterations = 146
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 166
+Final: Soft = 6.74, Hard = 0.99984, Iterations = 166
+
+12. wcg. syn.: 45.4595	 wcg. anal.: [45.4548,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 6.74, Hard = 0.99915, Iterations = 161
+Final: Soft = 6.74, Hard = 0.99999, Iterations = 159
+Final: Soft = 6.75, Hard = 0.99859, Iterations = 149
+Final: Soft = 6.75, Hard = 0.9991, Iterations = 159
+Final: Soft = 6.75, Hard = 0.99896, Iterations = 143
+Final: Soft = 6.75, Hard = 0.99908, Iterations = 161
+Final: Soft = 6.74, Hard = 0.99998, Iterations = 173
+Final: Soft = 6.75, Hard = 0.99861, Iterations = 173
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 168
+Final: Soft = 6.75, Hard = 0.99902, Iterations = 151
+Final: Soft = 6.74, Hard = 1, Iterations = 181
+
+13. wcg. syn.: 45.4546	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 6.75, Hard = 0.99895, Iterations = 153
+Final: Soft = 6.74, Hard = 0.99919, Iterations = 157
+Final: Soft = 6.74, Hard = 0.99999, Iterations = 157
+Final: Soft = 6.74, Hard = 0.99999, Iterations = 152
+Final: Soft = 6.74, Hard = 0.99917, Iterations = 177
+Final: Soft = 6.74, Hard = 0.99979, Iterations = 180
+Final: Soft = 6.75, Hard = 0.99858, Iterations = 163
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 6.75, Hard = 0.99907, Iterations = 158
+Final: Soft = 6.74, Hard = 0.99998, Iterations = 161
+Final: Soft = 6.75, Hard = 0.99903, Iterations = 168
+Final: Soft = 6.74, Hard = 0.99982, Iterations = 188
+
+14. wcg. syn.: 45.4549	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 4.7e-07)
+Final: Soft = 5.54, Hard = 1.8165, Iterations = 62
+Final: Soft = 6.47, Hard = 1.2457, Iterations = 37
+Final: Soft = 6.75, Hard = 0.99898, Iterations = 148
+Final: Soft = 6.74, Hard = 0.99966, Iterations = 126
+Final: Soft = 6.74, Hard = 0.99935, Iterations = 154
+Final: Soft = 6.75, Hard = 0.99901, Iterations = 150
+Final: Soft = 6.74, Hard = 0.9992, Iterations = 170
+Final: Soft = 6.74, Hard = 0.9998, Iterations = 136
+Final: Soft = 6.74, Hard = 0.99917, Iterations = 160
+Final: Soft = 6.75, Hard = 0.99899, Iterations = 172
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+
+15. wcg. syn.: 45.4638	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 20 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.1)
+Final: Failed to enforce closed-loop stability (max Re(s) = 7e-13)
+Final: Soft = 2.51, Hard = 30.004, Iterations = 43
+Final: Soft = 1.03, Hard = 0.99985, Iterations = 240
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1.03, Hard = 0.99921, Iterations = 151
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1.04, Hard = 0.99962, Iterations = 242
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1, Hard = 0.99797, Iterations = 139
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1.03, Hard = 0.9995, Iterations = 172
+Final: Soft = 1.02, Hard = 0.99914, Iterations = 245
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1.1, Hard = 0.99177, Iterations = 189
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 1.75, Hard = 0.99568, Iterations = 188
+
+1. wcg. syn.: 1.0088	 wcg. anal.: [4.5681, 8.7131]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 2.2)
+Final: Failed to enforce closed-loop stability (max Re(s) = 5.9e-10)
+Final: Soft = 1.29, Hard = 1.0748, Iterations = 37
+Final: Soft = 0.463, Hard = 0.97356, Iterations = 150
+Final: Soft = 0.43, Hard = 0.98577, Iterations = 131
+Final: Soft = 0.334, Hard = 0.99954, Iterations = 201
+Final: Soft = 0.335, Hard = 0.99902, Iterations = 336
+Final: Soft = 0.394, Hard = 0.94009, Iterations = 232
+Final: Soft = 0.435, Hard = 0.94779, Iterations = 249
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.434, Hard = 0.959, Iterations = 277
+Final: Soft = 0.406, Hard = 0.99797, Iterations = 295
+
+2. wcg. syn.: 0.9710	 wcg. anal.: [1.0074, 6.9848]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.4)
+Final: Soft = 0.776, Hard = 0.97512, Iterations = 129
+Final: Soft = 0.511, Hard = 0.93523, Iterations = 128
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.681, Hard = 0.99234, Iterations = 181
+Final: Soft = 0.375, Hard = 0.99321, Iterations = 159
+Final: Soft = 0.709, Hard = 0.82949, Iterations = 158
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.374, Hard = 0.99853, Iterations = 272
+Final: Soft = 0.411, Hard = 0.99895, Iterations = 195
+Final: Soft = 0.377, Hard = 0.98855, Iterations = 329
+Final: Soft = 0.514, Hard = 0.98317, Iterations = 243
+Final: Soft = 0.493, Hard = 0.99764, Iterations = 302
+
+3. wcg. syn.: 0.9792	 wcg. anal.: [0.9932, 8.0781]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 1.5)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.025)
+Final: Failed to enforce closed-loop stability (max Re(s) = 0.34)
+Final: Soft = 2.44, Hard = 0.39975, Iterations = 53
+Final: Soft = 3, Hard = 0.78356, Iterations = 76
+Final: Soft = 0.357, Hard = 0.98643, Iterations = 148
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.46, Hard = 0.9978, Iterations = 193
+Final: Soft = 0.348, Hard = 0.99983, Iterations = 279
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.348, Hard = 0.99991, Iterations = 202
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.385, Hard = 0.98032, Iterations = 225
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.383, Hard = 0.99907, Iterations = 156
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+
+4. wcg. syn.: 0.9791	 wcg. anal.: [0.9791, 6.9462]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Soft = 0.515, Hard = 0.95608, Iterations = 93
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Failed to enforce closed-loop stability (max Re(s) = 6.5)
+Final: Soft = 1.43, Hard = 0.98801, Iterations = 140
+Final: Soft = 0.377, Hard = 0.99964, Iterations = 253
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.377, Hard = 0.99966, Iterations = 313
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.378, Hard = 0.99846, Iterations = 491
+Final: Soft = 0.496, Hard = 0.99978, Iterations = 162
+Final: Soft = 0.375, Hard = 0.99981, Iterations = 218
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.378, Hard = 0.98511, Iterations = 210
+Final: Soft = 0.445, Hard = 0.99779, Iterations = 285
+Final: Soft = 0.496, Hard = 0.99937, Iterations = 300
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+
+5. wcg. syn.: 0.9791	 wcg. anal.: [0.9790, 5.7839]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Final: Failed to enforce closed-loop stability (max Re(s) = 2.9)
+Final: Failed to enforce closed-loop stability (max Re(s) = 6.8e-09)
+Final: Soft = 3.85, Hard = 1.6303, Iterations = 26
+Final: Soft = 0.411, Hard = 0.99974, Iterations = 243
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.428, Hard = 0.98298, Iterations = 165
+Final: Soft = 0.427, Hard = 0.97895, Iterations = 176
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.592, Hard = 0.90842, Iterations = 203
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Final: Soft = 0.446, Hard = 0.97323, Iterations = 240
+Final: Soft = 0.514, Hard = 0.99831, Iterations = 279
+Final: Soft = 1.45, Hard = 0.96146, Iterations = 225
+Final: Soft = 0.535, Hard = 0.99901, Iterations = 271
+       Some closed-loop poles are marginally stable (decay rate near 1e-07)
+Operation terminated by user during rctutil.freqresp (line 21)
+
+In findIntervalHam>localSatisfiesLMI (line 132)
+M = rctutil.freqresp(A,B,C,D,Ts,w);
+In findIntervalHam (line 95)
+while ~localSatisfiesLMI(A,B,C,D,Ts,wL,Dr,usqDc,Gcr)
+In LMICarve
+In ssmussvPeak
+In ltipack.lftdataSS/wcgain (line 88)
+      [~,UBcert,LBcert] = ssmussvPeak('wcgain',a,b,c,d,Ts,...
+In ltipack.ModelArray/wcgain_ (line 538)
+            [X,Y,Z] = wcgain(Data(ct),opt);
+In DynamicSystem/wcgain (line 127)
+   [WCG,Info,IRD] = wcgain_(sys,opt);
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+Operation terminated by user during findIntervalHam>localSatisfiesLMI (line 136)
+
+In findIntervalHam (line 95)
+while ~localSatisfiesLMI(A,B,C,D,Ts,wL,Dr,usqDc,Gcr)
+In LMICarve
+In ssmussvPeak
+In ltipack.lftdataSS/wcgain (line 88)
+      [~,UBcert,LBcert] = ssmussvPeak('wcgain',a,b,c,d,Ts,...
+In ltipack.ModelArray/wcgain_ (line 538)
+            [X,Y,Z] = wcgain(Data(ct),opt);
+In DynamicSystem/wcgain (line 127)
+   [WCG,Info,IRD] = wcgain_(sys,opt);
+In parallel_function>make_general_channel/channel_general (line 914)
+                    O = F(C{:});
+In remoteParallelFunction (line 38)
+        out = parallel.internal.pool.serialize(feval(channel, channelArgs{:}));
+{Operation terminated by user during
+<a href="matlab:matlab.internal.language.introspective.errorDocCallback('distcomp.remoteparfor/getCompleteIntervals', '/usr/local/MATLAB/R2016b/toolbox/distcomp/distcomp/+distcomp/remoteparfor.m', 127)" style="font-weight:bold">distcomp.remoteparfor/getCompleteIntervals</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016b/toolbox/distcomp/distcomp/+distcomp/remoteparfor.m',127,0)">line 127</a>)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>distributed_execution', '/usr/local/MATLAB/R2016b/toolbox/matlab/lang/parallel_function.p', 820)" style="font-weight:bold">parallel_function>distributed_execution</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016b/toolbox/matlab/lang/parallel_function.p',820,0)">line 820</a>)
+        [tags, out] = P.getCompleteIntervals(chunkSize);
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function', '/usr/local/MATLAB/R2016b/toolbox/matlab/lang/parallel_function.p', 587)" style="font-weight:bold">parallel_function</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016b/toolbox/matlab/lang/parallel_function.p',587,0)">line 587</a>)
+        R = distributed_execution(...
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgainWithBNBpar', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgain with branch and bound/wcgainWithBNBpar.m', 77)" style="font-weight:bold">wcgainWithBNBpar</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgain with branch and bound/wcgainWithBNBpar.m',77,0)">line 77</a>)
+    parfor i = 1:Ncube
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_common_D>analyse', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_common_D.m', 90)" style="font-weight:bold">wcgmin_common_D>analyse</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_common_D.m',90,0)">line 90</a>)
+					[wcg, wcunc] =
+                                        wcgainWithBNBpar(cl_unc);
+                                        
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_common_D', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_common_D.m', 32)" style="font-weight:bold">wcgmin_common_D</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_common_D.m',32,0)">line 32</a>)
+        [Kt, g_anal_ub, g_anal_lb, wcunc] = analyse(sys, Kt,
+        unc_set, unc_names, dyn_unc_names,...
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin.m', 32)" style="font-weight:bold">wcgmin</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin.m',32,0)">line 32</a>)
+			[K_final, g_final, info] =
+                        wcgmin_common_D(sys, Kt, opt);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('run_wcgmin_tests', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/run_wcgmin_tests.m', 44)" style="font-weight:bold">run_wcgmin_tests</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/run_wcgmin_tests.m',44,0)">line 44</a>)
+			[~, g, info] = wcgmin(sys, Kt, opt);} 
+results
+results = 
+  1×19 <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> array with fields:
+    ex_no
+    g
+    info
+    t_syn
+    nxK
+results.g
+ans =
+    0.9957
+ans =
+    1.1307
+ans =
+    1.0209
+ans =
+    2.4356
+ans =
+    1.3520
+ans =
+    0.4929
+ans =
+    1.4251
+ans =
+    0.9981
+ans =
+    5.2875
+ans =
+    0.7824
+ans =
+   45.5464
+ans =
+    0.5025
+ans =
+    0.9946
+ans =
+    1.0025
+ans =
+    1.0032
+ans =
+    1.3367
+ans =
+    8.5120
+ans =
+    5.7725
+ans =
+   Inf
+clc
+cd ..
+cd ..
+cd ..
+cd FLEXOP/
+struct_DK_designV11
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('ltipack.formatSubs', '/usr/local/MATLAB/R2016b/toolbox/shared/controllib/engine/+ltipack/formatSubs.m', 27)" style="font-weight:bold">ltipack.formatSubs</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016b/toolbox/shared/controllib/engine/+ltipack/formatSubs.m',27,0)">line 27</a>)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/indexasgn', '/usr/local/MATLAB/R2016b/toolbox/shared/controllib/engine/@DynamicSystem/indexasgn.m', 22)" style="font-weight:bold">DynamicSystem/indexasgn</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016b/toolbox/shared/controllib/engine/@DynamicSystem/indexasgn.m',22,0)">line 22</a>)
+indices = ltipack.formatSubs(indices,sizes,DelFlag);
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('InputOutputModel/subsasgn', '/usr/local/MATLAB/R2016b/toolbox/shared/controllib/engine/@InputOutputModel/subsasgn.m', 49)" style="font-weight:bold">InputOutputModel/subsasgn</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016b/toolbox/shared/controllib/engine/@InputOutputModel/subsasgn.m',49,0)">line 49</a>)
+         M = indexasgn(M,Struct(1).subs,rhs);
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('struct_DK_designV11', '/home/ubuntu/Dropbox/FLEXOP/struct_DK_designV11.m', 59)" style="font-weight:bold">struct_DK_designV11</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/FLEXOP/struct_DK_designV11.m',59,0)">line 59</a>)
+    sys_blend_asym(:, :, i) = modred(sys_blend_asym(:, :, i),
+    elim, 'Truncate');} 
+struct_DK_designV11
+
+sym design
+inital wcg. anal.: [ Inf,  Inf]
+1. wcg. syn.: 0.6403	 wcg. anal.: [ Inf,  Inf]
+[Warning: The model M1/M2 is infinite because M2 is rank deficient
+to working precision.] 
+2. wcg. syn.: 0.6387	 wcg. anal.: [ Inf,  Inf]
+[Warning: The model M1/M2 is infinite because M2 is rank deficient
+to working precision.] 
+[Warning: Accuracy may be poor in parts of the frequency range.
+Use the "prescale" command to maximize accuracy in the range of
+interest.] 
+3. wcg. syn.: 0.6841	 wcg. anal.: [ Inf,  Inf]
+[Warning: The model M1/M2 is infinite because M2 is rank deficient
+to working precision.] 
+[Warning: Accuracy may be poor in parts of the frequency range.
+Use the "prescale" command to maximize accuracy in the range of
+interest.] 
+[Warning: Accuracy may be poor in parts of the frequency range.
+Use the "prescale" command to maximize accuracy in the range of
+interest.] 
+[Warning: Accuracy may be poor in parts of the frequency range.
+Use the "prescale" command to maximize accuracy in the range of
+interest.] 
+4. wcg. syn.: 0.8132	 wcg. anal.: [ Inf,  Inf]
+[Warning: The model M1/M2 is infinite because M2 is rank
+deficient to working precision.] 
+[Warning: Accuracy may be poor in parts of the frequency range.
+Use the "prescale" command to maximize accuracy in the range of
+interest.] 
+[Warning: Accuracy may be poor in parts of the frequency range.
+Use the "prescale" command to maximize accuracy in the range of
+interest.] 
+[Warning: Accuracy may be poor in parts of the frequency range.
+Use the "prescale" command to maximize accuracy in the range of
+interest.] 
+[Warning: Accuracy may be poor in parts of the frequency range.
+Use the "prescale" command to maximize accuracy in the range of
+interest.] 
+[Warning: Accuracy may be poor in parts of the frequency range.
+Use the "prescale" command to maximize accuracy in the range of
+interest.] 
+{Operation terminated by user during <a href="matlab:matlab.internal.language.introspective.errorDocCallback('mincx', '/usr/local/MATLAB/R2016b/toolbox/robust/rctlmi/mincx.m', 137)" style="font-weight:bold">mincx</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2016b/toolbox/robust/rctlmi/mincx.m',137,0)">line 137</a>)
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgainub_lmi', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/skewed-mu/wcgainub_lmi.m', 217)" style="font-weight:bold">wcgainub_lmi</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/skewed-mu/wcgainub_lmi.m',217,0)">line 217</a>)
+[copt,xopt] = mincx(lmisys,c,opt);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('compute_D_skewed_mu', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/skewed-mu/compute_D_skewed_mu.m', 21)" style="font-weight:bold">compute_D_skewed_mu</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/skewed-mu/compute_D_skewed_mu.m',21,0)">line 21</a>)
+    [gamma, muub, Dr, Dc] = wcgainub_lmi(cl_frd, ublk, bases,
+    1);
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn>analyse', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn.m', 62)" style="font-weight:bold">wcgmin_dyn>analyse</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn.m',62,0)">line 62</a>)
+            [Dr_ss(:, :, k), Dc_ss(:, :, k), g_fit(k)] =
+            compute_D_skewed_mu(cl(:, :, k), blk_str, opt);
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn.m', 19)" style="font-weight:bold">wcgmin_dyn</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn.m',19,0)">line 19</a>)
+        [Dr_frd, Dc_frd, Dr_ss, Dc_ss, g_fit, g_grid, sens] =
+        analyse(sys, Kt, iter_cnt, opt);
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin.m', 66)" style="font-weight:bold">wcgmin</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin.m',66,0)">line 66</a>)
+        [Kt, g_syn, info_samples] = wcgmin_dyn(plant_arr, Kt,
+        opt);
+
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('struct_DK_designV11', '/home/ubuntu/Dropbox/FLEXOP/struct_DK_designV11.m', 155)" style="font-weight:bold">struct_DK_designV11</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/FLEXOP/struct_DK_designV11.m',155,0)">line 155</a>)
+[K_sym, gam_sym, info_sym] = wcgmin(P_sym, K_sym_t, opt_sym);} 
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+clc
+struct_DK_designV11
+
+sym design
+[Warning: The CommonDScale option is 'on', this option won't take
+effect.] 
+Starting parallel pool (parpool) using the 'local' profile ... connected to 8 workers.
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 0.5004	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 0.5075	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 0.5188	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4. wcg. syn.: 0.5422	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5. wcg. syn.: 0.5909	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+6. wcg. syn.: 0.6880	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+7. wcg. syn.: 0.9258	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+8. wcg. syn.: 1.3727	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+9. wcg. syn.: 2.1022	 wcg. anal.: [2.4148, 3.1049]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+10. wcg. syn.: 2.1380	 wcg. anal.: [2.3807, 3.3264]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+11. wcg. syn.: 2.2775	 wcg. anal.: [2.2811, 3.1855]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+12. wcg. syn.: 2.2802	 wcg. anal.: [2.2794, 5.2748]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 9. wcg. anal: 3.1049
+gam_sym =
+    3.1049
+t_sym =
+   7.7938e+03
+smarg_sym = 
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           LowerBound: 1.1476
+           UpperBound: 1.1558
+    CriticalFrequency: 36.6131
+wc_speed_sym =
+   67.7259
+
+asym design
+[Warning: The CommonDScale option is 'on', this option won't
+take effect.] 
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 0.5004	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 0.5137	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 0.5233	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4. wcg. syn.: 0.5421	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5. wcg. syn.: 0.5828	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+6. wcg. syn.: 0.6870	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+7. wcg. syn.: 0.9528	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+8. wcg. syn.: 1.6484	 wcg. anal.: [5.1881, 5.2738]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+9. wcg. syn.: 2.4764	 wcg. anal.: [2.8788, 2.9267]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+10. wcg. syn.: 2.5592	 wcg. anal.: [2.5706, 2.6084]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+11. wcg. syn.: 2.5606	 wcg. anal.: [2.5619, 2.5799]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+12. wcg. syn.: 2.5626	 wcg. anal.: [2.5613, 2.6020]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 11. wcg. anal: 2.5799
+gam_asym =
+    2.5799
+t_asym =
+   5.4988e+03
+smarg_asym = 
+  <a href="matlab:helpPopup struct" style="font-weight:bold">struct</a> with fields:
+
+           LowerBound: 1.1538
+           UpperBound: 1.1576
+    CriticalFrequency: 39.6708
+wc_speed_asym =
+   67.7578
+IdleTimeout has been reached.
+Parallel pool using the 'local' profile is shutting down.
+save wcg_des_cont_comD K_asym K_sym info_asym info_sym
+clc
+anal_full_controller_nom
+computing margins...
+
+.........................................
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+open anal_full_controller_nom
+anal_full_controller_nom
+computing margins...
+
+.........................................
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+open anal_full_controller_nom
+anal_full_controller_nom
+computing margins...
+
+.........................................
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+open anal_full_controller_nom
+anal_full_controller_nom
+computing margins...
+
+.........................................
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+open anal_full_controller_nom
+anal_full_controller_nom
+computing margins...
+
+.........................................
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+anal_full_controller_nom
+computing margins...
+
+.........................................
+
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+|
+clear
+clc
+a = load('../wcg_des_cont_new_unc_best.mat');
+a = load('../wcg_des_cont_comD.mat');
+a = load('../wcg_des_cont_new_unc_best.mat');
+b = load('../wcg_des_cont_comD.mat');
+close all
+sigma(a.K_asym, b.K_asym)
+sigma(a.K_sym, b.K_sym)
+exit
