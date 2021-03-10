@@ -1,4 +1,4 @@
-function [gamopt, gamw, Dz, Dv] = wcgainub_lmi(G, blk, bases, use_kyp)
+function [gamma, gamw, Dz, Dv] = wcgainub_lmi(G, blk, bases, gamopt, use_kyp)
 % function out = wcgainub_lmi(G,blk,bases)
 %
 % Compute upper bound on worst-case gain using linear combination of
@@ -71,7 +71,7 @@ gamwDiag = lmivar(3, diag(1:Nw) );
 
 % Create matrix variables gampeak*I
 %gampeak = lmivar(1,[1 1]);
-gampeakDiag = lmivar(3, (Nw+1)*eye(Nw) );
+gampeakDiag = gamopt * (1 + 1e-1) * eye(Nw);
 
 % Create variables for scaling
 lam = zeros(Nblk,1);
@@ -102,7 +102,7 @@ lmiterm([-1 1 1 gamwDiag],1,1);
 
 % gamw < gampeak
 lmiterm([2 1 1 gamwDiag],1,1);
-lmiterm([-2 1 1 gampeakDiag],1,1);
+lmiterm([-2 1 1 0], gampeakDiag);
 
 % lam >0
 if use_kyp
@@ -203,20 +203,19 @@ end
 % end
 
 %% Create Cost Function
-%  min gampeak + (e/Nw) sum_i gamw(i)
-% e = 1e-2; 
-% e = 1;
-e = Nw;
+%  min sum_i gamw(i)
 c = zeros(ndec,1);
-c(1:Nw) = e/Nw;
-c(Nw+1) = 1;
+c(1 : Nw) = 1;
 
 %% Solve SDP
 lmisys = getlmis;
 opt = [0 0 0 0 1];
 [copt,xopt] = mincx(lmisys,c,opt);
+if isempty(copt)
+	error('D-scales could not be found.');
+end
 gamw = xopt(1:Nw);
-gamopt = xopt(Nw+1);
+gamma = max(gamw);
 
 %% Construct D-scales
 Dz = [];

@@ -1,0 +1,1562 @@
+## Test case with example no. 1 ############################
+Starting parallel pool (parpool) using the 'local' profile ... connected to 8 workers.
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 5.2116
+2. wcg. anal.: 3.5802 (3.5785)	wcg. syn.: 1.0319
+3. wcg. anal.: 1.1127 (1.0306)	wcg. syn.: 1.0183
+4. wcg. anal.: 1.0750 (1.0173)	wcg. syn.: 1.0222
+5. wcg. anal.: 1.0589 (1.0212)	
+final: 4. wcg. anal: 1.0173
+
+1. wcg. syn.: 1.0173	 wcg. anal.: [1.0175, 1.0200]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 2 ############################
+inital wcg. anal.: [19.5391, 19.5803]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 19.5576 (19.5517)	wcg. syn.: 16.3090
+2. wcg. anal.: 14.2850 (14.2829)	wcg. syn.: 8.4798
+3. wcg. anal.: 6.0200 (4.3749)	wcg. syn.: 5.2530
+4. wcg. anal.: 4.7694 (2.0374)	wcg. syn.: 4.7492
+5. wcg. anal.: 4.7625 (1.8074)	wcg. syn.: 4.6837
+6. wcg. anal.: 4.8609 (1.7793)	wcg. syn.: 4.8580
+7. wcg. anal.: 4.8038 (1.8525)	
+final: 6. wcg. anal: 1.7793
+
+1. wcg. syn.: 1.7793	 wcg. anal.: [1.7784, 1.7816]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 3 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4019474.6258
+2. wcg. anal.: 883.8372 (555.4114)	wcg. syn.: 4.0822
+3. wcg. anal.: 12.4917 (3.4528)	wcg. syn.: 12.0816
+4. wcg. anal.: 30.0640 (3.9374)	
+final: 3. wcg. anal: 3.4528
+
+1. wcg. syn.: 3.4528	 wcg. anal.: [3.4520, 3.4601]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 4 ############################
+inital wcg. anal.: [10.3795, 10.4017]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 37.7190 (10.3829)	wcg. syn.: 2.6246
+2. wcg. anal.: 4.7590 (2.4308)	wcg. syn.: 4.7286
+3. wcg. anal.: 4.7308 (2.4308)	
+
+1. wcg. syn.: 2.4308	 wcg. anal.: [2.4306, 2.4356]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 5 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.5819
+2. wcg. anal.: 1.7439 (1.5788)	wcg. syn.: 1.5653
+3. wcg. anal.: 1.7154 (1.5514)	wcg. syn.: 1.5009
+4. wcg. anal.: 1.8394 (1.4978)	wcg. syn.: 1.4225
+5. wcg. anal.: 1.5832 (1.4210)	wcg. syn.: 1.4007
+6. wcg. anal.: 1.6702 (1.3959)	wcg. syn.: 1.3475
+7. wcg. anal.: 1.3757 (1.3413)	wcg. syn.: 1.3463
+8. wcg. anal.: 1.4748 (1.3396)	
+
+1. wcg. syn.: 1.3396	 wcg. anal.: [1.3393, 1.3425]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 6 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 33.0919
+2. wcg. anal.: 26.6102 (26.5429)	wcg. syn.: 1.1704
+3. wcg. anal.: 1.1641 (1.0906)	wcg. syn.: 1.1501
+4. wcg. anal.: 1.2427 (1.1480)	
+final: 3. wcg. anal: 1.0906
+
+1. wcg. syn.: 1.0906	 wcg. anal.: [1.0900, 1.0930]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 7 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 10.5096
+2. wcg. anal.: 9.7845 (9.6752)	wcg. syn.: 6.4988
+3. wcg. anal.: 5.6022 (5.5453)	wcg. syn.: 3.3570
+4. wcg. anal.: 3.3023 (3.3007)	wcg. syn.: 2.9542
+5. wcg. anal.: 2.8933 (2.8738)	wcg. syn.: 2.7590
+6. wcg. anal.: 2.8152 (2.6781)	wcg. syn.: 1.8996
+7. wcg. anal.: 1.9544 (1.8892)	wcg. syn.: 1.4212
+8. wcg. anal.: 1.4501 (1.4232)	wcg. syn.: 1.3950
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi_peak (line 228)
+  In compute_D_skewed_mu (line 22)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 228)
+  In compute_D_skewed_mu (line 23)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+9. wcg. anal.: 1.7449 (1.3949)	wcg. syn.: 1.5819
+10. wcg. anal.: 1.6527 (1.5800)	
+final: 9. wcg. anal: 1.3949
+
+1. wcg. syn.: 1.3949	 wcg. anal.: [1.3921, 1.3950]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 8 ############################
+inital wcg. anal.: [55.5863, 55.7647]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 0.6314	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 0.9009	 wcg. anal.: [1.0515, 1.0536]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 0.9564	 wcg. anal.: [1.0714, 1.0733]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4. wcg. syn.: 0.9961	 wcg. anal.: [0.9961, 0.9981]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5. wcg. syn.: 0.9961	 wcg. anal.: [0.9961, 0.9981]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 9 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 1.7067	 wcg. anal.: [2.3008, 6.8197]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 1.8491	 wcg. anal.: [2.4766, 3.7736]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 1.9553	 wcg. anal.: [2.1432, 6.0538]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4. wcg. syn.: 2.0088	 wcg. anal.: [2.0104, 5.9084]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5. wcg. syn.: 2.0091	 wcg. anal.: [2.0430, 5.8942]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+6. wcg. syn.: 2.0169	 wcg. anal.: [2.0169, 6.1289]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 2. wcg. anal: 3.7736
+
+
+## Test case with example no. 10 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 0.7643	 wcg. anal.: [0.9630, 0.9643]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 0.7760	 wcg. anal.: [0.7761, 0.7808]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 0.7761	 wcg. anal.: [0.7761, 0.7814]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 2. wcg. anal: 0.7808
+
+
+## Test case with example no. 11 ############################
+inital wcg. anal.: [45.4545, 45.5464]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 45.4532	 wcg. anal.: [45.4537, 45.5471]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 45.4537	 wcg. anal.: [45.4537, 45.5466]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 0. wcg. anal: 45.5464
+
+
+## Test case with example no. 12 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 5.5252
+2. wcg. anal.: 4.3544 (4.3429)	wcg. syn.: 0.1726
+3. wcg. anal.: 0.1816 (0.1727)	wcg. syn.: 0.1777
+4. wcg. anal.: 0.1777 (0.1777)	
+final: 3. wcg. anal: 0.1727
+
+1. wcg. syn.: 0.1727	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 16.8937
+2. wcg. anal.: 9.9437 (9.9458)	wcg. syn.: 0.3517
+3. wcg. anal.: 0.3781 (0.3517)	wcg. syn.: 0.3605
+4. wcg. anal.: 0.3894 (0.3604)	
+final: 3. wcg. anal: 0.3517
+
+2. wcg. syn.: 0.3517	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 24.1823
+2. wcg. anal.: 12.5810 (12.5756)	wcg. syn.: 0.4428
+analysis attempt failed: The following error occurred converting from ss to double:
+Conversion to double from ss is not possible.
+ERROR: MATLAB:UnableToConvert
+The following error occurred converting from ss to double:
+Conversion to double from ss is not possible.
+
+
+## Test case with example no. 13 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.7529
+2. wcg. anal.: 0.7529 (0.7529)	wcg. syn.: 0.7529
+3. wcg. anal.: 0.7529 (0.7529)	
+
+1. wcg. syn.: 0.7529	 wcg. anal.: [0.9931, 0.9952]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.9931 (0.9931)	wcg. syn.: 0.9931
+2. wcg. anal.: 0.9931 (0.9931)	
+
+2. wcg. syn.: 0.9931	 wcg. anal.: [0.9931, 0.9952]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 14 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0006
+2. wcg. anal.: 1.1970 (1.0006)	wcg. syn.: 1.0006
+3. wcg. anal.: 1.0005 (1.0006)	
+
+1. wcg. syn.: 1.0006	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0008
+2. wcg. anal.: 1.0015 (1.0008)	wcg. syn.: 1.0007
+3. wcg. anal.: 5.2070 (1.0006)	
+
+2. wcg. syn.: 1.0006	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0006
+2. wcg. anal.: 1.0008 (1.0006)	wcg. syn.: 1.0008
+3. wcg. anal.: 1.3264 (1.0007)	
+final: 2. wcg. anal: 1.0006
+
+3. wcg. syn.: 1.0006	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0005
+2. wcg. anal.: 1.0006 (1.0006)	wcg. syn.: 1.0006
+3. wcg. anal.: 1.0006 (1.0006)	
+
+4. wcg. syn.: 1.0006	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0006
+2. wcg. anal.: 1.0006 (1.0006)	wcg. syn.: 1.0006
+3. wcg. anal.: 2.2986 (1.0006)	
+
+5. wcg. syn.: 1.0006	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0007
+2. wcg. anal.: 1.0007 (1.0007)	wcg. syn.: 1.0007
+3. wcg. anal.: 1.0007 (1.0007)	
+
+6. wcg. syn.: 1.0007	 wcg. anal.: [1.0006, 1.0027]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.0007 (1.0007)	wcg. syn.: 1.0007
+2. wcg. anal.: 1.0007 (1.0007)	
+
+7. wcg. syn.: 1.0007	 wcg. anal.: [1.0006, 1.0027]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 15 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 140.3445
+2. wcg. anal.: 252.9751 (140.1077)	wcg. syn.: 137.7557
+3. wcg. anal.: 135.2316 (135.3516)	wcg. syn.: 105.0984
+4. wcg. anal.: 100.2385 (82.0375)	wcg. syn.: 99.2858
+5. wcg. anal.: 99.3066 (77.8869)	wcg. syn.: 99.2837
+6. wcg. anal.: 99.3313 (72.2905)	wcg. syn.: 99.3003
+7. wcg. anal.: 99.3334 (76.4197)	
+final: 6. wcg. anal: 72.2905
+
+1. wcg. syn.: 72.2905	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 140.3470
+2. wcg. anal.: 140.1851 (140.1279)	wcg. syn.: 139.3741
+3. wcg. anal.: 138.9292 (139.0154)	
+
+2. wcg. syn.: 139.0154	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 140.3482
+2. wcg. anal.: 140.3764 (140.5225)	wcg. syn.: 140.0107
+3. wcg. anal.: 139.5054 (139.8108)	
+
+3. wcg. syn.: 139.8108	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 140.3454
+2. wcg. anal.: 140.3911 (140.5259)	wcg. syn.: 140.0391
+3. wcg. anal.: 140.0111 (140.0796)	
+
+4. wcg. syn.: 140.0796	 wcg. anal.: [140.0156, 140.3227]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 140.0590 (140.1320)	wcg. syn.: 139.5310
+2. wcg. anal.: 138.5705 (138.5366)	wcg. syn.: 130.3702
+3. wcg. anal.: 122.9336 (121.8458)	wcg. syn.: 99.4495
+4. wcg. anal.: 99.3761 (80.8060)	wcg. syn.: 99.3123
+5. wcg. anal.: 99.3745 (99.3642)	
+final: 4. wcg. anal: 80.8060
+
+5. wcg. syn.: 80.8060	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 140.3541
+2. wcg. anal.: 140.3779 (140.5240)	wcg. syn.: 140.0123
+3. wcg. anal.: 139.3992 (139.9184)	
+
+6. wcg. syn.: 139.9184	 wcg. anal.: [139.3288, 139.6263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 139.3992 (139.9184)	wcg. syn.: 135.3050
+2. wcg. anal.: 131.4747 (131.4127)	wcg. syn.: 100.4761
+3. wcg. anal.: 99.4512 (74.4251)	wcg. syn.: 99.3090
+4. wcg. anal.: 99.4468 (80.2090)	
+final: 3. wcg. anal: 74.4251
+
+7. wcg. syn.: 74.4251	 wcg. anal.: [74.3906, 74.5407]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 99.4512 (74.4251)	wcg. syn.: 99.3007
+2. wcg. anal.: 99.4247 (79.1087)	
+final: 1. wcg. anal: 74.4251
+
+8. wcg. syn.: 74.4251	 wcg. anal.: [74.3906, 74.5407]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 16 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 109.7120
+2. wcg. anal.: 403.1596 (70.5548)	wcg. syn.: 2.9009
+3. wcg. anal.: 3.1290 (2.9016)	wcg. syn.: 1.2795
+4. wcg. anal.: 1.8077 (1.2468)	wcg. syn.: 1.2588
+5. wcg. anal.: 1.5029 (1.2513)	
+final: 4. wcg. anal: 1.2468
+
+1. wcg. syn.: 1.2468	 wcg. anal.: [11.2687, 11.2830]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 11.4105 (11.2747)	wcg. syn.: 1.2989
+2. wcg. anal.: 1.7726 (1.2824)	wcg. syn.: 1.3403
+3. wcg. anal.: 1.3620 (1.3158)	
+final: 2. wcg. anal: 1.2824
+
+2. wcg. syn.: 1.2824	 wcg. anal.: [6.2531, 6.2688]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.3305 (6.2641)	wcg. syn.: 1.4102
+2. wcg. anal.: 1.4135 (1.4056)	wcg. syn.: 1.3848
+3. wcg. anal.: 1.4835 (1.3778)	wcg. syn.: 1.4220
+4. wcg. anal.: 1.4316 (1.4220)	
+final: 3. wcg. anal: 1.3778
+
+3. wcg. syn.: 1.3778	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 110.3752
+2. wcg. anal.: 23.7117 (23.6055)	wcg. syn.: 1.4673
+3. wcg. anal.: 2.4577 (1.4388)	wcg. syn.: 1.5593
+4. wcg. anal.: 1.6270 (1.5543)	
+final: 3. wcg. anal: 1.4388
+
+4. wcg. syn.: 1.4388	 wcg. anal.: [2.2310, 2.2340]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.4865 (2.2330)	wcg. syn.: 1.5742
+2. wcg. anal.: 1.6334 (1.5710)	wcg. syn.: 1.4740
+3. wcg. anal.: 1.9717 (1.4721)	wcg. syn.: 1.5527
+4. wcg. anal.: 1.5579 (1.5443)	
+final: 3. wcg. anal: 1.4721
+
+5. wcg. syn.: 1.4721	 wcg. anal.: [1.5993, 1.6019]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.2874 (1.5997)	wcg. syn.: 1.9264
+2. wcg. anal.: 2.1142 (1.9144)	
+final: 1. wcg. anal: 1.5997
+
+6. wcg. syn.: 1.5997	 wcg. anal.: [1.5993, 1.6019]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 17 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 186694.8764
+2. wcg. anal.: 977.0791 (192.8944)	wcg. syn.: 168.3735
+3. wcg. anal.: 15.3972 (14.0000)	wcg. syn.: 9.9307
+4. wcg. anal.: 786.5709 (9.9149)	wcg. syn.: 201.3938
+5. wcg. anal.: 59.1244 (59.0419)	
+final: 4. wcg. anal: 9.9149
+
+1. wcg. syn.: 9.9149	 wcg. anal.: [10.7783, 10.8011]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 786.5709 (10.7794)	wcg. syn.: 201.3556
+2. wcg. anal.: 135.0785 (122.4175)	
+final: 1. wcg. anal: 10.7794
+
+2. wcg. syn.: 10.7794	 wcg. anal.: [10.7783, 10.8011]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 18 ############################
+inital wcg. anal.: [9179.1373, 9343.6357]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 8970.5275 (8970.6286)	wcg. syn.: 2995.0930
+2. wcg. anal.: 956.8783 (950.7991)	wcg. syn.: 38.2271
+3. wcg. anal.: 12.1181 (12.1048)	wcg. syn.: 5.9111
+4. wcg. anal.: 5.8467 (5.8430)	wcg. syn.: 4.0041
+5. wcg. anal.: 4.0338 (3.9880)	wcg. syn.: 3.7489
+6. wcg. anal.: 3.8607 (3.7488)	wcg. syn.: 3.7802
+7. wcg. anal.: 3.9161 (3.7800)	
+final: 6. wcg. anal: 3.7488
+
+1. wcg. syn.: 3.7488	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 17.7782
+2. wcg. anal.: 5.0402 (5.0426)	wcg. syn.: 4.1939
+3. wcg. anal.: 4.2698 (4.1928)	wcg. syn.: 4.1932
+4. wcg. anal.: 4.2424 (4.1910)	
+
+2. wcg. syn.: 4.1910	 wcg. anal.: [7.2387, 7.2532]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 7.6870 (7.2429)	wcg. syn.: 4.4609
+2. wcg. anal.: 4.6428 (4.4618)	wcg. syn.: 4.3441
+3. wcg. anal.: 4.3806 (4.3423)	wcg. syn.: 4.3335
+4. wcg. anal.: 4.3432 (4.3320)	
+
+3. wcg. syn.: 4.3320	 wcg. anal.: [6.6341, 6.6471]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.6922 (6.6349)	wcg. syn.: 5.2446
+2. wcg. anal.: 5.2495 (5.2411)	wcg. syn.: 5.2303
+3. wcg. anal.: 5.2502 (5.2278)	
+
+4. wcg. syn.: 5.2278	 wcg. anal.: [6.7537, 6.7681]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.7623 (6.7540)	wcg. syn.: 5.6782
+2. wcg. anal.: 5.6805 (5.6701)	wcg. syn.: 5.6576
+3. wcg. anal.: 5.6664 (5.6541)	
+
+5. wcg. syn.: 5.6541	 wcg. anal.: [5.9980, 6.0099]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 5.9982 (5.9994)	wcg. syn.: 5.7769
+2. wcg. anal.: 5.7924 (5.7755)	wcg. syn.: 5.7800
+3. wcg. anal.: 5.8112 (5.7797)	
+final: 2. wcg. anal: 5.7755
+
+6. wcg. syn.: 5.7755	 wcg. anal.: [5.7753, 5.7884]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 5.7924 (5.7755)	wcg. syn.: 5.7651
+2. wcg. anal.: 5.8065 (5.7651)	
+
+7. wcg. syn.: 5.7651	 wcg. anal.: [5.7646, 5.7771]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 19 ############################
+inital wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5033 (45.4841)	wcg. syn.: 45.4589
+2. wcg. anal.: 45.4941 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+1. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+2. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+3. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+4. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+5. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+6. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+7. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+8. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+9. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+10. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+11. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+12. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+13. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+14. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 45.5034 (45.4841)	wcg. syn.: 45.4576
+2. wcg. anal.: 45.5130 (45.4842)	
+final: 1. wcg. anal: 45.4841
+
+15. wcg. syn.: 45.4841	 wcg. anal.: [45.4545,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 20 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 25.3849
+2. wcg. anal.: 25.3253 (25.3169)	wcg. syn.: 12.8556
+3. wcg. anal.: 12.9103 (12.8208)	wcg. syn.: 9.9108
+4. wcg. anal.: 9.9219 (9.9020)	wcg. syn.: 7.6579
+5. wcg. anal.: 7.6919 (7.6499)	wcg. syn.: 4.9335
+6. wcg. anal.: 4.9307 (4.9252)	wcg. syn.: 4.1219
+7. wcg. anal.: 4.1452 (4.1213)	wcg. syn.: 4.1366
+8. wcg. anal.: 4.1366 (4.1378)	
+final: 7. wcg. anal: 4.1213
+
+1. wcg. syn.: 4.1213	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 325.2046
+2. wcg. anal.: 271.3318 (271.4154)	wcg. syn.: 27.2493
+3. wcg. anal.: 27.2724 (27.1876)	wcg. syn.: 23.0033
+4. wcg. anal.: 22.9754 (22.9802)	wcg. syn.: 20.7665
+5. wcg. anal.: 20.8138 (20.7530)	wcg. syn.: 19.6987
+6. wcg. anal.: 19.6576 (19.6509)	wcg. syn.: 19.3837
+7. wcg. anal.: 19.4604 (19.3776)	wcg. syn.: 19.3794
+8. wcg. anal.: 19.3612 (19.3570)	
+
+2. wcg. syn.: 19.3570	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 325.4917
+2. wcg. anal.: 280.3171 (280.2055)	wcg. syn.: 27.6583
+3. wcg. anal.: 27.6587 (27.6661)	wcg. syn.: 22.8255
+4. wcg. anal.: 22.7820 (22.7550)	wcg. syn.: 20.8465
+5. wcg. anal.: 20.8740 (20.8464)	wcg. syn.: 19.9018
+6. wcg. anal.: 19.8971 (19.8731)	wcg. syn.: 19.4083
+7. wcg. anal.: 19.4185 (19.4037)	wcg. syn.: 19.0835
+8. wcg. anal.: 19.0997 (19.0787)	wcg. syn.: 18.8778
+9. wcg. anal.: 18.8863 (18.8746)	wcg. syn.: 18.7554
+10. wcg. anal.: 18.9930 (18.7438)	
+
+3. wcg. syn.: 18.7438	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 325.6954
+2. wcg. anal.: 286.3420 (286.4034)	wcg. syn.: 27.3300
+3. wcg. anal.: 27.3629 (27.2998)	wcg. syn.: 22.1765
+4. wcg. anal.: 22.2478 (22.1747)	wcg. syn.: 20.3251
+5. wcg. anal.: 20.3652 (20.3230)	wcg. syn.: 19.3914
+6. wcg. anal.: 19.4025 (19.3870)	wcg. syn.: 18.9420
+7. wcg. anal.: 18.9337 (18.9370)	wcg. syn.: 18.7196
+8. wcg. anal.: 18.7433 (18.7101)	wcg. syn.: 18.5883
+9. wcg. anal.: 18.6044 (18.5838)	
+
+4. wcg. syn.: 18.5838	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 326.0698
+2. wcg. anal.: 301.7717 (301.2194)	wcg. syn.: 25.5169
+3. wcg. anal.: 25.2074 (25.1209)	wcg. syn.: 19.8365
+4. wcg. anal.: 19.9020 (19.8101)	wcg. syn.: 18.2302
+5. wcg. anal.: 18.4869 (18.2290)	wcg. syn.: 17.7349
+6. wcg. anal.: 18.1920 (17.7413)	wcg. syn.: 17.7227
+7. wcg. anal.: 17.9708 (17.7159)	
+
+5. wcg. syn.: 17.7159	 wcg. anal.: [25.7822,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 25.8380 (25.7845)	wcg. syn.: 17.8557
+2. wcg. anal.: 17.9278 (17.8398)	wcg. syn.: 17.8504
+3. wcg. anal.: 17.9810 (17.8519)	
+final: 2. wcg. anal: 17.8398
+
+6. wcg. syn.: 17.8398	 wcg. anal.: [22.5924,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 22.5935 (22.5989)	wcg. syn.: 17.8624
+2. wcg. anal.: 17.8550 (17.8510)	wcg. syn.: 17.7528
+3. wcg. anal.: 17.8189 (17.7585)	
+
+7. wcg. syn.: 17.7585	 wcg. anal.: [17.6392,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 17.8189 (17.7585)	wcg. syn.: 17.6256
+2. wcg. anal.: 17.6253 (17.6286)	
+
+8. wcg. syn.: 17.6286	 wcg. anal.: [17.5398,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 17.6253 (17.6286)	wcg. syn.: 17.5817
+2. wcg. anal.: 17.5919 (17.5710)	
+
+9. wcg. syn.: 17.5710	 wcg. anal.: [17.5222,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 17.5919 (17.5710)	wcg. syn.: 17.5539
+2. wcg. anal.: 17.5719 (17.5505)	
+
+10. wcg. syn.: 17.5505	 wcg. anal.: [17.4624,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 17.5719 (17.5505)	wcg. syn.: 17.5671
+2. wcg. anal.: 17.6503 (17.5718)	
+final: 1. wcg. anal: 17.5505
+
+11. wcg. syn.: 17.5505	 wcg. anal.: [17.4624,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 17.5719 (17.5505)	wcg. syn.: 17.5671
+2. wcg. anal.: 17.6503 (17.5718)	
+final: 1. wcg. anal: 17.5505
+
+12. wcg. syn.: 17.5505	 wcg. anal.: [17.4624,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 17.5719 (17.5505)	wcg. syn.: 17.5671
+2. wcg. anal.: 17.6503 (17.5718)	
+final: 1. wcg. anal: 17.5505
+
+13. wcg. syn.: 17.5505	 wcg. anal.: [17.4624,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 17.5719 (17.5505)	wcg. syn.: 17.5671
+2. wcg. anal.: 17.6503 (17.5718)	
+final: 1. wcg. anal: 17.5505
+
+14. wcg. syn.: 17.5505	 wcg. anal.: [17.4624,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 17.5719 (17.5505)	wcg. syn.: 17.5671
+2. wcg. anal.: 17.6503 (17.5718)	
+final: 1. wcg. anal: 17.5505
+
+15. wcg. syn.: 17.5505	 wcg. anal.: [17.4624,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 21 ############################
+inital wcg. anal.: [2.1223, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.1231 (2.1230)	wcg. syn.: 2.1221
+2. wcg. anal.: 2.1224 (2.1224)	
+
+1. wcg. syn.: 2.1224	 wcg. anal.: [2.1220, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.1224 (2.1224)	wcg. syn.: 2.1224
+2. wcg. anal.: 2.1225 (2.1224)	
+
+2. wcg. syn.: 2.1224	 wcg. anal.: [2.1220, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 0. wcg. anal: 2.1263
+
+
+## Test case with example no. 22 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.3840
+2. wcg. anal.: 1.3765 (1.3739)	wcg. syn.: 0.0578
+3. wcg. anal.: 0.3272 (0.0578)	wcg. syn.: 0.1446
+4. wcg. anal.: 0.1460 (0.1439)	
+final: 3. wcg. anal: 0.0578
+
+1. wcg. syn.: 0.0578	 wcg. anal.: [0.1303, 0.1306]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: The following error occurred converting from ss to double:
+Conversion to double from ss is not possible.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.3437
+2. wcg. anal.: 1.3685 (1.3358)	wcg. syn.: 0.0972
+3. wcg. anal.: 0.0985 (0.0974)	wcg. syn.: 0.0712
+4. wcg. anal.: 1.2760 (0.0709)	wcg. syn.: 1.3292
+5. wcg. anal.: 1.0868 (1.0863)	
+final: 4. wcg. anal: 0.0709
+
+2. wcg. syn.: 0.0709	 wcg. anal.: [0.1162, 0.1165]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: The following error occurred converting from ss to double:
+Conversion to double from ss is not possible.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.4040
+2. wcg. anal.: 1.3956 (1.3939)	wcg. syn.: 0.0738
+3. wcg. anal.: 0.1394 (0.0738)	wcg. syn.: 0.1033
+4. wcg. anal.: 0.1762 (0.1033)	
+final: 3. wcg. anal: 0.0738
+
+3. wcg. syn.: 0.0738	 wcg. anal.: [0.0738, 0.0739]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.1644 (0.0738)	wcg. syn.: 0.1171
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi_peak (line 228)
+  In compute_D_skewed_mu (line 22)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Accuracy may be poor in parts of the frequency range. Use the "prescale" command to maximize accuracy in the range of interest.
+> In ctrlMsgUtils.warning (line 25)
+  In xscale
+  In ltipack.ssdata/specfact (line 33)
+  In numlti/spectralfact_ (line 28)
+  In DynamicSystem/spectralfact (line 56)
+  In wcgainub_lmi (line 228)
+  In compute_D_skewed_mu (line 23)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+2. wcg. anal.: 0.1171 (0.1163)	
+final: 1. wcg. anal: 0.0738
+
+4. wcg. syn.: 0.0738	 wcg. anal.: [0.0738, 0.0739]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 23 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4036034.3111
+2. wcg. anal.: 659.6687 (211.2248)	wcg. syn.: 84.1612
+3. wcg. anal.: 133.0823 (12.0515)	wcg. syn.: 7.5327
+4. wcg. anal.: 53.8673 (7.2897)	wcg. syn.: 15.5849
+5. wcg. anal.: 15.0526 (15.0334)	
+final: 4. wcg. anal: 7.2897
+
+1. wcg. syn.: 7.2897	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4005194.1643
+2. wcg. anal.: 184652.7223 (184594.6203)	wcg. syn.: 16936.8149
+3. wcg. anal.: 89.7691 (81.8236)	wcg. syn.: 2.2881
+4. wcg. anal.: 32.7948 (2.1627)	wcg. syn.: 5.5939
+5. wcg. anal.: 17.3449 (4.6714)	
+final: 4. wcg. anal: 2.1627
+
+2. wcg. syn.: 2.1627	 wcg. anal.: [2.1613, 2.5550]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 32.8957 (2.1627)	wcg. syn.: 5.5946
+2. wcg. anal.: 8.6082 (4.2290)	
+final: 1. wcg. anal: 2.1627
+
+3. wcg. syn.: 2.1627	 wcg. anal.: [2.1613, 2.5550]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 24 ############################
+inital wcg. anal.: [28.6163, 28.6729]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 18.3369 (18.3363)	wcg. syn.: 11.0925
+2. wcg. anal.: 8.1937 (7.1468)	wcg. syn.: 6.3588
+3. wcg. anal.: 7.4923 (3.2649)	wcg. syn.: 7.4066
+4. wcg. anal.: 5.5246 (3.4537)	
+final: 3. wcg. anal: 3.2649
+
+1. wcg. syn.: 3.2649	 wcg. anal.: [10.7581, 10.7806]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 13.0747 (10.7601)	wcg. syn.: 11.7146
+2. wcg. anal.: 12.5725 (6.5390)	wcg. syn.: 12.5082
+3. wcg. anal.: 10.4553 (6.7063)	
+final: 2. wcg. anal: 6.5390
+
+2. wcg. syn.: 6.5390	 wcg. anal.: [7.7798, 7.8005]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 16.5559 (7.7845)	wcg. syn.: 12.5114
+Warning: Input to SVD must not contain NaN or Inf.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Input to SVD must not contain NaN or Inf.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+2. wcg. anal.: 24.7151 (7.1285)	wcg. syn.: 17.4390
+3. wcg. anal.: 19.9901 (16.9784)	
+final: 2. wcg. anal: 7.1285
+
+3. wcg. syn.: 7.1285	 wcg. anal.: [7.1341, 7.1502]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: Input to SVD must not contain NaN or Inf.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Input to SVD must not contain NaN or Inf.
+> In pick_freq_grid (line 29)
+Warning: Input to SVD must not contain NaN or Inf.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: Input to SVD must not contain NaN or Inf.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 24.7151 (7.1285)	wcg. syn.: 17.4378
+2. wcg. anal.: 17.3354 (17.0969)	
+final: 1. wcg. anal: 7.1285
+
+4. wcg. syn.: 7.1285	 wcg. anal.: [7.1341, 7.1502]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 25 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 7.2947
+2. wcg. anal.: 27.2633 (6.4200)	wcg. syn.: 27.2633
+3. wcg. anal.: 25.4594 (6.4200)	
+
+1. wcg. syn.: 6.4200	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 7.2949
+2. wcg. anal.: 6.5391 (6.5573)	wcg. syn.: 3.2602
+3. wcg. anal.: 3.2541 (3.2535)	wcg. syn.: 3.0898
+4. wcg. anal.: 3.0899 (3.0994)	wcg. syn.: 2.9189
+5. wcg. anal.: 3.0772 (2.9262)	wcg. syn.: 3.0772
+6. wcg. anal.: 3.0772 (2.9262)	
+
+2. wcg. syn.: 2.9262	 wcg. anal.: [8.5138, 21.6679]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 8.5169 (8.5149)	wcg. syn.: 3.1465
+2. wcg. anal.: 3.1511 (3.1543)	wcg. syn.: 3.1415
+3. wcg. anal.: 3.1409 (3.1499)	
+
+3. wcg. syn.: 3.1499	 wcg. anal.: [6.3897, 35.2796]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.4307 (6.4297)	wcg. syn.: 3.6664
+2. wcg. anal.: 5.5599 (3.6809)	wcg. syn.: 5.5599
+3. wcg. anal.: 16.4043 (3.6809)	
+
+4. wcg. syn.: 3.6809	 wcg. anal.: [4.1763, 25.6276]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 16.4043 (4.1729)	wcg. syn.: 16.4043
+2. wcg. anal.: 16.4043 (4.1729)	
+
+5. wcg. syn.: 4.1729	 wcg. anal.: [4.1763, 25.6276]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 2. wcg. anal: 21.6679
+
+
+## Test case with example no. 26 ############################
+inital wcg. anal.: [4.1623, 4.1706]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 4.1877 (4.1749)	wcg. syn.: 4.1780
+2. wcg. anal.: 4.5824 (4.1650)	
+
+1. wcg. syn.: 4.1650	 wcg. anal.: [4.1624, 4.1711]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 4.5824 (4.1650)	wcg. syn.: 4.5821
+2. wcg. anal.: 4.1955 (4.1701)	
+final: 1. wcg. anal: 4.1650
+
+2. wcg. syn.: 4.1650	 wcg. anal.: [4.1624, 4.1711]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 0. wcg. anal: 4.1706
+
+
+## Test case with example no. 27 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 25.0067
+2. wcg. anal.: 4.8571 (4.8539)	wcg. syn.: 1.1994
+3. wcg. anal.: 1.2008 (1.1979)	wcg. syn.: 0.8384
+4. wcg. anal.: 0.8364 (0.8358)	wcg. syn.: 0.8111
+5. wcg. anal.: 0.8198 (0.8136)	wcg. syn.: 0.8122
+6. wcg. anal.: 0.8129 (0.8144)	
+final: 5. wcg. anal: 0.8136
+
+1. wcg. syn.: 0.8136	 wcg. anal.: [1.8741, 1.8780]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.8806 (1.8745)	wcg. syn.: 1.2707
+2. wcg. anal.: 1.8859 (1.2696)	wcg. syn.: 1.3721
+3. wcg. anal.: 1.6646 (1.3721)	
+final: 2. wcg. anal: 1.2696
+
+2. wcg. syn.: 1.2696	 wcg. anal.: [1.8314, 1.8357]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 3.7451 (1.8320)	wcg. syn.: 1.7039
+2. wcg. anal.: 1.7070 (1.7015)	wcg. syn.: 1.4042
+3. wcg. anal.: 1.4072 (1.4045)	wcg. syn.: 1.3543
+4. wcg. anal.: 1.3706 (1.3550)	wcg. syn.: 1.3442
+5. wcg. anal.: 2.0158 (1.3409)	wcg. syn.: 1.5114
+6. wcg. anal.: 1.8882 (1.5102)	
+final: 5. wcg. anal: 1.3409
+
+3. wcg. syn.: 1.3409	 wcg. anal.: [1.4068, 1.4096]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.0158 (1.4067)	wcg. syn.: 1.5696
+2. wcg. anal.: 1.6955 (1.5516)	
+final: 1. wcg. anal: 1.4067
+
+4. wcg. syn.: 1.4067	 wcg. anal.: [1.4068, 1.4096]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 28 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.4136
+2. wcg. anal.: 0.0598 (0.0595)	wcg. syn.: 0.0093
+3. wcg. anal.: 0.0093 (0.0092)	wcg. syn.: 0.0042
+4. wcg. anal.: 0.0043 (0.0042)	wcg. syn.: 0.0042
+5. wcg. anal.: 0.0044 (0.0034)	wcg. syn.: 0.0042
+6. wcg. anal.: 0.0042 (0.0039)	
+final: 5. wcg. anal: 0.0034
+
+1. wcg. syn.: 0.0034	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.4136
+2. wcg. anal.: 0.3338 (0.3334)	wcg. syn.: 0.0094
+3. wcg. anal.: 0.0102 (0.0093)	wcg. syn.: 0.0088
+4. wcg. anal.: 0.0090 (0.0088)	wcg. syn.: 0.0088
+5. wcg. anal.: 0.0093 (0.0088)	
+
+2. wcg. syn.: 0.0088	 wcg. anal.: [1.1548, 1.1577]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.1588 (1.1555)	wcg. syn.: 0.5186
+2. wcg. anal.: 0.5190 (0.5185)	wcg. syn.: 0.5185
+3. wcg. anal.: 0.5189 (0.5184)	
+
+3. wcg. syn.: 0.5184	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.5443
+2. wcg. anal.: 1.5312 (1.5312)	wcg. syn.: 0.8291
+3. wcg. anal.: 0.8304 (0.8291)	wcg. syn.: 0.8291
+4. wcg. anal.: 0.8300 (0.8285)	
+
+4. wcg. syn.: 0.8285	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 477680757.8993 (0.8424)	wcg. syn.: 0.8299
+2. wcg. anal.: 0.8306 (0.8298)	wcg. syn.: 0.8299
+3. wcg. anal.: 0.8302 (0.8301)	
+final: 2. wcg. anal: 0.8298
+
+5. wcg. syn.: 0.8298	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.5456
+2. wcg. anal.: 1.5157 (1.5158)	wcg. syn.: 0.8308
+3. wcg. anal.: 0.8310 (0.8309)	wcg. syn.: 0.8308
+4. wcg. anal.: 0.8321 (0.8310)	
+final: 3. wcg. anal: 0.8309
+
+6. wcg. syn.: 0.8309	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In compute_D_skewed_mu (line 11)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+1. wcg. anal.: 902810129.9901 (1.4934)	wcg. syn.: 0.8355
+2. wcg. anal.: 0.8375 (0.8357)	wcg. syn.: 0.8356
+3. wcg. anal.: 0.8361 (0.8351)	
+
+7. wcg. syn.: 0.8351	 wcg. anal.: [2.0625, 2.0674]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.0627 (2.0631)	wcg. syn.: 0.9371
+2. wcg. anal.: 0.9383 (0.9370)	wcg. syn.: 0.9371
+3. wcg. anal.: 0.9383 (0.9369)	
+
+8. wcg. syn.: 0.9369	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.5665
+2. wcg. anal.: 1.5493 (1.5483)	wcg. syn.: 0.9370
+3. wcg. anal.: 0.9378 (0.9365)	wcg. syn.: 0.9370
+4. wcg. anal.: 0.9383 (0.9367)	
+final: 3. wcg. anal: 0.9365
+
+9. wcg. syn.: 0.9365	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.5663
+2. wcg. anal.: 1.5480 (1.5482)	wcg. syn.: 0.9369
+3. wcg. anal.: 0.9386 (0.9369)	wcg. syn.: 0.9371
+4. wcg. anal.: 0.9384 (0.9363)	
+
+10. wcg. syn.: 0.9363	 wcg. anal.: [1.2656, 1.2682]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.2681 (1.2659)	wcg. syn.: 0.9861
+2. wcg. anal.: 0.9867 (0.9848)	wcg. syn.: 0.9860
+3. wcg. anal.: 0.9871 (0.9848)	
+final: 2. wcg. anal: 0.9848
+
+11. wcg. syn.: 0.9848	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 113962475003537.5469 (355.0775)	wcg. syn.: 1.2197
+2. wcg. anal.: 1.1318 (1.1283)	wcg. syn.: 0.9942
+3. wcg. anal.: 0.9955 (0.9929)	wcg. syn.: 0.9943
+4. wcg. anal.: 0.9946 (0.9929)	
+final: 3. wcg. anal: 0.9929
+
+12. wcg. syn.: 0.9929	 wcg. anal.: [1.0562, 1.0515]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.0516 (1.0468)	wcg. syn.: 1.0033
+2. wcg. anal.: 1.0038 (1.0019)	wcg. syn.: 1.0033
+3. wcg. anal.: 1.0035 (1.0019)	
+
+13. wcg. syn.: 1.0019	 wcg. anal.: [1.0037, 1.0213]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.0136 (1.0038)	wcg. syn.: 1.0050
+2. wcg. anal.: 1.0061 (1.0036)	
+
+14. wcg. syn.: 1.0036	 wcg. anal.: [1.0036, 1.0059]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.0061 (1.0036)	wcg. syn.: 1.0050
+2. wcg. anal.: 1.0055 (1.0036)	
+
+15. wcg. syn.: 1.0036	 wcg. anal.: [1.0035, 1.0188]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 14. wcg. anal: 1.0059
+
+
+## Test case with example no. 29 ############################
+inital wcg. anal.: [68.3587, 68.5163]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 51.0135 (46.1449)	wcg. syn.: 5.7060
+2. wcg. anal.: 6.3398 (5.6910)	wcg. syn.: 1.0470
+3. wcg. anal.: 1.2534 (1.0460)	wcg. syn.: 0.7670
+4. wcg. anal.: 0.8059 (0.7657)	wcg. syn.: 0.7263
+5. wcg. anal.: 0.7679 (0.7263)	wcg. syn.: 0.7313
+6. wcg. anal.: 0.7362 (0.7308)	
+final: 5. wcg. anal: 0.7263
+
+1. wcg. syn.: 0.7263	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.8774
+2. wcg. anal.: 1.9725 (1.8660)	wcg. syn.: 1.1239
+3. wcg. anal.: 1.1539 (1.1122)	wcg. syn.: 1.0533
+4. wcg. anal.: 1.0566 (1.0524)	wcg. syn.: 1.0482
+5. wcg. anal.: 1.0512 (1.0472)	
+
+2. wcg. syn.: 1.0472	 wcg. anal.: [1.3943, 1.3971]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.3965 (1.3947)	wcg. syn.: 1.1421
+2. wcg. anal.: 1.1457 (1.1409)	wcg. syn.: 1.1348
+3. wcg. anal.: 1.1754 (1.1291)	wcg. syn.: 1.1378
+4. wcg. anal.: 1.1417 (1.1352)	
+final: 3. wcg. anal: 1.1291
+
+3. wcg. syn.: 1.1291	 wcg. anal.: [1.5039, 1.5070]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.5120 (1.5042)	wcg. syn.: 1.2582
+2. wcg. anal.: 1.3008 (1.2477)	wcg. syn.: 1.2584
+3. wcg. anal.: 1.2646 (1.2522)	
+final: 2. wcg. anal: 1.2477
+
+4. wcg. syn.: 1.2477	 wcg. anal.: [1.2480, 1.2503]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.3008 (1.2477)	wcg. syn.: 1.2584
+2. wcg. anal.: 1.2637 (1.2520)	
+final: 1. wcg. anal: 1.2477
+
+5. wcg. syn.: 1.2477	 wcg. anal.: [1.2480, 1.2503]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 30 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the || and && operators must be convertible to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 2.9636
+2. wcg. anal.: 2.9195 (2.9109)	wcg. syn.: 0.8687
+3. wcg. anal.: 0.9597 (0.8617)	wcg. syn.: 0.8659
+4. wcg. anal.: 0.8842 (0.8650)	
+final: 3. wcg. anal: 0.8617
+
+1. wcg. syn.: 0.8617	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 3.6262
+2. wcg. anal.: 3.6152 (3.5764)	wcg. syn.: 1.1554
+3. wcg. anal.: 1.2601 (1.1457)	wcg. syn.: 1.1311
+4. wcg. anal.: 1.1454 (1.1336)	wcg. syn.: 1.1371
+5. wcg. anal.: 1.2926 (1.1364)	
+final: 4. wcg. anal: 1.1336
+
+2. wcg. syn.: 1.1336	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 3.9632
+2. wcg. anal.: 3.9553 (3.9137)	wcg. syn.: 1.2697
+3. wcg. anal.: 1.3825 (1.2681)	wcg. syn.: 1.2659
+4. wcg. anal.: 1.2903 (1.2533)	wcg. syn.: 1.2722
+5. wcg. anal.: 1.3908 (1.2710)	
+final: 4. wcg. anal: 1.2533
+
+3. wcg. syn.: 1.2533	 wcg. anal.: [2.1174, 2.1219]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.1201 (2.1202)	wcg. syn.: 1.3506
+2. wcg. anal.: 1.3578 (1.3507)	wcg. syn.: 1.3500
+3. wcg. anal.: 1.3529 (1.3509)	
+final: 2. wcg. anal: 1.3507
+
+4. wcg. syn.: 1.3507	 wcg. anal.: [1.6898, 1.6936]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.6981 (1.6915)	wcg. syn.: 1.3617
+2. wcg. anal.: 1.3936 (1.3606)	wcg. syn.: 1.3702
+3. wcg. anal.: 1.3730 (1.3674)	
+final: 2. wcg. anal: 1.3606
+
+5. wcg. syn.: 1.3606	 wcg. anal.: [1.3608, 1.3637]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.3936 (1.3606)	wcg. syn.: 1.3773
+2. wcg. anal.: 1.3776 (1.3759)	
+final: 1. wcg. anal: 1.3606
+
+6. wcg. syn.: 1.3606	 wcg. anal.: [1.3608, 1.3637]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 31 ############################
+inital wcg. anal.: [2.3150, 2.3615]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.0612 (1.0613)	wcg. syn.: 0.1219
+2. wcg. anal.: 0.1220 (0.1220)	wcg. syn.: 0.1133
+3. wcg. anal.: 0.1133 (0.1135)	wcg. syn.: 0.1130
+4. wcg. anal.: 0.1130 (0.1132)	
+
+1. wcg. syn.: 0.1132	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.3768
+2. wcg. anal.: 0.3442 (0.3445)	wcg. syn.: 0.1450
+3. wcg. anal.: 0.1481 (0.1450)	wcg. syn.: 0.1457
+4. wcg. anal.: 0.1477 (0.1456)	
+final: 3. wcg. anal: 0.1450
+
+2. wcg. syn.: 0.1450	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.9931
+2. wcg. anal.: 0.8104 (0.8089)	wcg. syn.: 0.2474
+3. wcg. anal.: 0.2858 (0.2480)	wcg. syn.: 0.2844
+4. wcg. anal.: 0.3139 (0.2842)	
+final: 3. wcg. anal: 0.2480
+
+3. wcg. syn.: 0.2480	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 3.9350
+2. wcg. anal.: 2.3006 (2.2799)	wcg. syn.: 0.3795
+3. wcg. anal.: 0.3935 (0.3797)	wcg. syn.: 0.3755
+4. wcg. anal.: 0.3745 (0.3746)	wcg. syn.: 0.3745
+5. wcg. anal.: 0.3745 (0.3746)	
+
+4. wcg. syn.: 0.3746	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 16.2512
+2. wcg. anal.: 0.8544 (0.8543)	wcg. syn.: 0.6918
+3. wcg. anal.: 0.6918 (0.6913)	wcg. syn.: 0.6918
+4. wcg. anal.: 0.6918 (0.6913)	
+
+5. wcg. syn.: 0.6913	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The Q matrix must be symmetric with finite entries.
+> In pick_freq_grid (line 29)
+  In wcgmin_dyn_anal (line 34)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In ctrlMsgUtils.warning (line 25)
+  In / (line 62)
+  In close_wcg_min_loop (line 40)
+  In wcgmin_dyn_anal (line 55)
+  In parallel_function>make_general_channel/channel_general (line 914)
+  In remoteParallelFunction (line 38)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 96.4357
+2. wcg. anal.: 3.0739 (3.0688)	wcg. syn.: 1.4840
+3. wcg. anal.: 1.4858 (1.4840)	wcg. syn.: 1.4846
+4. wcg. anal.: 1.4861 (1.4841)	
+final: 3. wcg. anal: 1.4840
+
+6. wcg. syn.: 1.4840	 wcg. anal.: [1.5883, 1.5915]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.5890 (1.5894)	wcg. syn.: 1.5759
+2. wcg. anal.: 1.5789 (1.5757)	
+
+7. wcg. syn.: 1.5757	 wcg. anal.: [1.5755, 1.5795]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

@@ -1,4 +1,4 @@
-function [Dr, Dc, gain, muub] = compute_D_skewed_mu(cl, blk, opt)
+function [Dr, Dc, gain, muub] = compute_D_skewed_mu(cl, blk, gamopt, opt)
     ublk = blk(1 : end - 1, :);
     nz = sum(ublk(:, 2));
     nw = sum(ublk(:, 1));
@@ -18,8 +18,19 @@ function [Dr, Dc, gain, muub] = compute_D_skewed_mu(cl, blk, opt)
     nublk = size(blk, 1) - 1;
     bases = repmat({b}, nublk, 1);
     cl_frd = frd(cl, freqs);
-    [gamma, muub, Dr, Dc] = wcgainub_lmi(cl_frd, ublk, bases, 1);
+		try
+			gampeak = wcgainub_lmi_peak(cl_frd, ublk, bases, 1);
+			[gamma, muub, Dr, Dc] = wcgainub_lmi(cl_frd, ublk, bases, gampeak, 1);
+		catch er
+			if ~strcmp(er.message, 'D-scales could not be found.')
+				rethrow(er);
+			else
+				Dr = eye(nz);
+				Dc = eye(nw);
+				muub = [];
+				gamma = gamopt;
+			end
+		end
     g_check = check_smu(cl, Dr, Dc, gamma);
-% 		gain = max([gamma, g_check]);
 		gain = g_check;
 end

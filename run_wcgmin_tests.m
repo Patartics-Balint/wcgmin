@@ -35,17 +35,10 @@ for example = examples
 	Kt = tunableSS('K', nxK, nu, ny, 'companion');
 	opt = wcgminOptions;
 	opt.Display = 'iter';
-	opt.systuneOptions.Display = 'final';
-	opt.hinfstructOptions.Display = 'final';
 	opt.UseParallel = true;
-	opt.CommonDScale = 'on';
 	try
 		tic;
 			[~, g, info] = wcgmin(sys, Kt, opt);
-% 			[~, ~, g, info] = fetchNext(parfeval(@wcgmin, 3, sys, Kt, opt), tmax);
-% 			if isempty(g) && isempty(info)
-% 				error('The example takes more than %d seconds to compute.', tmax);
-% 			end
 		t_syn =	ceil(toc);
 		new_results.g = g;
 		new_results.info = info;
