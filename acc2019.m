@@ -71,7 +71,7 @@ freq = logspace(-1, 2, 100);
 T = lftdata(d_samples);
 % Call mussv for the skewed-mu computation. The last arguments are
 % undocumented.
-[mubounds, muinfo] = mussv(frd(T, freq), blk_str, 's', [], [], [], 1);
+[mubounds, muinfo] = mussv_wrapper(frd(T, freq), blk_str, 's', 1);
 % get the D-scales
 [~, ~, vlmi] = mussvextract(muinfo);
 % transform the D-scales to the form they appear in the paper

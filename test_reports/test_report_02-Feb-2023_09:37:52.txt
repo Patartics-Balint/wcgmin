@@ -1,0 +1,813 @@
+## Test case with example no. 1 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 5.2083
+2. wcg. anal.: 3.2757 (3.2731)	wcg. syn.: 1.0314
+3. wcg. anal.: 1.1224 (1.0314)	wcg. syn.: 1.0201
+4. wcg. anal.: 1.0499 (1.0199)	wcg. syn.: 1.0320
+5. wcg. anal.: 1.0380 (1.0282)	
+final: 4. wcg. anal: 1.0199
+
+1. wcg. syn.: 1.0199	 wcg. anal.: [1.0197, 1.0219]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 2 ############################
+inital wcg. anal.: [19.5391, 19.5810]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 19.5576 (19.5517)	wcg. syn.: 16.3101
+2. wcg. anal.: 14.2966 (14.2895)	wcg. syn.: 8.5938
+3. wcg. anal.: 27.7181 (7.7897)	wcg. syn.: 15.5196
+4. wcg. anal.: 13.1734 (13.0977)	
+final: 3. wcg. anal: 7.7897
+
+1. wcg. syn.: 7.7897	 wcg. anal.: [7.7832, 7.7989]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 3 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4002283.4127
+2. wcg. anal.: 120838.5278 (15016.0594)	wcg. syn.: 2803.8308
+3. wcg. anal.: 576.9484 (64.2027)	wcg. syn.: 33.9428
+analysis attempt failed: The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+ERROR: Control:ltiobject:frdProperties1
+The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+
+
+## Test case with example no. 4 ############################
+inital wcg. anal.: [10.3795, 10.4022]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 37.7146 (10.3673)	wcg. syn.: 2.6247
+2. wcg. anal.: 5.1291 (2.4308)	wcg. syn.: 4.7283
+3. wcg. anal.: 4.7310 (2.4308)	
+final: 2. wcg. anal: 2.4308
+
+1. wcg. syn.: 2.4308	 wcg. anal.: [2.4306, 2.4356]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 5 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.5755
+2. wcg. anal.: 1.7486 (1.5752)	wcg. syn.: 1.5117
+3. wcg. anal.: 1.6243 (1.5078)	wcg. syn.: 1.4203
+4. wcg. anal.: 1.5180 (1.4141)	wcg. syn.: 1.3326
+5. wcg. anal.: 1.4653 (1.3296)	wcg. syn.: 1.3517
+6. wcg. anal.: 1.4752 (1.3384)	
+final: 5. wcg. anal: 1.3296
+
+1. wcg. syn.: 1.3296	 wcg. anal.: [1.3294, 1.3316]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 6 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 33.0925
+2. wcg. anal.: 26.6689 (26.5983)	wcg. syn.: 1.1695
+3. wcg. anal.: 1.1641 (1.0909)	wcg. syn.: 1.1481
+4. wcg. anal.: 1.2464 (1.1468)	
+final: 3. wcg. anal: 1.0909
+
+1. wcg. syn.: 1.0909	 wcg. anal.: [1.0905, 1.0925]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 7 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 10.5094
+2. wcg. anal.: 9.9074 (9.9027)	wcg. syn.: 4.8249
+3. wcg. anal.: 4.9387 (4.5586)	wcg. syn.: 3.1239
+4. wcg. anal.: 3.0953 (3.0772)	wcg. syn.: 2.6699
+5. wcg. anal.: 2.6742 (2.6622)	wcg. syn.: 1.8141
+6. wcg. anal.: 1.8132 (1.8112)	wcg. syn.: 1.5455
+7. wcg. anal.: 1.5366 (1.5193)	wcg. syn.: 1.4169
+8. wcg. anal.: 1.4317 (1.4162)	wcg. syn.: 1.3556
+9. wcg. anal.: 1.3648 (1.3549)	wcg. syn.: 1.3564
+10. wcg. anal.: 1.3636 (1.3550)	
+final: 9. wcg. anal: 1.3549
+
+1. wcg. syn.: 1.3549	 wcg. anal.: [1.3540, 1.3573]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 8 ############################
+inital wcg. anal.: [54.9981, 55.8458]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 0.6314	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 0.9009	 wcg. anal.: [1.0515, 1.0534]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 0.9564	 wcg. anal.: [1.0714, 1.0736]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4. wcg. syn.: 0.9961	 wcg. anal.: [0.9961, 0.9981]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5. wcg. syn.: 0.9961	 wcg. anal.: [0.9961, 0.9983]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 4. wcg. anal: 0.9981
+
+
+## Test case with example no. 9 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 1.7017	 wcg. anal.: [2.2814, 8.4356]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 1.8490	 wcg. anal.: [2.4661, 7.2349]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 1.9492	 wcg. anal.: [2.1831, 7.3501]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+4. wcg. syn.: 2.0167	 wcg. anal.: [2.0167, 6.3603]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+5. wcg. syn.: 2.0166	 wcg. anal.: [2.0166, 7.5863]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 4. wcg. anal: 6.3603
+
+
+## Test case with example no. 10 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 0.7413	 wcg. anal.: [0.9345, 0.9374]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 0.7760	 wcg. anal.: [0.7761, 0.7805]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+3. wcg. syn.: 0.7761	 wcg. anal.: [0.7761, 0.7785]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 11 ############################
+inital wcg. anal.: [45.4545, 45.5464]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. wcg. syn.: 45.4532	 wcg. anal.: [45.4537, 45.5471]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+2. wcg. syn.: 45.4537	 wcg. anal.: [45.4537, 45.5476]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 0. wcg. anal: 45.5464
+
+
+## Test case with example no. 12 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 5.5334
+2. wcg. anal.: 4.3560 (4.3488)	wcg. syn.: 0.1745
+3. wcg. anal.: 28.6645 (0.1753)	wcg. syn.: 5.5287
+4. wcg. anal.: 4.3539 (4.3469)	
+final: 3. wcg. anal: 0.1753
+
+1. wcg. syn.: 0.1753	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 16.8164
+2. wcg. anal.: 9.9167 (9.9146)	wcg. syn.: 0.3530
+3. wcg. anal.: 0.3535 (0.3530)	wcg. syn.: 0.3464
+4. wcg. anal.: 0.3470 (0.3464)	wcg. syn.: 0.3463
+5. wcg. anal.: 0.3487 (0.3463)	
+
+2. wcg. syn.: 0.3463	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 24.1779
+2. wcg. anal.: 12.5799 (12.5742)	wcg. syn.: 0.4433
+3. wcg. anal.: 145.6342 (0.4435)	wcg. syn.: 23.3738
+4. wcg. anal.: 18.9481 (18.9196)	
+final: 3. wcg. anal: 0.4435
+
+3. wcg. syn.: 0.4435	 wcg. anal.: [4.3118, 4.3211]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 145.6342 (4.3158)	wcg. syn.: 25.5663
+2. wcg. anal.: 24.5296 (24.7674)	
+final: 1. wcg. anal: 4.3158
+
+4. wcg. syn.: 4.3158	 wcg. anal.: [4.3118, 4.3211]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 13 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.7530
+2. wcg. anal.: 0.7530 (0.7529)	wcg. syn.: 0.7530
+3. wcg. anal.: 0.7530 (0.7529)	
+final: 2. wcg. anal: 0.7529
+
+1. wcg. syn.: 0.7529	 wcg. anal.: [0.9931, 0.9950]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 0.9932 (0.9927)	wcg. syn.: 0.9931
+2. wcg. anal.: 0.9932 (0.9927)	
+
+2. wcg. syn.: 0.9927	 wcg. anal.: [0.9931, 0.9944]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 14 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0006
+2. wcg. anal.: 1.0011 (1.0006)	wcg. syn.: 1.0007
+3. wcg. anal.: 1.0005 (1.0005)	
+
+1. wcg. syn.: 1.0005	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.0006
+2. wcg. anal.: 1.0005 (1.0005)	wcg. syn.: 1.0005
+3. wcg. anal.: 1.0005 (1.0005)	
+
+2. wcg. syn.: 1.0005	 wcg. anal.: [1.0005, 1.0025]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.0006 (1.0005)	wcg. syn.: 1.0006
+2. wcg. anal.: 1.0006 (1.0006)	
+final: 1. wcg. anal: 1.0005
+
+3. wcg. syn.: 1.0005	 wcg. anal.: [1.0005, 1.0025]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 15 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 140.3433
+2. wcg. anal.: 140.3466 (140.3068)	wcg. syn.: 138.9984
+3. wcg. anal.: 137.4880 (137.5869)	wcg. syn.: 118.2350
+4. wcg. anal.: 108.3930 (101.5941)	wcg. syn.: 99.3023
+5. wcg. anal.: 99.3599 (84.8259)	wcg. syn.: 99.2864
+6. wcg. anal.: 99.3587 (73.2422)	wcg. syn.: 99.3017
+7. wcg. anal.: 99.3478 (78.2251)	
+final: 6. wcg. anal: 73.2422
+
+1. wcg. syn.: 73.2422	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 140.3460
+2. wcg. anal.: 140.3810 (140.3499)	wcg. syn.: 139.9615
+analysis attempt failed: The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+ERROR: Control:ltiobject:frdProperties1
+The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+
+
+## Test case with example no. 16 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 109.6885
+2. wcg. anal.: 94.7464 (94.7196)	wcg. syn.: 1.7032
+3. wcg. anal.: 1.8127 (1.7012)	wcg. syn.: 1.6160
+4. wcg. anal.: 1.6143 (1.6139)	wcg. syn.: 1.2555
+5. wcg. anal.: 1.3847 (1.2418)	wcg. syn.: 1.2979
+6. wcg. anal.: 1.3334 (1.2723)	
+final: 5. wcg. anal: 1.2418
+
+1. wcg. syn.: 1.2418	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 146.0177
+2. wcg. anal.: 233.9560 (131.5281)	wcg. syn.: 6.2614
+3. wcg. anal.: 7.0850 (6.1065)	wcg. syn.: 2.9677
+4. wcg. anal.: 3.0647 (2.9563)	wcg. syn.: 1.6067
+5. wcg. anal.: 2.7565 (1.6022)	wcg. syn.: 1.5622
+6. wcg. anal.: 1.8295 (1.5051)	wcg. syn.: 1.5769
+7. wcg. anal.: 1.5855 (1.4708)	wcg. syn.: 1.5636
+8. wcg. anal.: 1.7755 (1.5413)	
+final: 7. wcg. anal: 1.4708
+
+2. wcg. syn.: 1.4708	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 146.0539
+2. wcg. anal.: 131.3063 (131.2778)	wcg. syn.: 5.7573
+3. wcg. anal.: 5.8927 (5.6873)	wcg. syn.: 4.3325
+4. wcg. anal.: 6.2483 (4.3179)	wcg. syn.: 1.9826
+5. wcg. anal.: 2.2341 (1.9846)	wcg. syn.: 1.5882
+6. wcg. anal.: 2.3356 (1.5406)	wcg. syn.: 1.5876
+7. wcg. anal.: 2.2957 (1.5203)	wcg. syn.: 1.7867
+analysis attempt failed: The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+ERROR: Control:ltiobject:frdProperties1
+The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+
+
+## Test case with example no. 17 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 142389.9754
+2. wcg. anal.: 11370.5296 (11477.2848)	wcg. syn.: 303.3542
+3. wcg. anal.: 74.7445 (74.5863)	wcg. syn.: 10.6477
+4. wcg. anal.: 11.6956 (10.6245)	wcg. syn.: 9.8243
+5. wcg. anal.: 23.0703 (9.8086)	wcg. syn.: 13.4703
+6. wcg. anal.: 14.6608 (13.3330)	
+final: 5. wcg. anal: 9.8086
+
+1. wcg. syn.: 9.8086	 wcg. anal.: [115.5372, 117.0718]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 117.1643 (116.8996)	wcg. syn.: 13.4708
+2. wcg. anal.: 14.5925 (13.1929)	wcg. syn.: 10.8094
+3. wcg. anal.: 12.4759 (10.6466)	wcg. syn.: 10.9150
+4. wcg. anal.: 30.4525 (10.4312)	wcg. syn.: 19.2506
+5. wcg. anal.: 18.8829 (17.2343)	
+final: 4. wcg. anal: 10.4312
+
+2. wcg. syn.: 10.4312	 wcg. anal.: [11.0050, 11.0293]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 30.4525 (11.0048)	wcg. syn.: 19.2501
+2. wcg. anal.: 19.2006 (18.4283)	
+final: 1. wcg. anal: 11.0048
+
+3. wcg. syn.: 11.0048	 wcg. anal.: [11.0050, 11.0293]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 18 ############################
+inital wcg. anal.: [9179.1352, 9344.3659]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 8970.5275 (8970.6289)	wcg. syn.: 2995.0596
+2. wcg. anal.: 955.0024 (948.9527)	wcg. syn.: 38.1016
+3. wcg. anal.: 11.7996 (11.7915)	wcg. syn.: 4.5117
+4. wcg. anal.: 4.4946 (4.4906)	wcg. syn.: 3.7308
+5. wcg. anal.: 3.9002 (3.7306)	wcg. syn.: 3.7779
+6. wcg. anal.: 3.9211 (3.7784)	
+final: 5. wcg. anal: 3.7306
+
+1. wcg. syn.: 3.7306	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 17.7735
+2. wcg. anal.: 5.0694 (5.0397)	wcg. syn.: 4.2663
+3. wcg. anal.: 4.3247 (4.2661)	wcg. syn.: 4.1905
+4. wcg. anal.: 4.2704 (4.1893)	wcg. syn.: 4.2082
+5. wcg. anal.: 4.2426 (4.2081)	
+final: 4. wcg. anal: 4.1893
+
+2. wcg. syn.: 4.1893	 wcg. anal.: [6.6567, 6.6691]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.7178 (6.6571)	wcg. syn.: 5.1179
+2. wcg. anal.: 5.1469 (5.1160)	wcg. syn.: 5.1243
+3. wcg. anal.: 5.1330 (5.1248)	
+final: 2. wcg. anal: 5.1160
+
+3. wcg. syn.: 5.1160	 wcg. anal.: [8.7534, 8.7730]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 9.4691 (8.7606)	wcg. syn.: 5.2757
+2. wcg. anal.: 5.5873 (5.2767)	wcg. syn.: 5.2299
+3. wcg. anal.: 5.2498 (5.2282)	
+
+4. wcg. syn.: 5.2282	 wcg. anal.: [6.7556, 6.7708]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 6.7633 (6.7558)	wcg. syn.: 5.7149
+2. wcg. anal.: 5.7146 (5.7095)	wcg. syn.: 5.6953
+3. wcg. anal.: 5.6972 (5.6907)	
+
+5. wcg. syn.: 5.6907	 wcg. anal.: [5.8834, 5.8954]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 5.8910 (5.8863)	wcg. syn.: 5.7712
+2. wcg. anal.: 5.7823 (5.7692)	wcg. syn.: 5.7658
+3. wcg. anal.: 5.8010 (5.7687)	
+
+6. wcg. syn.: 5.7687	 wcg. anal.: [5.7635, 5.7776]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 5.8010 (5.7687)	wcg. syn.: 5.7775
+2. wcg. anal.: 5.8078 (5.7778)	
+final: 1. wcg. anal: 5.7687
+
+7. wcg. syn.: 5.7687	 wcg. anal.: [5.7635, 5.7776]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 19 ############################
+Analyzing and transferring files to the workers ...done.
+ERROR: MATLAB:parfor:UndefinedFunctionOnWorker
+An UndefinedFunction error was thrown on the workers for 'conj'.  This might be because the file containing 'conj' is not accessible on the workers. Use addAttachedFiles(pool, files) to specify the required files to be attached.  For more information, see the documentation for 'parallel.Pool/addAttachedFiles'.
+
+
+## Test case with example no. 20 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 25.3872
+2. wcg. anal.: 25.3984 (25.2956)	wcg. syn.: 12.8132
+3. wcg. anal.: 12.8606 (12.7726)	wcg. syn.: 9.8732
+4. wcg. anal.: 9.8539 (9.8328)	wcg. syn.: 7.5938
+5. wcg. anal.: 7.6010 (7.5895)	wcg. syn.: 5.5896
+6. wcg. anal.: 5.6109 (5.5898)	wcg. syn.: 4.3168
+7. wcg. anal.: 4.3197 (4.3145)	wcg. syn.: 4.1486
+8. wcg. anal.: 4.1550 (4.1482)	wcg. syn.: 4.1375
+9. wcg. anal.: 4.1395 (4.1378)	
+
+1. wcg. syn.: 4.1378	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 326.8637
+2. wcg. anal.: 271.4657 (274.2308)	wcg. syn.: 26.4859
+3. wcg. anal.: 26.5406 (26.4065)	wcg. syn.: 22.3552
+4. wcg. anal.: 22.3519 (22.3345)	wcg. syn.: 20.4283
+5. wcg. anal.: 20.3962 (20.3453)	wcg. syn.: 19.4325
+6. wcg. anal.: 35.8047 (12.0702)	wcg. syn.: 11.7335
+7. wcg. anal.: 13.1111 (11.0843)	wcg. syn.: 12.6058
+8. wcg. anal.: 14.1392 (12.2986)	
+final: 7. wcg. anal: 11.0843
+
+2. wcg. syn.: 11.0843	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 326.9637
+2. wcg. anal.: 282.7746 (285.2789)	wcg. syn.: 27.0953
+3. wcg. anal.: 27.1114 (27.0800)	wcg. syn.: 22.7203
+4. wcg. anal.: 22.7510 (22.7138)	wcg. syn.: 21.1461
+5. wcg. anal.: 21.1464 (21.1256)	wcg. syn.: 20.3047
+6. wcg. anal.: 20.2966 (20.2758)	wcg. syn.: 19.5972
+7. wcg. anal.: 19.6243 (19.5907)	wcg. syn.: 19.1610
+8. wcg. anal.: 19.1880 (19.1562)	wcg. syn.: 18.7580
+9. wcg. anal.: 19.0755 (18.7561)	wcg. syn.: 18.9269
+10. wcg. anal.: 18.9462 (18.9242)	
+final: 9. wcg. anal: 18.7561
+
+3. wcg. syn.: 18.7561	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 327.1832
+2. wcg. anal.: 289.9154 (292.5047)	wcg. syn.: 26.8020
+3. wcg. anal.: 26.7993 (26.7581)	wcg. syn.: 22.3829
+4. wcg. anal.: 22.4406 (22.3711)	wcg. syn.: 20.3849
+5. wcg. anal.: 20.4275 (20.3806)	wcg. syn.: 19.4997
+6. wcg. anal.: 19.5399 (19.5007)	wcg. syn.: 18.9928
+7. wcg. anal.: 18.9889 (18.9835)	wcg. syn.: 18.7431
+8. wcg. anal.: 18.7628 (18.7414)	wcg. syn.: 18.5968
+9. wcg. anal.: 18.8487 (18.5556)	
+Analyzing and transferring files to the workers ...done.
+ERROR: MATLAB:parfor:UndefinedFunctionOnWorker
+An UndefinedFunction error was thrown on the workers for 'conj'.  This might be because the file containing 'conj' is not accessible on the workers. Use addAttachedFiles(pool, files) to specify the required files to be attached.  For more information, see the documentation for 'parallel.Pool/addAttachedFiles'.
+
+
+## Test case with example no. 21 ############################
+inital wcg. anal.: [2.1220, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 2.1378
+2. wcg. anal.: 2.1255 (2.1224)	wcg. syn.: 2.1221
+3. wcg. anal.: 2.1245 (2.1224)	
+final: 2. wcg. anal: 2.1224
+
+1. wcg. syn.: 2.1224	 wcg. anal.: [ Inf, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.1255 (2.1224)	wcg. syn.: 2.1223
+2. wcg. anal.: 2.1247 (2.1224)	
+final: 1. wcg. anal: 2.1224
+
+2. wcg. syn.: 2.1224	 wcg. anal.: [ Inf, 2.1263]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 0. wcg. anal: 2.1263
+
+
+## Test case with example no. 22 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.2206
+2. wcg. anal.: 1.1643 (1.2182)	wcg. syn.: 0.0432
+analysis attempt failed: The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+ERROR: Control:ltiobject:frdProperties1
+The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+
+
+## Test case with example no. 23 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4000471.0136
+2. wcg. anal.: 238389.9529 (240704.5752)	wcg. syn.: 408.1893
+3. wcg. anal.: 174.2773 (171.1314)	wcg. syn.: 21.1210
+4. wcg. anal.: 219.0346 (18.0360)	wcg. syn.: 27.2089
+5. wcg. anal.: 21.5673 (14.5034)	wcg. syn.: 12.1822
+6. wcg. anal.: 19.4223 (2.6989)	wcg. syn.: 6.9608
+7. wcg. anal.: 9.2932 (5.8117)	
+final: 6. wcg. anal: 2.6989
+
+1. wcg. syn.: 2.6989	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 4000005.8375
+2. wcg. anal.: 3879.6836 (2974.3079)	wcg. syn.: 197.5760
+3. wcg. anal.: 789.3664 (57.3577)	wcg. syn.: 110.1236
+4. wcg. anal.: 217.7854 (103.9801)	
+final: 3. wcg. anal: 57.3577
+
+2. wcg. syn.: 57.3577	 wcg. anal.: [57.3422, 57.4569]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 792.1758 (57.3577)	wcg. syn.: 110.1024
+2. wcg. anal.: 126.2824 (87.8220)	
+final: 1. wcg. anal: 57.3577
+
+3. wcg. syn.: 57.3577	 wcg. anal.: [57.3422, 57.4569]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 24 ############################
+inital wcg. anal.: [28.6162, 28.6874]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 18.3375 (18.3363)	wcg. syn.: 11.1783
+2. wcg. anal.: 8.2633 (7.2463)	wcg. syn.: 6.3719
+3. wcg. anal.: 41.3325 (4.5326)	wcg. syn.: 16.2233
+4. wcg. anal.: 14.1765 (14.1666)	
+final: 3. wcg. anal: 4.5326
+
+1. wcg. syn.: 4.5326	 wcg. anal.: [11.0176, 11.0372]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 41.3325 (11.0198)	wcg. syn.: 16.2252
+2. wcg. anal.: 16.9685 (15.5800)	
+final: 1. wcg. anal: 11.0198
+
+2. wcg. syn.: 11.0198	 wcg. anal.: [11.0176, 11.0372]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 25 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 7.2951
+2. wcg. anal.: 7.2940 (7.2878)	wcg. syn.: 2.7264
+3. wcg. anal.: 3.1327 (2.7267)	wcg. syn.: 3.1324
+4. wcg. anal.: 3.6833 (3.1331)	
+final: 3. wcg. anal: 2.7267
+Analyzing and transferring files to the workers ...done.
+ERROR: MATLAB:parfor:UndefinedFunctionOnWorker
+An UndefinedFunction error was thrown on the workers for 'conj'.  This might be because the file containing 'conj' is not accessible on the workers. Use addAttachedFiles(pool, files) to specify the required files to be attached.  For more information, see the documentation for 'parallel.Pool/addAttachedFiles'.
+
+
+## Test case with example no. 26 ############################
+inital wcg. anal.: [4.1623, 4.1715]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 4.1868 (4.1749)	wcg. syn.: 4.1781
+2. wcg. anal.: 4.2011 (4.1644)	
+
+1. wcg. syn.: 4.1644	 wcg. anal.: [4.1624, 4.1719]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 4.2011 (4.1644)	wcg. syn.: 4.1927
+2. wcg. anal.: 4.5878 (4.1645)	
+final: 1. wcg. anal: 4.1644
+
+2. wcg. syn.: 4.1644	 wcg. anal.: [4.1624, 4.1719]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+final: 0. wcg. anal: 4.1715
+
+
+## Test case with example no. 27 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 25.0045
+2. wcg. anal.: 16.7053 (16.7170)	wcg. syn.: 1.9273
+3. wcg. anal.: 1.9314 (1.9248)	wcg. syn.: 0.8092
+4. wcg. anal.: 0.9664 (0.8089)	wcg. syn.: 0.8959
+5. wcg. anal.: 0.9829 (0.8944)	
+final: 4. wcg. anal: 0.8089
+
+1. wcg. syn.: 0.8089	 wcg. anal.: [1.8936, 1.8970]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.8954 (1.8935)	wcg. syn.: 1.3221
+2. wcg. anal.: 1.3885 (1.3219)	wcg. syn.: 1.3114
+3. wcg. anal.: 1.5535 (1.3173)	
+
+2. wcg. syn.: 1.3173	 wcg. anal.: [1.8871, 1.8930]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 3.1122 (1.8882)	wcg. syn.: 1.7166
+2. wcg. anal.: 1.7264 (1.7128)	wcg. syn.: 1.5277
+3. wcg. anal.: 1.6326 (1.5265)	wcg. syn.: 1.5437
+4. wcg. anal.: 3.0726 (1.5419)	
+final: 3. wcg. anal: 1.5265
+
+3. wcg. syn.: 1.5265	 wcg. anal.: [1.6278, 1.6309]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.6326 (1.6294)	wcg. syn.: 1.5646
+2. wcg. anal.: 2.0206 (1.5640)	wcg. syn.: 1.6913
+3. wcg. anal.: 1.7704 (1.6912)	
+final: 2. wcg. anal: 1.5640
+
+4. wcg. syn.: 1.5640	 wcg. anal.: [1.5634, 1.5667]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.0206 (1.5640)	wcg. syn.: 1.6913
+2. wcg. anal.: 1.7701 (1.6912)	
+final: 1. wcg. anal: 1.5640
+
+5. wcg. syn.: 1.5640	 wcg. anal.: [1.5634, 1.5667]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+
+## Test case with example no. 28 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.4137
+2. wcg. anal.: 0.1405 (0.1374)	wcg. syn.: 0.0101
+3. wcg. anal.: 0.0107 (0.0097)	wcg. syn.: 0.0064
+4. wcg. anal.: 0.0051 (0.0052)	wcg. syn.: 0.0042
+5. wcg. anal.: 0.0046 (0.0038)	wcg. syn.: 0.0042
+6. wcg. anal.: 0.0062 (0.0038)	
+
+1. wcg. syn.: 0.0038	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 0.4136
+2. wcg. anal.: 0.0860 (0.0843)	wcg. syn.: 0.0145
+3. wcg. anal.: 0.0150 (0.0145)	wcg. syn.: 0.0144
+4. wcg. anal.: 0.0148 (0.0144)	
+
+2. wcg. syn.: 0.0144	 wcg. anal.: [1.1444, 1.1468]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.1491 (1.1451)	wcg. syn.: 0.5735
+2. wcg. anal.: 0.5748 (0.5724)	wcg. syn.: 0.5735
+3. wcg. anal.: 0.5742 (0.5722)	
+
+3. wcg. syn.: 0.5722	 wcg. anal.: [2.0231, 2.0278]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 2.0401 (2.0240)	wcg. syn.: 0.8583
+2. wcg. anal.: 0.9498 (0.8570)	wcg. syn.: 0.8585
+3. wcg. anal.: 0.8597 (0.8572)	
+final: 2. wcg. anal: 0.8570
+
+4. wcg. syn.: 0.8570	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.5866
+2. wcg. anal.: 1.0971 (1.0929)	wcg. syn.: 0.8706
+3. wcg. anal.: 0.8717 (0.8666)	wcg. syn.: 0.8707
+4. wcg. anal.: 0.8728 (0.8668)	
+final: 3. wcg. anal: 0.8666
+
+5. wcg. syn.: 0.8666	 wcg. anal.: [1.8221, 1.8259]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.8245 (1.8229)	wcg. syn.: 0.9774
+2. wcg. anal.: 0.9783 (0.9766)	wcg. syn.: 0.9772
+3. wcg. anal.: 0.9780 (0.9769)	
+final: 2. wcg. anal: 0.9766
+
+6. wcg. syn.: 0.9766	 wcg. anal.: [1.1490, 1.1514]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 1.1507 (1.1493)	wcg. syn.: 1.0050
+2. wcg. anal.: 1.0052 (1.0036)	wcg. syn.: 1.0049
+3. wcg. anal.: 1.0061 (1.0036)	
+Analyzing and transferring files to the workers ...done.
+ERROR: MATLAB:parfor:UndefinedFunctionOnWorker
+An UndefinedFunction error was thrown on the workers for 'conj'.  This might be because the file containing 'conj' is not accessible on the workers. Use addAttachedFiles(pool, files) to specify the required files to be attached.  For more information, see the documentation for 'parallel.Pool/addAttachedFiles'.
+
+
+## Test case with example no. 29 ############################
+inital wcg. anal.: [68.1434, 68.3996]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+1. wcg. anal.: 50.8772 (46.1249)	wcg. syn.: 5.7823
+2. wcg. anal.: 5.8335 (5.1728)	wcg. syn.: 1.0699
+3. wcg. anal.: 1.1718 (1.0693)	wcg. syn.: 0.7454
+4. wcg. anal.: 0.7978 (0.7453)	wcg. syn.: 0.7258
+5. wcg. anal.: 0.7691 (0.7263)	wcg. syn.: 0.7303
+6. wcg. anal.: 0.7339 (0.7305)	
+final: 5. wcg. anal: 0.7263
+
+1. wcg. syn.: 0.7263	 wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Warning: The model M1/M2 is infinite because M2 is rank deficient to working precision.
+> In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('DynamicSystem/mrdivide', '/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m', 62)" style="font-weight:bold"> / </a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/shared/controllib/engine/@DynamicSystem/mrdivide.m',62,0)">line 62</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('close_wcg_min_loop', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m', 40)" style="font-weight:bold">close_wcg_min_loop</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/close_wcg_min_loop.m',40,0)">line 40</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('wcgmin_dyn_anal', '/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m', 55)" style="font-weight:bold">wcgmin_dyn_anal</a> (<a href="matlab: opentoline('/home/ubuntu/Dropbox/MATLAB tools/wcgmin_/wcgmin_dyn_anal.m',55,0)">line 55</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('parallel_function>make_general_channel/channel_general', '/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m', 837)" style="font-weight:bold">parallel_function>make_general_channel/channel_general</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/matlab/lang/parallel_function.m',837,0)">line 837</a>)
+In <a href="matlab:matlab.internal.language.introspective.errorDocCallback('remoteParallelFunction', '/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m', 67)" style="font-weight:bold">remoteParallelFunction</a> (<a href="matlab: opentoline('/usr/local/MATLAB/R2022b/toolbox/parallel/remoteParallelFunction.m',67,0)">line 67</a>)
+analysis attempt failed: The soulution to the mu-analysis is incorrect.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 1.8838
+2. wcg. anal.: 1.9773 (1.8742)	wcg. syn.: 1.1248
+3. wcg. anal.: 1.1482 (1.1140)	wcg. syn.: 1.0525
+4. wcg. anal.: 1.0583 (1.0522)	wcg. syn.: 1.0507
+analysis attempt failed: The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+ERROR: Control:ltiobject:frdProperties1
+The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+
+
+## Test case with example no. 30 ############################
+inital wcg. anal.: [ Inf,  Inf]
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+analysis attempt failed: Operands to the logical AND (&&) and OR (||) operators must be convertible to logical scalar values. Use the ANY or ALL functions to reduce operands to logical scalar values.
+1. wcg. anal.: Inf (Inf)	wcg. syn.: 2.8722
+2. wcg. anal.: 2.8690 (2.8680)	wcg. syn.: 0.8611
+analysis attempt failed: The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+ERROR: Control:ltiobject:frdProperties1
+The "Frequency" property of FRD models must be set to a vector of real and finite frequencies.
+
+
+## Test case with example no. 31 ############################
+Analyzing and transferring files to the workers ...done.
+ERROR: MATLAB:parfor:UndefinedFunctionOnWorker
+An UndefinedFunction error was thrown on the workers for 'conj'.  This might be because the file containing 'conj' is not accessible on the workers. Use addAttachedFiles(pool, files) to specify the required files to be attached.  For more information, see the documentation for 'parallel.Pool/addAttachedFiles'.
