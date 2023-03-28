@@ -1,4 +1,4 @@
 # wcgmin
-Structured robust control design algorithm for worst-case gain minimisation against mixed uncertainty
+This is the MATLAB code of a method for structured robust control design for systems with a mixture of parametric and dynamic uncertainty. The algorithm minimizes the worst-case gain of the uncertain system by alternating between an analysis step and a synthesis step. Samples of the parametric uncertainty are computed during the analysis steps thus yielding an array of uncertain systems containing only dynamic uncertainty. The controller is then synthesized on this array of uncertain models. This synthesis step itself involves an alternation between constructing a D-scale for each of the uncertain systems and tuning a single controller for the entire collection of scaled plants. The controller tuning is performed using structured control design techniques.
 
-Code will be uploaded until the end of October.
+For a detailded description see Chapter 3 of the PhD thesis thesis_Balint_Patartics.pdf.
