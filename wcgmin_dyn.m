@@ -68,9 +68,9 @@ function [Dr_frd, Dc_frd, Dr_ss, Dc_ss, g_fit, g_grid, sens] = analyse(sys, Kt, 
         if strcmp(opt.Display, 'iter') || strcmp(opt.Display, 'fitting')
             fprintf(['analysis attempt failed: ', er_anal.message, '\n']);
         end
-        if iter_cnt > 2
-            rethrow(er_anal);
-        end
+%         if iter_cnt > 2
+%             rethrow(er_anal);
+%         end
         if ~exist('g_syn')
             Dr_ss = repmat(eye(nz), 1, 1, nmodels(M));
             Dc_ss = repmat(eye(nw), 1, 1, nmodels(M));
