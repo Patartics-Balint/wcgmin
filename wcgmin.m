@@ -61,10 +61,7 @@ function [K_final, g_final, info] = wcgmin(sys, Kt, opt)
 
         unc_set = [unc_set; wcunc];
         plant_arr = usubs(sys, unc_set);
-    %     nugaps = calc_nugaps(plant_arr)
-    %     sum_nugaps = sum(nugaps)
         [Kt, g_syn, info_samples] = wcgmin_dyn(plant_arr, Kt, opt);
-%         Kt = setValue(Kt, K);    
         cnt = cnt + 1;    
     end
 end
@@ -74,7 +71,6 @@ function [Kt, g_anal_ub, g_anal_lb, wcunc] = analyse(sys, Kt, unc_set, unc_names
     if cnt > 0 || opt.UseInitK
         K = getValue(Kt);
         cl_unc = lft(sys, K);
-% 				[wcg, wcunc] = wcgain(cl_unc);
 				if opt.UseParallel
 					[wcg, wcunc] = wcgainWithBNBpar(cl_unc);
 				else
@@ -141,27 +137,6 @@ function print_msg(cnt, g_syn, g_anal_lb, g_anal_ub, opt)
         end
         fprintf(msg);
     end
-end
-
-function nugaps = calc_nugaps(plant_arr)
-    n = nmodels(plant_arr);
-    for k = 1:n
-        for j = 1:n
-            if k <= j
-                Mj = plant_arr(:, :, j);
-                if ~isa(Mj, 'ss')
-                    Mj = lftdata(Mj);
-                end
-                Mk = plant_arr(:, :, k);                
-                if ~isa(Mk, 'ss')
-                   Mk = lftdata(Mk); 
-                end                
-                [~, nugap] = gapmetric(Mk, Mj);
-                nugaps(k, j) = nugap;        
-            end
-        end
-    end
-    nugaps = nugaps + triu(nugaps, 1)';
 end
 
 function answer = is_in_interval(val, int, tol)
